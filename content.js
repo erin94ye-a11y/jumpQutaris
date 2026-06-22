@@ -3,13 +3,13 @@ window.SITE_CONTENT = {
     name: "Jump Qutaris",
     first: "Jump",
     second: "Qutaris",
-    description: "A global quantitative trading firm powered by technology, research, and exceptional people."
+    description: "An AI financial technology company building intelligent market research, analysis, and decision-support systems."
   },
   nav: [
-    { key: "trading", label: "Trading", href: "trading.html" },
-    { key: "technology", label: "Technology", href: "technology.html" },
-    { key: "people", label: "People", href: "people.html" },
-    { key: "careers", label: "Careers", href: "careers.html" },
+    { key: "trading", label: "Company", href: "trading.html" },
+    { key: "technology", label: "Quantis", href: "technology.html" },
+    { key: "people", label: "Team", href: "people.html" },
+    { key: "careers", label: "Client Value", href: "careers.html" },
     { key: "contact", label: "Contact", href: "contact.html" }
   ],
   assets: {
@@ -19,207 +19,206 @@ window.SITE_CONTENT = {
     peopleFloor: "assets/people-trading-floor.png"
   },
   home: {
-    title: "Jump Qutaris | Quantitative Trading",
-    meta: "Jump Qutaris is an original multi-page quantitative trading and technology website.",
+    title: "Jump Qutaris | AI Financial Intelligence",
+    meta: "Jump Qutaris develops Quantis, an AI financial intelligence terminal for market monitoring, research analysis, and investment insight.",
     hero: {
-      label: "Quantitative trading. Technology at speed.",
-      headline: "Build models. Engineer systems. Trade the future.",
-      body: "We combine research, technology, and risk management to bring liquidity to the world's financial markets.",
+      label: "Where AI meets trading.",
+      headline: "Building the future of financial intelligence.",
+      body: "Jump Qutaris develops AI-powered financial infrastructure that helps investors understand market information faster, discover opportunities earlier, and manage risk with greater discipline.",
       actions: [
-        { label: "Our Approach", href: "trading.html", style: "primary" },
-        { label: "Technology", href: "technology.html", style: "secondary" }
+        { label: "Explore Quantis", href: "technology.html", style: "primary" },
+        { label: "Company Overview", href: "trading.html", style: "secondary" }
       ],
       metrics: [
-        { label: "Markets", value: "Global" },
-        { label: "Experience", value: "20+ Years" },
-        { label: "Technologists", value: "50%+" },
-        { label: "Decisions / Day", value: "Billions" }
+        { label: "Product", value: "Quantis" },
+        { label: "Focus", value: "AI Finance" },
+        { label: "Coverage", value: "Global Markets" },
+        { label: "Monitoring", value: "24/7" }
       ]
     },
     approach: {
-      label: "Our Approach",
-      title: "Research-driven. Technology-powered. Risk-aware.",
-      body: "We invest in people and technology to solve hard problems in markets. Our edge comes from speed, scale, and a relentless focus on continuous improvement.",
+      label: "Company Focus",
+      title: "From financial data to intelligent decisions.",
+      body: "In an era of information overload, our work is focused on helping market participants move beyond raw data and toward clearer, faster, and more structured understanding.",
       items: [
         {
-          icon: "crosshair",
-          title: "Quantitative Research",
-          text: "We develop statistical and machine learning models to identify and capture fleeting market opportunities."
+          icon: "brain",
+          title: "AI Financial Intelligence",
+          text: "We combine large-scale market data, AI reasoning, and quantitative methods to transform information into usable insight."
         },
         {
           icon: "code",
-          title: "Engineering at Scale",
-          text: "Our low-latency infrastructure and robust systems process massive data and execute with precision."
+          title: "Financial AI Systems",
+          text: "Our systems are designed to monitor markets continuously, analyze complex events, and support research workflows."
         },
         {
           icon: "shield",
-          title: "Risk Management",
-          text: "Sophisticated risk frameworks and real-time monitoring protect capital and ensure market resilience."
+          title: "Risk Awareness",
+          text: "Quantitative analysis and AI-driven monitoring help surface abnormal volatility, policy changes, and potential risk events."
         },
         {
           icon: "bar-chart-3",
-          title: "Data Advantage",
-          text: "We leverage diverse datasets and advanced analytics to inform decisions across market conditions."
+          title: "Market Understanding",
+          text: "We focus not only on what happened, but why it happened, which markets may be affected, and what clients should watch next."
         }
       ]
     },
     markets: {
-      label: "Markets We Trade",
-      title: "Diverse markets. Unified by technology.",
-      body: "Our strategies operate across major asset classes and global markets, providing liquidity and efficiency where it's needed most.",
+      label: "Quantis Capabilities",
+      title: "One platform. Continuous market intelligence.",
+      body: "Quantis is designed as a 24-hour AI research team for investors, covering news, macro data, policy shifts, earnings, capital flows, and multi-asset market changes.",
       items: [
-        { icon: "bar-chart-3", title: "Equities", text: "Cash equities and derivatives across global venues." },
-        { icon: "rotate-cw", title: "Futures", text: "Global index, interest rate, commodity, and crypto futures." },
-        { icon: "globe", title: "FX", text: "Spot and derivatives across major and emerging pairs." },
-        { icon: "boxes", title: "Digital Assets", text: "Spot, derivatives, and structured products." }
+        { icon: "radar", title: "AI Market Analysis", text: "Real-time interpretation of global market events and their potential asset impact." },
+        { icon: "file-text", title: "Research Reports", text: "Automated market analysis reports built for faster reading and clearer conclusions." },
+        { icon: "network", title: "Cross-Market Links", text: "Analysis across equities, futures, FX, commodities, and digital assets." },
+        { icon: "bell", title: "Risk Alerts", text: "Early warning signals for abnormal market moves and emerging risk events." }
       ]
     },
     people: {
-      label: "Our People",
-      title: "Curious minds. Built to solve.",
-      body: "We hire exceptional people who thrive in a fast-paced, collaborative environment. You'll work on meaningful problems with the latest technology and the brightest minds in the industry.",
-      action: { label: "Life at Jump Qutaris", href: "people.html" }
+      label: "Our Team",
+      title: "Built by AI engineers, quantitative researchers, and financial technology specialists.",
+      body: "Jump Qutaris brings together interdisciplinary expertise in artificial intelligence, data science, quantitative finance, and high-performance financial systems.",
+      action: { label: "Meet the Team", href: "people.html" }
     },
     join: {
-      label: "Join Us",
-      title: "Choose your path. Make an impact.",
+      label: "Client Value",
+      title: "Helping clients understand markets with more confidence.",
       items: [
         {
-          icon: "code",
-          title: "Quantitative Research",
-          text: "Apply mathematics, statistics, and machine learning to discover edge in the markets.",
-          action: { label: "View Roles", href: "careers.html#quantitative-research" }
+          icon: "clock",
+          title: "Save Research Time",
+          text: "Reduce the hours spent reading news, reports, data releases, and market commentary."
         },
         {
-          icon: "terminal",
-          title: "Software Engineering",
-          text: "Build high-performance systems that power our trading and research infrastructure.",
-          action: { label: "View Roles", href: "careers.html#software-engineering" }
+          icon: "search",
+          title: "Discover Signals Earlier",
+          text: "Identify important events, capital-flow changes, market hotspots, and potential opportunity areas."
         },
         {
-          icon: "layers",
-          title: "Business & Operations",
-          text: "Drive our business forward through strategy, analytics, and operational excellence.",
-          action: { label: "View Roles", href: "careers.html#business-operations" }
+          icon: "shield-alert",
+          title: "Manage Risk Rationally",
+          text: "Understand where volatility may come from and which assets or themes require closer attention."
         }
       ]
     },
     contact: {
       label: "Let's Connect",
-      title: "Have a question? We'd love to hear from you."
+      title: "Want to learn more about Jump Qutaris or Quantis?"
     }
   },
   pages: {
     trading: {
-      title: "Trading | Jump Qutaris",
-      meta: "Learn how Jump Qutaris combines research, execution, and risk management across global markets.",
+      title: "Company | Jump Qutaris",
+      meta: "Learn about Jump Qutaris, an AI financial technology company focused on intelligent market analysis and decision-support infrastructure.",
       hero: {
-        label: "Trading",
-        headline: "Liquidity, models, and execution working as one.",
-        body: "Our trading approach is systematic, evidence-led, and engineered for global electronic markets.",
+        label: "Company",
+        headline: "From quantitative finance to AI financial intelligence.",
+        body: "Jump Qutaris focuses on the next stage of financial technology: systems that can continuously monitor markets, understand information, and support better investment judgment.",
         actions: [
-          { label: "Markets We Trade", href: "#markets", style: "primary" },
-          { label: "Contact Us", href: "contact.html", style: "secondary" }
+          { label: "Our Mission", href: "#mission", style: "primary" },
+          { label: "Explore Quantis", href: "technology.html", style: "secondary" }
         ],
         image: "heroMarket"
       },
       sections: [
         {
           type: "feature-grid",
-          label: "Our Approach",
-          title: "From research idea to live market decision.",
-          body: "We connect modeling, simulation, risk checks, and execution through fast feedback loops.",
+          id: "mission",
+          label: "Why We Exist",
+          title: "Financial markets are entering an intelligent decision era.",
+          body: "Market information is growing faster than traditional research workflows can process. We build AI systems that help turn complex information into clearer, more actionable market understanding.",
           items: [
-            { icon: "microscope", title: "Signal Discovery", text: "Researchers test market hypotheses with broad datasets and disciplined validation." },
-            { icon: "activity", title: "Real-Time Monitoring", text: "Trading systems surface performance, risk, and venue behavior as conditions change." },
-            { icon: "route", title: "Execution Design", text: "Execution logic is measured across latency, fill quality, cost, and resilience." }
+            { icon: "database", title: "Information Overload", text: "Global news, earnings, policy shifts, macro releases, and market sentiment now move faster than manual review." },
+            { icon: "brain", title: "AI Understanding", text: "AI reasoning helps interpret why events happen, which assets may be affected, and where attention should go next." },
+            { icon: "cpu", title: "Financial Infrastructure", text: "We connect AI models, market data, quantitative analytics, and monitoring systems into practical financial tools." }
           ]
         },
         {
           type: "market-grid",
-          id: "markets",
-          label: "Market Coverage",
-          title: "Built for multiple asset classes.",
-          body: "The same operating discipline supports equities, futures, FX, and digital assets.",
+          id: "focus",
+          label: "Core Business",
+          title: "A focused AI finance technology company.",
+          body: "Our work centers on intelligent systems that support market research, risk awareness, and decision workflows across major asset classes.",
           items: [
             {
-              title: "Equities",
-              detail: "Cash equities and related instruments across global venues, with research focused on liquidity, microstructure, and execution quality.",
-              points: ["Global venue coverage", "Execution-quality analysis", "Short- and medium-horizon signals"]
+              title: "AI Trading Systems",
+              detail: "Research and engineering around systems that can learn from market environments and adapt analytical outputs as conditions change.",
+              points: ["Market-state monitoring", "AI-assisted signal research", "Model evaluation workflows"]
             },
             {
-              title: "Futures",
-              detail: "Strategies across index, commodity, interest-rate, and crypto futures where systematic research and disciplined execution can scale.",
-              points: ["Cross-market signal research", "Robust risk controls", "Venue-aware execution"]
+              title: "AI Agent Decision Models",
+              detail: "Exploration of autonomous AI agents for market research, event interpretation, and structured investment decision support.",
+              points: ["Event reasoning", "Scenario comparison", "Decision-support workflows"]
             },
             {
-              title: "FX",
-              detail: "Spot and derivatives coverage across major and emerging currency pairs, supported by data pipelines and real-time monitoring.",
-              points: ["Major and emerging pairs", "Macro and microstructure inputs", "Continuous market monitoring"]
+              title: "Quantitative Research Platform",
+              detail: "AI-enhanced research tools that help users analyze data, compare markets, and generate clearer research conclusions.",
+              points: ["Data-driven research", "Cross-asset analytics", "Report generation"]
             },
             {
-              title: "Digital Assets",
-              detail: "Digital asset strategies across spot and derivative markets, with an emphasis on infrastructure resilience and risk-aware deployment.",
-              points: ["Spot and derivative markets", "24/7 monitoring workflows", "Infrastructure-first risk design"]
+              title: "Intelligent Risk Management",
+              detail: "Tools that monitor abnormal market changes, emerging risks, and the potential impact of policy, liquidity, and sentiment shifts.",
+              points: ["Risk alerts", "Volatility monitoring", "Market-impact analysis"]
             }
           ]
         },
         {
           type: "callout",
-          label: "Risk-Aware Trading",
-          title: "Every system is designed with controls from the start.",
-          body: "Risk is not a final approval step. It is part of research, deployment, monitoring, and post-trade review."
+          label: "Brand Belief",
+          title: "The future of finance belongs to systems that can understand data.",
+          body: "Jump Qutaris believes artificial intelligence will become a core layer of next-generation financial infrastructure."
         }
       ]
     },
     technology: {
-      title: "Technology | Jump Qutaris",
-      meta: "Explore the technology systems behind Jump Qutaris research, data, execution, and risk.",
+      title: "Quantis | Jump Qutaris",
+      meta: "Explore Quantis, the AI financial intelligence terminal developed by Jump Qutaris for market monitoring, research analysis, and risk alerts.",
       hero: {
-        label: "Technology",
-        headline: "Infrastructure built for market speed.",
-        body: "We build low-latency systems, research platforms, data pipelines, and observability tools that help teams move from insight to action.",
+        label: "Quantis",
+        headline: "An AI financial intelligence terminal for modern investors.",
+        body: "Quantis combines global real-time market data, AI reasoning, and quantitative analysis to help users understand information rather than simply receive it.",
         actions: [
-          { label: "Engineering Roles", href: "careers.html#software-engineering", style: "primary" },
-          { label: "Our People", href: "people.html", style: "secondary" }
+          { label: "Core Capabilities", href: "#capabilities", style: "primary" },
+          { label: "Client Value", href: "careers.html", style: "secondary" }
         ],
         image: "heroMarket"
       },
       sections: [
         {
           type: "feature-grid",
-          label: "Platform",
-          title: "Research and execution share the same heartbeat.",
-          body: "Reliable technology gives researchers and engineers a common language for testing, shipping, and improving systems.",
+          id: "capabilities",
+          label: "Product Capabilities",
+          title: "A 24-hour AI research team for market participants.",
+          body: "Quantis continuously monitors global market information and converts fragmented signals into structured analysis, insight, and risk awareness.",
           items: [
-            { icon: "database", title: "Data Systems", text: "High-throughput pipelines prepare market, reference, and alternative datasets for research." },
-            { icon: "cpu", title: "Execution Infrastructure", text: "Production systems are built for speed, observability, failover, and careful change control." },
-            { icon: "radar", title: "Observability", text: "Teams monitor the behavior of models, venues, orders, and risk controls in real time." }
+            { icon: "radar", title: "AI Market Analysis Engine", text: "Real-time analysis of global market dynamics and potential impact on asset prices." },
+            { icon: "file-text", title: "Intelligent Research Reports", text: "Automated generation of institutional-style market analysis reports for faster review." },
+            { icon: "network", title: "Cross-Market Association", text: "Analysis of relationships across equities, futures, FX, commodities, and digital assets." }
           ]
         },
         {
           type: "system",
-          label: "System Map",
-          title: "A connected stack for fast iteration.",
-          body: "Researchers, engineers, traders, and risk teams work close together, using shared feedback from live markets."
+          label: "How It Works",
+          title: "From news and data to analysis and action.",
+          body: "When major events occur, Quantis helps users understand what happened, why it happened, which markets may be affected, how long the impact may last, and which risks require attention."
         },
         {
           type: "callout",
-          label: "Engineering Culture",
-          title: "We value clarity, ownership, and practical speed.",
-          body: "The best systems are simple to reason about, fast to measure, and resilient when markets are noisy."
+          label: "Product Mission",
+          title: "Give every investor access to their own AI research team.",
+          body: "In a market environment defined by speed and complexity, Quantis helps users understand markets faster, discover opportunities earlier, and manage risk more rationally."
         }
       ]
     },
     people: {
-      title: "People | Jump Qutaris",
-      meta: "Meet the culture behind Jump Qutaris: curious teams, shared accountability, and hard problems.",
+      title: "Team | Jump Qutaris",
+      meta: "Meet the interdisciplinary team behind Jump Qutaris: AI engineers, quantitative researchers, data scientists, and financial technology specialists.",
       hero: {
-        label: "People",
-        headline: "Curious minds. Clear feedback. Real ownership.",
-        body: "We bring together researchers, engineers, traders, and operators who like difficult problems and direct collaboration.",
+        label: "Team",
+        headline: "Interdisciplinary minds building financial intelligence.",
+        body: "Jump Qutaris brings together AI engineers, quantitative researchers, data scientists, and financial technology specialists to build intelligent systems for global markets.",
         actions: [
-          { label: "Explore Careers", href: "careers.html", style: "primary" },
+          { label: "Our Expertise", href: "#expertise", style: "primary" },
           { label: "Contact Us", href: "contact.html", style: "secondary" }
         ],
         image: "peopleFloor"
@@ -227,97 +226,95 @@ window.SITE_CONTENT = {
       sections: [
         {
           type: "feature-grid",
-          label: "Culture",
-          title: "Built for people who want to learn quickly.",
-          body: "Our teams move with high trust, high accountability, and a bias toward measured improvement.",
+          id: "expertise",
+          label: "Expertise",
+          title: "Built by people who understand both AI and markets.",
+          body: "Our team works across model reasoning, quantitative research, data infrastructure, market analysis, and financial product design.",
           items: [
-            { icon: "users", title: "Small Teams", text: "You work close to the people building, testing, deploying, and improving the systems." },
-            { icon: "message-square", title: "Direct Feedback", text: "Ideas are debated on evidence, not hierarchy, and thoughtful disagreement is welcome." },
-            { icon: "sparkles", title: "Continuous Learning", text: "Markets change quickly. So do our tools, assumptions, and ways of working." }
+            { icon: "brain", title: "AI Engineering", text: "Designing reasoning workflows, agent systems, and intelligent analysis tools for financial information." },
+            { icon: "bar-chart-3", title: "Quantitative Research", text: "Using mathematical modeling, statistical analysis, and market structure knowledge to study financial problems." },
+            { icon: "database", title: "Data Science", text: "Processing global market data, macro indicators, policy information, news, and multi-asset signals." }
           ]
         },
         {
           type: "photo-split",
-          label: "Inside The Work",
-          title: "A place for builders.",
-          body: "The environment is focused, collaborative, and oriented around real systems that operate in real markets.",
+          label: "How We Work",
+          title: "Research, engineering, and market insight in one loop.",
+          body: "Our product work connects financial domain knowledge with AI infrastructure. Every feature is shaped by the same question: does it help users understand markets more clearly?",
           image: "peopleFloor"
         },
         {
           type: "callout",
-          label: "Life at Jump Qutaris",
-          title: "Fast-paced does not mean careless.",
-          body: "We care about precision, honest communication, and the long-term resilience of both people and platforms."
+          label: "People Philosophy",
+          title: "Complex markets require clear thinking.",
+          body: "We value rigorous analysis, practical engineering, and calm judgment. The team is built to turn fast-moving information into dependable product experiences."
         }
       ]
     },
     careers: {
-      title: "Careers | Jump Qutaris",
-      meta: "Explore career paths at Jump Qutaris across quantitative research, software engineering, and business operations.",
+      title: "Client Value | Jump Qutaris",
+      meta: "Learn how Jump Qutaris and Quantis help clients understand markets faster, discover opportunities earlier, and manage risk more rationally.",
       hero: {
-        label: "Careers",
-        headline: "Choose your path. Make an impact.",
-        body: "Work with teams that combine research, engineering, and market intuition to solve complex problems.",
+        label: "Client Value",
+        headline: "Clearer insight for faster-moving markets.",
+        body: "Quantis is designed to help clients move from fragmented information to structured market understanding, supporting research, monitoring, and risk-aware decision making.",
         actions: [
-          { label: "View Paths", href: "#roles", style: "primary" },
-          { label: "Email Recruiting", href: "mailto:careers@jumpqutaris.com", style: "secondary" }
+          { label: "Value Areas", href: "#value", style: "primary" },
+          { label: "Explore Quantis", href: "technology.html", style: "secondary" }
         ],
         image: "peopleFloor"
       },
       sections: [
         {
           type: "role-grid",
-          id: "roles",
-          label: "Join Us",
-          title: "Find the team where you can do your best work.",
-          body: "These paths are starting points. We also like hearing from excellent people who do not fit neatly into one box.",
+          id: "value",
+          label: "What Clients Gain",
+          title: "From data overload to practical market insight.",
+          body: "Quantis helps clients compress research time, identify market-moving information, and build a more disciplined view of opportunity and risk.",
           items: [
             {
-              id: "quantitative-research",
-              icon: "code",
-              title: "Quantitative Research",
-              text: "Apply mathematics, statistics, and machine learning to discover edge in the markets.",
-              action: { label: "Apply", href: "mailto:careers@jumpqutaris.com?subject=Quantitative%20Research" }
+              id: "market-understanding",
+              icon: "search",
+              title: "Faster Market Understanding",
+              text: "Quickly interpret major events, policy changes, earnings, macro data, and capital-flow signals."
             },
             {
-              id: "software-engineering",
-              icon: "terminal",
-              title: "Software Engineering",
-              text: "Build high-performance systems that power our trading and research infrastructure.",
-              action: { label: "Apply", href: "mailto:careers@jumpqutaris.com?subject=Software%20Engineering" }
+              id: "opportunity-discovery",
+              icon: "sparkles",
+              title: "Earlier Opportunity Discovery",
+              text: "Surface market hotspots, cross-asset relationships, and potential opportunity areas before they become obvious."
             },
             {
-              id: "business-operations",
-              icon: "layers",
-              title: "Business & Operations",
-              text: "Drive the business through strategy, analytics, legal, finance, and operational excellence.",
-              action: { label: "Apply", href: "mailto:careers@jumpqutaris.com?subject=Business%20and%20Operations" }
+              id: "risk-awareness",
+              icon: "shield-alert",
+              title: "More Rational Risk Management",
+              text: "Understand abnormal volatility, emerging risks, and possible asset impact with AI-assisted monitoring."
             }
           ]
         },
         {
           type: "feature-grid",
-          label: "What We Look For",
-          title: "High agency, strong fundamentals, and calm execution.",
-          body: "The work rewards people who can learn fast, communicate clearly, and stay rigorous under pressure.",
+          label: "Use Cases",
+          title: "Built for research, monitoring, and decision support.",
+          body: "Quantis is not positioned as a simple chat tool. It is designed as a financial intelligence layer that helps users interpret fast-moving information.",
           items: [
-            { icon: "brain", title: "Curiosity", text: "You enjoy asking precise questions and testing assumptions." },
-            { icon: "gauge", title: "Execution", text: "You can turn ideas into working systems and measurable outcomes." },
-            { icon: "handshake", title: "Collaboration", text: "You improve the work around you and share context generously." }
+            { icon: "newspaper", title: "News Interpretation", text: "Understand what happened, why it matters, and which markets may respond." },
+            { icon: "line-chart", title: "Asset Impact Analysis", text: "Review possible effects across equities, futures, FX, commodities, and digital assets." },
+            { icon: "bell", title: "Event and Risk Alerts", text: "Monitor abnormal market movements and risk events that deserve immediate attention." }
           ]
         }
       ]
     },
     contact: {
       title: "Contact | Jump Qutaris",
-      meta: "Contact Jump Qutaris for recruiting, partnerships, media, and general inquiries.",
+      meta: "Contact Jump Qutaris for product inquiries, partnerships, media, and general business questions.",
       hero: {
         label: "Contact",
-        headline: "Have a question? We'd love to hear from you.",
-        body: "Use the form below or reach out directly for recruiting, partnerships, media, and general inquiries.",
+        headline: "Speak with us about AI financial intelligence.",
+        body: "Use the form below or reach out directly for product inquiries, partnerships, media, and general business questions.",
         actions: [
           { label: "Send Message", href: "#contact-form", style: "primary" },
-          { label: "Careers", href: "careers.html", style: "secondary" }
+          { label: "Explore Quantis", href: "technology.html", style: "secondary" }
         ],
         image: "heroMarket"
       },
@@ -327,11 +324,11 @@ window.SITE_CONTENT = {
           id: "contact-form",
           label: "Let's Connect",
           title: "Tell us where to route your note.",
-          body: "This demo form validates locally and opens a success state. Replace the destination later with your preferred form service.",
+          body: "Share your question and our team can route it to the right product, partnership, or business contact.",
           contacts: [
-            { icon: "mail", title: "General", text: "info@jumpqutaris.com", href: "mailto:info@jumpqutaris.com" },
-            { icon: "briefcase", title: "Careers", text: "careers@jumpqutaris.com", href: "mailto:careers@jumpqutaris.com" },
-            { icon: "newspaper", title: "Media", text: "media@jumpqutaris.com", href: "mailto:media@jumpqutaris.com" }
+                { icon: "mail", title: "General", text: "info@jumpqutaris.com", href: "mailto:info@jumpqutaris.com" },
+            { icon: "boxes", title: "Product", text: "product@jumpqutaris.com", href: "mailto:product@jumpqutaris.com" },
+            { icon: "handshake", title: "Partnerships", text: "partners@jumpqutaris.com", href: "mailto:partners@jumpqutaris.com" }
           ]
         }
       ]
@@ -351,14 +348,14 @@ window.SITE_CONTENT = {
             {
               title: "Scope of this policy",
               body: [
-                "This policy applies to personal information collected through this website, online forms, direct communications, events, business inquiries, recruiting inquiries, and similar interactions.",
-                "Separate notices or internal policies may apply to employees, contractors, candidates, vendors, investors, or other categories of individuals where required by law or by the nature of the relationship."
+                "This policy applies to personal information collected through this website, online forms, direct communications, events, product inquiries, partnership inquiries, and similar business interactions.",
+                "Separate notices or internal policies may be provided to vendors, investors, enterprise customers, partners, or other categories of individuals where required by law or by the nature of the relationship."
               ]
             },
             {
               title: "Information we may collect",
               body: [
-                "We may collect information you provide directly, such as your name, email address, company, role, message content, resume or recruiting details, and any other information you choose to submit.",
+                "We may collect information you provide directly, such as your name, email address, company, role, message content, product interest, partnership details, and any other information you choose to submit.",
                 "We may also collect limited website and device information, such as IP address, browser type, pages viewed, referring pages, approximate location, date and time of access, and usage information generated by cookies or similar technologies."
               ]
             },
@@ -372,7 +369,7 @@ window.SITE_CONTENT = {
             {
               title: "How we use personal information",
               body: [
-                "We may use personal information to respond to questions, manage business or recruiting communications, provide access to website features, maintain records, improve our website, protect systems, detect fraud or misuse, comply with legal obligations, and support other lawful business purposes.",
+                "We may use personal information to respond to questions, manage product or business communications, provide access to website features, maintain records, improve our website, protect systems, detect fraud or misuse, comply with legal obligations, and support other lawful business purposes.",
                 "We do not use personal information collected through this website for automated decisions that produce legal or similarly significant effects about you."
               ]
             },
@@ -380,13 +377,13 @@ window.SITE_CONTENT = {
               title: "Legal bases for processing",
               body: [
                 "Where privacy laws require a legal basis, we may process personal information based on consent, contract necessity, compliance with legal obligations, legitimate interests, protection of vital interests, or other lawful bases available under applicable law.",
-                "Our legitimate interests may include operating and securing our website, responding to inquiries, recruiting, managing business relationships, protecting legal rights, and improving our services."
+                "Our legitimate interests may include operating and securing our website, responding to inquiries, managing business relationships, protecting legal rights, and improving our services."
               ]
             },
             {
               title: "Sharing personal information",
               body: [
-                "We do not sell personal information. We may share personal information with affiliates, service providers, hosting providers, analytics providers, professional advisors, recruiting partners, or other third parties that support our business and process information on our behalf.",
+                "We do not sell personal information. We may share personal information with affiliates, service providers, hosting providers, analytics providers, professional advisors, business partners, or other third parties that support our business and process information on our behalf.",
                 "We may also disclose information when required or permitted by law, regulation, legal process, governmental request, security investigation, corporate transaction, or to protect the rights, safety, property, or integrity of Jump Qutaris, our users, or others."
               ]
             },
@@ -401,7 +398,7 @@ window.SITE_CONTENT = {
               title: "Data retention",
               body: [
                 "We retain personal information only for as long as reasonably necessary for the purpose for which it was collected, to comply with legal or regulatory requirements, to resolve disputes, to enforce agreements, or to protect legitimate business interests.",
-                "Retention periods may vary depending on the type of information, sensitivity, applicable legal requirements, and whether the information is needed for security, audit, employment, tax, accounting, or legal purposes."
+                "Retention periods may vary depending on the type of information, sensitivity, applicable legal requirements, and whether the information is needed for security, audit, tax, accounting, or legal purposes."
               ]
             },
             {
@@ -421,7 +418,7 @@ window.SITE_CONTENT = {
             {
               title: "California privacy disclosures",
               body: [
-                "If California privacy law applies to you, the categories of personal information we may collect include identifiers, internet or network activity, professional or employment-related information, commercial or business contact information, and other information you provide to us.",
+                "If California privacy law applies to you, the categories of personal information we may collect include identifiers, internet or network activity, commercial or business contact information, product inquiry information, and other information you provide to us.",
                 "We do not knowingly sell or share personal information as those terms are defined under applicable California privacy law, and we do not knowingly sell or share the personal information of individuals under 16."
               ]
             },
@@ -460,7 +457,7 @@ window.SITE_CONTENT = {
           label: "Website Terms and Conditions",
           title: "Rules for using the Jump Qutaris website",
           intro:
-            "By accessing or using this website, you agree to these Terms of Use. If you do not agree, you should not use the website. These terms apply to the website operated by Jump Qutaris and, where applicable, its subsidiaries and affiliates.",
+            "By accessing or using this website, you agree to these Terms of Use. If you do not agree, you should not use the website. These terms govern the website operated by Jump Qutaris and, where relevant, its subsidiaries and affiliates.",
           groups: [
             {
               title: "Acceptance and updates",
@@ -622,19 +619,19 @@ window.SITE_CONTENT = {
       {
         title: "Company",
         links: [
-          { label: "Our Approach", href: "trading.html" },
-          { label: "Technology", href: "technology.html" },
-          { label: "People", href: "people.html" },
+          { label: "Company", href: "trading.html" },
+          { label: "Quantis", href: "technology.html" },
+          { label: "Team", href: "people.html" },
           { label: "Contact", href: "contact.html" }
         ]
       },
       {
-        title: "Careers",
+        title: "Product",
         links: [
-          { label: "Quantitative Research", href: "careers.html#quantitative-research" },
-          { label: "Software Engineering", href: "careers.html#software-engineering" },
-          { label: "Business & Operations", href: "careers.html#business-operations" },
-          { label: "Early Careers", href: "careers.html" }
+          { label: "AI Market Analysis", href: "technology.html#capabilities" },
+          { label: "Client Value", href: "careers.html#value" },
+          { label: "Risk Alerts", href: "careers.html#risk-awareness" },
+          { label: "Product Inquiries", href: "contact.html" }
         ]
       },
       {

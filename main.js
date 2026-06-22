@@ -251,10 +251,10 @@ const renderSystemSection = (section) => `
       <p>${html(section.body)}</p>
     </div>
     <div class="system-map" aria-hidden="true">
-      <span class="system-node system-node--research">Research</span>
+      <span class="system-node system-node--research">News</span>
       <span class="system-node system-node--data">Data</span>
       <span class="system-node system-node--risk">Risk</span>
-      <span class="system-node system-node--execution">Execution</span>
+      <span class="system-node system-node--execution">Insight</span>
     </div>
   </section>
 `;
@@ -321,7 +321,7 @@ const renderContactSection = (section) => `
         <select id="contact-topic" name="topic" required>
           <option value="">Select a topic</option>
           <option>General Inquiry</option>
-          <option>Careers</option>
+          <option>Product Inquiry</option>
           <option>Partnerships</option>
           <option>Media</option>
         </select>

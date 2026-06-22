@@ -50,7 +50,7 @@ const server = http.createServer((request, response) => {
     const extension = path.extname(requestedFile).toLowerCase();
     response.writeHead(200, {
       "Content-Type": mimeTypes[extension] || "application/octet-stream",
-      "Cache-Control": extension === ".html" ? "no-cache" : "public, max-age=31536000, immutable"
+      "Cache-Control": "no-cache, max-age=0"
     });
     response.end(data);
   });
