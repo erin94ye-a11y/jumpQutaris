@@ -27,7 +27,7 @@ Update these common fields:
 - Subpage content: `pages.trading`, `pages.technology`, `pages.people`, `pages.careers`, `pages.contact`, `pages.privacy`, `pages.terms`, `pages.cookie`
 - Footer columns and social links: `footer`
 
-The header and footer logo use `assets/jump-qutaris-logo.png`. Logo sizing is controlled in `styles.css`.
+The header logo uses `assets/jump-qutaris-logo.png`, and the black footer uses `assets/jump-qutaris-logo-footer.png`. Logo sizing is controlled in `styles.css`.
 
 ## Preview Locally
 
@@ -65,7 +65,8 @@ The included `server.js` listens on `0.0.0.0:$PORT`, which is the port Railway p
 
 ## Assets
 
-- `assets/jump-qutaris-logo.png`: current company logo used in the header and footer.
+- `assets/jump-qutaris-logo.png`: transparent company logo used in the header.
+- `assets/jump-qutaris-logo-footer.png`: transparent footer logo with light Qutaris text for the black footer.
 - `assets/hero-market-structure.png`: extracted market visual used in hero sections.
 - `assets/people-trading-floor.png`: extracted office and trading floor visual.
 - `assets/favicon.png`, `assets/favicon-32.png`, `assets/apple-touch-icon.png`: browser tab and touch icons generated from the current logo.

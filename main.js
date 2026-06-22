@@ -393,7 +393,7 @@ const renderFooter = () => {
     <div class="footer-inner">
       <div class="footer-brand">
         <a class="wordmark wordmark--footer" href="index.html" aria-label="${html(content.brand.name)} home" data-wordmark-footer>
-          <img src="${html(asset("logo"))}" alt="${html(content.brand.name)}" />
+          <img src="${html(asset("footerLogo"))}" alt="${html(content.brand.name)}" />
         </a>
         <p>${html(content.brand.description)}</p>
         <div class="social-row">

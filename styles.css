@@ -85,13 +85,13 @@ a {
   align-items: center;
   display: inline-flex;
   line-height: 1;
-  min-width: 108px;
+  min-width: 150px;
 }
 
 .wordmark img {
-  height: 72px;
+  height: 65px;
   object-fit: contain;
-  width: 108px;
+  width: 150px;
 }
 
 .desktop-nav {
@@ -950,12 +950,12 @@ p {
 }
 
 .wordmark--footer {
-  min-width: 150px;
+  min-width: 190px;
 }
 
 .wordmark--footer img {
-  height: 100px;
-  width: 150px;
+  height: 82px;
+  width: 190px;
 }
 
 .footer-brand p {
@@ -1116,12 +1116,12 @@ p {
   }
 
   .wordmark {
-    min-width: 84px;
+    min-width: 112px;
   }
 
   .wordmark img {
-    height: 56px;
-    width: 84px;
+    height: 48px;
+    width: 112px;
   }
 
   .hero-layout {

@@ -15,6 +15,7 @@ window.SITE_CONTENT = {
   headerCta: { label: "Explore Careers", href: "careers.html" },
   assets: {
     logo: "assets/jump-qutaris-logo.png",
+    footerLogo: "assets/jump-qutaris-logo-footer.png",
     heroMarket: "assets/hero-market-structure.png",
     peopleFloor: "assets/people-trading-floor.png"
   },
