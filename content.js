@@ -3,13 +3,13 @@ window.SITE_CONTENT = {
     name: "Jump Qutaris",
     first: "Jump",
     second: "Qutaris",
-    description: "An AI financial technology company building intelligent market research, analysis, and decision-support systems."
+    description: "Where AI Meets Trading. Building the future of financial intelligence."
   },
   nav: [
     { key: "trading", label: "Company", href: "trading.html" },
-    { key: "technology", label: "Quantis", href: "technology.html" },
-    { key: "people", label: "Team", href: "people.html" },
-    { key: "careers", label: "Client Value", href: "careers.html" },
+    { key: "technology", label: "Technology", href: "technology.html" },
+    { key: "careers", label: "Research", href: "research.html" },
+    { key: "people", label: "Leadership", href: "people.html" },
     { key: "contact", label: "Contact", href: "contact.html" }
   ],
   assets: {
@@ -20,103 +20,103 @@ window.SITE_CONTENT = {
   },
   home: {
     title: "Jump Qutaris | AI Financial Intelligence",
-    meta: "Jump Qutaris develops Quantis, an AI financial intelligence terminal for market monitoring, research analysis, and investment insight.",
+    meta: "Jump Qutaris builds AI financial intelligence infrastructure for market research, risk intelligence, quantitative analysis, and decision support.",
     hero: {
-      label: "Where AI meets trading.",
-      headline: "Building the future of financial intelligence.",
-      body: "Jump Qutaris develops AI-powered financial infrastructure that helps investors understand market information faster, discover opportunities earlier, and manage risk with greater discipline.",
+      label: "Artificial intelligence for global markets.",
+      headline: "Where AI Meets Trading.",
+      body: "Artificial intelligence is redefining global financial markets. Jump Qutaris is building next-generation financial intelligence infrastructure that connects AI research, quantitative systems, market intelligence, and risk-aware decision support.",
       actions: [
-        { label: "Explore Quantis", href: "technology.html", style: "primary" },
+        { label: "Explore Technology", href: "technology.html", style: "primary" },
         { label: "Company Overview", href: "trading.html", style: "secondary" }
       ],
       metrics: [
-        { label: "Product", value: "Quantis" },
-        { label: "Focus", value: "AI Finance" },
-        { label: "Coverage", value: "Global Markets" },
-        { label: "Monitoring", value: "24/7" }
+        { label: "Founded", value: "2024" },
+        { label: "Focus", value: "Financial AI" },
+        { label: "Systems", value: "Quantis" },
+        { label: "Scope", value: "Global" }
       ]
     },
     approach: {
-      label: "Company Focus",
-      title: "From financial data to intelligent decisions.",
-      body: "In an era of information overload, our work is focused on helping market participants move beyond raw data and toward clearer, faster, and more structured understanding.",
+      label: "Why Jump Qutaris",
+      title: "From quantitative markets to financial intelligence.",
+      body: "The next era of finance will not be defined by access to information alone. It will be defined by intelligent systems that can understand information, connect it across markets, and support better decisions.",
       items: [
         {
+          icon: "history",
+          title: "Decades of Market Evolution",
+          text: "Financial markets have moved from manual trading to electronic execution, quantitative systems, and now AI-assisted intelligence."
+        },
+        {
           icon: "brain",
-          title: "AI Financial Intelligence",
-          text: "We combine large-scale market data, AI reasoning, and quantitative methods to transform information into usable insight."
+          title: "AI-Native Research",
+          text: "Large language models, machine learning, and autonomous agents create a new way to understand market information."
         },
         {
-          icon: "code",
-          title: "Financial AI Systems",
-          text: "Our systems are designed to monitor markets continuously, analyze complex events, and support research workflows."
-        },
-        {
-          icon: "shield",
-          title: "Risk Awareness",
-          text: "Quantitative analysis and AI-driven monitoring help surface abnormal volatility, policy changes, and potential risk events."
+          icon: "network",
+          title: "Connected Intelligence",
+          text: "Market data, news, macro releases, capital flows, and risk signals become more valuable when analyzed together."
         },
         {
           icon: "bar-chart-3",
-          title: "Market Understanding",
-          text: "We focus not only on what happened, but why it happened, which markets may be affected, and what clients should watch next."
+          title: "Decision Support",
+          text: "Our goal is to help research teams and institutions understand markets more efficiently and act with greater discipline."
         }
       ]
     },
     markets: {
-      label: "Quantis Capabilities",
-      title: "One platform. Continuous market intelligence.",
-      body: "Quantis is designed as a 24-hour AI research team for investors, covering news, macro data, policy shifts, earnings, capital flows, and multi-asset market changes.",
+      label: "What We Do",
+      title: "Research. Build. Enable. Protect.",
+      body: "Jump Qutaris develops AI financial models, intelligent market systems, autonomous research workflows, and risk-aware infrastructure for the next generation of financial technology.",
       items: [
-        { icon: "radar", title: "AI Market Analysis", text: "Real-time interpretation of global market events and their potential asset impact." },
-        { icon: "file-text", title: "Research Reports", text: "Automated market analysis reports built for faster reading and clearer conclusions." },
-        { icon: "network", title: "Cross-Market Links", text: "Analysis across equities, futures, FX, commodities, and digital assets." },
-        { icon: "bell", title: "Risk Alerts", text: "Early warning signals for abnormal market moves and emerging risk events." }
+        { icon: "microscope", title: "Research", text: "Explore financial AI models, market intelligence systems, and autonomous decision frameworks." },
+        { icon: "cpu", title: "Build", text: "Create AI-driven infrastructure for research, analytics, monitoring, and financial applications." },
+        { icon: "zap", title: "Enable", text: "Help institutions understand market information faster and improve decision quality." },
+        { icon: "shield-alert", title: "Protect", text: "Strengthen risk identification, monitoring, early warning, and extreme-event analysis." }
       ]
     },
     people: {
-      label: "Our Team",
-      title: "Built by AI engineers, quantitative researchers, and financial technology specialists.",
-      body: "Jump Qutaris brings together interdisciplinary expertise in artificial intelligence, data science, quantitative finance, and high-performance financial systems.",
-      action: { label: "Meet the Team", href: "people.html" }
+      label: "Leadership",
+      title: "A team built for financial intelligence infrastructure.",
+      body: "Jump Qutaris brings together executive leadership, market structure expertise, AI engineering, quantitative research, and global operations experience.",
+      action: { label: "Meet Leadership", href: "people.html" }
     },
     join: {
-      label: "Client Value",
-      title: "Helping clients understand markets with more confidence.",
+      label: "Research Areas",
+      title: "Core research directions for the intelligent finance era.",
       items: [
         {
-          icon: "clock",
-          title: "Save Research Time",
-          text: "Reduce the hours spent reading news, reports, data releases, and market commentary."
+          icon: "message-square-code",
+          title: "Financial Large Language Models",
+          text: "Models designed for financial documents, market reasoning, macro research, and event interpretation."
         },
         {
-          icon: "search",
-          title: "Discover Signals Earlier",
-          text: "Identify important events, capital-flow changes, market hotspots, and potential opportunity areas."
+          icon: "bot",
+          title: "AI Agents",
+          text: "Autonomous research systems and intelligent workflows for market analysis and decision support."
         },
         {
-          icon: "shield-alert",
-          title: "Manage Risk Rationally",
-          text: "Understand where volatility may come from and which assets or themes require closer attention."
+          icon: "radar",
+          title: "Market and Risk Intelligence",
+          text: "Systems for market structure, capital flows, sentiment, risk propagation, and early warning analysis."
         }
       ]
     },
     contact: {
       label: "Let's Connect",
-      title: "Want to learn more about Jump Qutaris or Quantis?"
+      title: "Want to learn more about Jump Qutaris and financial intelligence?"
     }
   },
   pages: {
     trading: {
       title: "Company | Jump Qutaris",
-      meta: "Learn about Jump Qutaris, an AI financial technology company focused on intelligent market analysis and decision-support infrastructure.",
+      meta: "Learn the story, mission, vision, and values behind Jump Qutaris as an AI financial intelligence company.",
       hero: {
         label: "Company",
-        headline: "From quantitative finance to AI financial intelligence.",
-        body: "Jump Qutaris focuses on the next stage of financial technology: systems that can continuously monitor markets, understand information, and support better investment judgment.",
+        headline: "Our Story.",
+        body: "Financial markets are a history of technological evolution. Jump Qutaris was created at the moment artificial intelligence and quantitative finance began to converge into a new financial intelligence layer.",
         actions: [
-          { label: "Our Mission", href: "#mission", style: "primary" },
-          { label: "Explore Quantis", href: "technology.html", style: "secondary" }
+          { label: "Why We Exist", href: "#mission", style: "primary" },
+          { label: "Technology Platform", href: "technology.html", style: "secondary" }
         ],
         image: "heroMarket"
       },
@@ -125,61 +125,61 @@ window.SITE_CONTENT = {
           type: "feature-grid",
           id: "mission",
           label: "Why We Exist",
-          title: "Financial markets are entering an intelligent decision era.",
-          body: "Market information is growing faster than traditional research workflows can process. We build AI systems that help turn complex information into clearer, more actionable market understanding.",
+          title: "Traditional models analyze data. AI can help understand information.",
+          body: "Every day, markets generate enterprise earnings, global news, macroeconomic data, policy changes, and sentiment signals. Jump Qutaris exists to help transform that complexity into intelligence.",
           items: [
-            { icon: "database", title: "Information Overload", text: "Global news, earnings, policy shifts, macro releases, and market sentiment now move faster than manual review." },
-            { icon: "brain", title: "AI Understanding", text: "AI reasoning helps interpret why events happen, which assets may be affected, and where attention should go next." },
-            { icon: "cpu", title: "Financial Infrastructure", text: "We connect AI models, market data, quantitative analytics, and monitoring systems into practical financial tools." }
+            { icon: "database", title: "Massive Information Flow", text: "News, filings, economic releases, policy shifts, and social sentiment move across markets continuously." },
+            { icon: "brain", title: "Intelligent Interpretation", text: "AI systems help connect what happened, why it matters, and which assets or risks may be affected." },
+            { icon: "cpu", title: "Infrastructure Mindset", text: "We build platforms that connect data, models, research workflows, and financial applications." }
           ]
         },
         {
           type: "market-grid",
-          id: "focus",
-          label: "Core Business",
-          title: "A focused AI finance technology company.",
-          body: "Our work centers on intelligent systems that support market research, risk awareness, and decision workflows across major asset classes.",
+          id: "timeline",
+          label: "Company Timeline",
+          title: "From market technology to AI financial infrastructure.",
+          body: "The company direction is shaped by decades of electronic markets, quantitative research, and the rapid rise of large-scale AI systems.",
           items: [
             {
-              title: "AI Trading Systems",
-              detail: "Research and engineering around systems that can learn from market environments and adapt analytical outputs as conditions change.",
-              points: ["Market-state monitoring", "AI-assisted signal research", "Model evaluation workflows"]
+              title: "1999 - Market Technology Roots",
+              detail: "The modern market structure era began with electronic execution, global venue connectivity, and increasingly automated trading systems.",
+              points: ["Electronic market infrastructure", "Global venue connectivity", "Technology-led market competition"]
             },
             {
-              title: "AI Agent Decision Models",
-              detail: "Exploration of autonomous AI agents for market research, event interpretation, and structured investment decision support.",
-              points: ["Event reasoning", "Scenario comparison", "Decision-support workflows"]
+              title: "2020 - AI Research Initiative",
+              detail: "Machine learning, deep learning, and large-scale data systems became central to the next generation of financial research.",
+              points: ["Machine learning research", "Large-scale market data", "AI-assisted analytics"]
             },
             {
-              title: "Quantitative Research Platform",
-              detail: "AI-enhanced research tools that help users analyze data, compare markets, and generate clearer research conclusions.",
-              points: ["Data-driven research", "Cross-asset analytics", "Report generation"]
+              title: "2023 - Financial AI Lab",
+              detail: "The research agenda expanded toward financial large language models, AI agents, and autonomous research workflows.",
+              points: ["Financial language models", "AI agent systems", "Market reasoning workflows"]
             },
             {
-              title: "Intelligent Risk Management",
-              detail: "Tools that monitor abnormal market changes, emerging risks, and the potential impact of policy, liquidity, and sentiment shifts.",
-              points: ["Risk alerts", "Volatility monitoring", "Market-impact analysis"]
+              title: "2024 - Jump Qutaris Launch",
+              detail: "Jump Qutaris was established to focus on AI financial intelligence infrastructure and next-generation fintech innovation.",
+              points: ["AI finance platform", "Market intelligence systems", "Decision and risk intelligence"]
             }
           ]
         },
         {
           type: "callout",
-          label: "Brand Belief",
-          title: "The future of finance belongs to systems that can understand data.",
-          body: "Jump Qutaris believes artificial intelligence will become a core layer of next-generation financial infrastructure."
+          label: "Mission and Vision",
+          title: "We help markets move from automation to intelligence.",
+          body: "Our mission is to advance the integration of artificial intelligence and financial markets. Our vision is to become a leading financial intelligence infrastructure platform."
         }
       ]
     },
     technology: {
-      title: "Quantis | Jump Qutaris",
-      meta: "Explore Quantis, the AI financial intelligence terminal developed by Jump Qutaris for market monitoring, research analysis, and risk alerts.",
+      title: "Technology | Jump Qutaris",
+      meta: "Explore the financial intelligence infrastructure behind Jump Qutaris, including AI research engines, market intelligence, quantitative intelligence, and risk systems.",
       hero: {
-        label: "Quantis",
-        headline: "An AI financial intelligence terminal for modern investors.",
-        body: "Quantis combines global real-time market data, AI reasoning, and quantitative analysis to help users understand information rather than simply receive it.",
+        label: "Technology",
+        headline: "Financial Intelligence Infrastructure.",
+        body: "Jump Qutaris develops the technology foundation for AI-native financial research: language models, machine learning systems, market intelligence tools, quantitative research platforms, and risk intelligence infrastructure.",
         actions: [
           { label: "Core Capabilities", href: "#capabilities", style: "primary" },
-          { label: "Client Value", href: "careers.html", style: "secondary" }
+          { label: "Research Lab", href: "research.html", style: "secondary" }
         ],
         image: "heroMarket"
       },
@@ -187,121 +187,172 @@ window.SITE_CONTENT = {
         {
           type: "feature-grid",
           id: "capabilities",
-          label: "Product Capabilities",
-          title: "A 24-hour AI research team for market participants.",
-          body: "Quantis continuously monitors global market information and converts fragmented signals into structured analysis, insight, and risk awareness.",
+          label: "AI Research Engine",
+          title: "A connected stack for financial reasoning.",
+          body: "Our research engine combines large language models, machine learning, deep learning, and reinforcement learning to support market analysis and intelligent decision frameworks.",
           items: [
-            { icon: "radar", title: "AI Market Analysis Engine", text: "Real-time analysis of global market dynamics and potential impact on asset prices." },
-            { icon: "file-text", title: "Intelligent Research Reports", text: "Automated generation of institutional-style market analysis reports for faster review." },
-            { icon: "network", title: "Cross-Market Association", text: "Analysis of relationships across equities, futures, FX, commodities, and digital assets." }
+            { icon: "message-square-code", title: "Large Language Models", text: "Financial language models for news, filings, macro research, and market reasoning." },
+            { icon: "brain", title: "Machine Learning", text: "Predictive systems designed to extract structure from noisy, high-volume market information." },
+            { icon: "route", title: "Reinforcement Learning", text: "Adaptive research frameworks for dynamic market environments and decision workflows." }
           ]
         },
         {
           type: "system",
-          label: "How It Works",
-          title: "From news and data to analysis and action.",
-          body: "When major events occur, Quantis helps users understand what happened, why it happened, which markets may be affected, how long the impact may last, and which risks require attention."
+          label: "Financial Intelligence Ecosystem",
+          title: "From global market data to financial applications.",
+          body: "The ecosystem connects global market data, data intelligence, AI research engines, decision intelligence, risk intelligence, and financial applications into one operating model."
+        },
+        {
+          type: "feature-grid",
+          label: "Platform Layers",
+          title: "Market, quantitative, risk, and data intelligence.",
+          body: "The platform is designed to cover the major components required for AI-native financial research and monitoring.",
+          items: [
+            { icon: "newspaper", title: "Market Intelligence", text: "News understanding, earnings analysis, sentiment analysis, sector research, and macroeconomic interpretation." },
+            { icon: "line-chart", title: "Quantitative Intelligence", text: "Factor research, strategy optimization, model training, and dynamic learning frameworks." },
+            { icon: "shield-alert", title: "Risk Intelligence", text: "Risk identification, risk monitoring, early warning systems, and extreme-event analysis." },
+            { icon: "database", title: "Data Infrastructure", text: "Coverage across equities, ETFs, options, futures, FX, digital assets, and macroeconomic data." }
+          ]
         },
         {
           type: "callout",
-          label: "Product Mission",
-          title: "Give every investor access to their own AI research team.",
-          body: "In a market environment defined by speed and complexity, Quantis helps users understand markets faster, discover opportunities earlier, and manage risk more rationally."
+          label: "Future Technologies",
+          title: "AI Agents, financial foundation models, and autonomous research systems.",
+          body: "Our long-term technology direction includes financial foundation models, autonomous research agents, intelligent decision frameworks, and AI-assisted market intelligence platforms."
         }
       ]
     },
     people: {
-      title: "Team | Jump Qutaris",
-      meta: "Meet the interdisciplinary team behind Jump Qutaris: AI engineers, quantitative researchers, data scientists, and financial technology specialists.",
+      title: "Leadership | Jump Qutaris",
+      meta: "Meet the leadership team behind Jump Qutaris, including executive, technology, research, architecture, and global operations leaders.",
       hero: {
-        label: "Team",
-        headline: "Interdisciplinary minds building financial intelligence.",
-        body: "Jump Qutaris brings together AI engineers, quantitative researchers, data scientists, and financial technology specialists to build intelligent systems for global markets.",
+        label: "Leadership",
+        headline: "Building the Future of Financial Intelligence.",
+        body: "Jump Qutaris brings together leaders with deep experience in market structure, high-performance infrastructure, quantitative research, AI systems, and global operations.",
         actions: [
-          { label: "Our Expertise", href: "#expertise", style: "primary" },
-          { label: "Contact Us", href: "contact.html", style: "secondary" }
-        ],
-        image: "peopleFloor"
-      },
-      sections: [
-        {
-          type: "feature-grid",
-          id: "expertise",
-          label: "Expertise",
-          title: "Built by people who understand both AI and markets.",
-          body: "Our team works across model reasoning, quantitative research, data infrastructure, market analysis, and financial product design.",
-          items: [
-            { icon: "brain", title: "AI Engineering", text: "Designing reasoning workflows, agent systems, and intelligent analysis tools for financial information." },
-            { icon: "bar-chart-3", title: "Quantitative Research", text: "Using mathematical modeling, statistical analysis, and market structure knowledge to study financial problems." },
-            { icon: "database", title: "Data Science", text: "Processing global market data, macro indicators, policy information, news, and multi-asset signals." }
-          ]
-        },
-        {
-          type: "photo-split",
-          label: "How We Work",
-          title: "Research, engineering, and market insight in one loop.",
-          body: "Our product work connects financial domain knowledge with AI infrastructure. Every feature is shaped by the same question: does it help users understand markets more clearly?",
-          image: "peopleFloor"
-        },
-        {
-          type: "callout",
-          label: "People Philosophy",
-          title: "Complex markets require clear thinking.",
-          body: "We value rigorous analysis, practical engineering, and calm judgment. The team is built to turn fast-moving information into dependable product experiences."
-        }
-      ]
-    },
-    careers: {
-      title: "Client Value | Jump Qutaris",
-      meta: "Learn how Jump Qutaris and Quantis help clients understand markets faster, discover opportunities earlier, and manage risk more rationally.",
-      hero: {
-        label: "Client Value",
-        headline: "Clearer insight for faster-moving markets.",
-        body: "Quantis is designed to help clients move from fragmented information to structured market understanding, supporting research, monitoring, and risk-aware decision making.",
-        actions: [
-          { label: "Value Areas", href: "#value", style: "primary" },
-          { label: "Explore Quantis", href: "technology.html", style: "secondary" }
+          { label: "Leadership Team", href: "#leadership", style: "primary" },
+          { label: "Research Center", href: "research.html", style: "secondary" }
         ],
         image: "peopleFloor"
       },
       sections: [
         {
           type: "role-grid",
-          id: "value",
-          label: "What Clients Gain",
-          title: "From data overload to practical market insight.",
-          body: "Quantis helps clients compress research time, identify market-moving information, and build a more disciplined view of opportunity and risk.",
+          id: "leadership",
+          label: "Core Leadership",
+          title: "A multidisciplinary leadership team for AI finance.",
+          body: "The leadership group combines strategic planning, infrastructure engineering, quantitative research, platform architecture, and global operations management.",
           items: [
             {
-              id: "market-understanding",
-              icon: "search",
-              title: "Faster Market Understanding",
-              text: "Quickly interpret major events, policy changes, earnings, macro data, and capital-flow signals."
+              id: "robert-sterling",
+              icon: "landmark",
+              title: "Robert \"Bob\" Sterling - Chief Executive Officer",
+              text: "Bob leads global strategy, brand direction, and long-term vision. He brings more than three decades of experience across derivatives, equities, market structure, and liquidity strategy."
             },
             {
-              id: "opportunity-discovery",
-              icon: "sparkles",
-              title: "Earlier Opportunity Discovery",
-              text: "Surface market hotspots, cross-asset relationships, and potential opportunity areas before they become obvious."
+              id: "albert-saplitski",
+              icon: "server-cog",
+              title: "Albert Saplitski - Chief Information Officer",
+              text: "Albert is a senior technology leader with deep experience in ultra-low-latency systems, global trading infrastructure, high-performance computing, and resilient financial networks."
             },
             {
-              id: "risk-awareness",
+              id: "marcus-thorne",
+              icon: "bar-chart-3",
+              title: "Dr. Marcus Thorne - Chief Analyst",
+              text: "Marcus leads quantitative research and data science. His work connects statistical machine learning, nonlinear prediction, alternative data, and multi-asset market analysis."
+            },
+            {
+              id: "ethan-brooks",
+              icon: "network",
+              title: "Ethan Brooks - Chief Architect",
+              text: "Ethan oversees platform architecture, execution-system design, market data infrastructure, and high-concurrency systems built for speed, stability, and rigorous controls."
+            },
+            {
+              id: "elena-vega",
+              icon: "globe-2",
+              title: "Elena Vega - Global Operations Manager",
+              text: "Elena coordinates global operations, post-trade workflows, clearing, reconciliation, liquidity coordination, and cross-team execution across complex market environments."
+            }
+          ]
+        },
+        {
+          type: "photo-split",
+          label: "Our Team",
+          title: "AI engineers, data scientists, quant researchers, software engineers, and fintech specialists.",
+          body: "The broader Jump Qutaris team is built around research, technology excellence, long-term thinking, continuous learning, and innovation without limits.",
+          image: "peopleFloor"
+        },
+        {
+          type: "callout",
+          label: "Leadership Philosophy",
+          title: "Research first. Technology excellence. Long-term thinking.",
+          body: "Future financial markets will be shaped by people who can combine rigorous research, powerful infrastructure, intelligent systems, and calm operational judgment."
+        }
+      ]
+    },
+    careers: {
+      title: "Research | Jump Qutaris",
+      meta: "Explore Jump Qutaris research areas including financial large language models, AI agents, market intelligence, quantitative intelligence, and risk intelligence.",
+      hero: {
+        label: "Research",
+        headline: "AI Financial Lab.",
+        body: "Jump Qutaris studies how artificial intelligence can reshape financial research, market interpretation, risk analysis, and intelligent decision workflows.",
+        actions: [
+          { label: "Research Areas", href: "#research-areas", style: "primary" },
+          { label: "Technology Platform", href: "technology.html", style: "secondary" }
+        ],
+        image: "peopleFloor"
+      },
+      sections: [
+        {
+          type: "role-grid",
+          id: "research-areas",
+          label: "Research Areas",
+          title: "The core questions behind financial intelligence.",
+          body: "Our research agenda is built around models, agents, market intelligence, and risk systems that can help institutions reason through complex information environments.",
+          items: [
+            {
+              id: "financial-llms",
+              icon: "message-square-code",
+              title: "Financial Large Language Models",
+              text: "Research focused on earnings understanding, news analysis, market reasoning, and macroeconomic interpretation."
+            },
+            {
+              id: "ai-agents",
+              icon: "bot",
+              title: "AI Agents",
+              text: "Multi-agent collaboration systems, automated research frameworks, and intelligent workflows for financial analysis."
+            },
+            {
+              id: "market-intelligence",
+              icon: "radar",
+              title: "Market Intelligence",
+              text: "Research into market structure, sector rotation, capital flows, market sentiment, and cross-asset relationships."
+            },
+            {
+              id: "risk-intelligence",
               icon: "shield-alert",
-              title: "More Rational Risk Management",
-              text: "Understand abnormal volatility, emerging risks, and possible asset impact with AI-assisted monitoring."
+              title: "Risk Intelligence",
+              text: "Risk propagation mechanisms, extreme-event identification, AI risk-control models, and early warning systems."
             }
           ]
         },
         {
           type: "feature-grid",
-          label: "Use Cases",
-          title: "Built for research, monitoring, and decision support.",
-          body: "Quantis is not positioned as a simple chat tool. It is designed as a financial intelligence layer that helps users interpret fast-moving information.",
+          label: "Research Philosophy",
+          title: "Research first. Data driven. Evidence based.",
+          body: "Our research culture is built around long-term thinking, continuous learning, rigorous evidence, and the practical translation of AI into financial workflows.",
           items: [
-            { icon: "newspaper", title: "News Interpretation", text: "Understand what happened, why it matters, and which markets may respond." },
-            { icon: "line-chart", title: "Asset Impact Analysis", text: "Review possible effects across equities, futures, FX, commodities, and digital assets." },
-            { icon: "bell", title: "Event and Risk Alerts", text: "Monitor abnormal market movements and risk events that deserve immediate attention." }
+            { icon: "microscope", title: "Research First", text: "Every platform direction begins with clear research questions and measurable assumptions." },
+            { icon: "database", title: "Data Driven", text: "Market information, alternative data, macro releases, and structured datasets are analyzed with disciplined methodology." },
+            { icon: "check-circle-2", title: "Evidence Based", text: "Models, reports, and workflows are evaluated through validation, feedback, and real-world market behavior." }
           ]
+        },
+        {
+          type: "callout",
+          label: "Publications",
+          title: "White papers, research reports, industry insights, and market observations.",
+          body: "The research center is designed to support future public-facing content such as technical white papers, AI finance research notes, market intelligence reports, and platform updates."
         }
       ]
     },
@@ -314,7 +365,7 @@ window.SITE_CONTENT = {
         body: "Use the form below or reach out directly for product inquiries, partnerships, media, and general business questions.",
         actions: [
           { label: "Send Message", href: "#contact-form", style: "primary" },
-          { label: "Explore Quantis", href: "technology.html", style: "secondary" }
+          { label: "Technology Platform", href: "technology.html", style: "secondary" }
         ],
         image: "heroMarket"
       },
@@ -620,18 +671,19 @@ window.SITE_CONTENT = {
         title: "Company",
         links: [
           { label: "Company", href: "trading.html" },
-          { label: "Quantis", href: "technology.html" },
-          { label: "Team", href: "people.html" },
+          { label: "Technology", href: "technology.html" },
+          { label: "Research", href: "research.html" },
+          { label: "Leadership", href: "people.html" },
           { label: "Contact", href: "contact.html" }
         ]
       },
       {
-        title: "Product",
+        title: "Intelligence",
         links: [
-          { label: "AI Market Analysis", href: "technology.html#capabilities" },
-          { label: "Client Value", href: "careers.html#value" },
-          { label: "Risk Alerts", href: "careers.html#risk-awareness" },
-          { label: "Product Inquiries", href: "contact.html" }
+          { label: "AI Research Engine", href: "technology.html#capabilities" },
+          { label: "Financial LLMs", href: "research.html#financial-llms" },
+          { label: "AI Agents", href: "research.html#ai-agents" },
+          { label: "Risk Intelligence", href: "research.html#risk-intelligence" }
         ]
       },
       {
