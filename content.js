@@ -32,7 +32,7 @@ window.SITE_CONTENT = {
       ],
       metrics: [
         { label: "Markets", value: "Global" },
-        { label: "Experience", value: "20+ Years" },
+        { label: "Experience", value: "4+ Years" },
         { label: "Technologists", value: "50%+" },
         { label: "Decisions / Day", value: "Billions" }
       ]
