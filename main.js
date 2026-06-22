@@ -348,8 +348,7 @@ const renderPolicySection = (section) => `
   <section class="section policy-page">
     <aside class="policy-summary">
       <p class="section-label">${html(section.label)}</p>
-      <h2>${html(section.title)}</h2>
-      <strong>${html(section.updated)}</strong>
+      <h1>${html(section.title)}</h1>
       <p>${html(section.intro)}</p>
     </aside>
     <div class="policy-content">
@@ -382,8 +381,9 @@ const sectionRenderers = {
 const renderSubpage = () => {
   const page = content.pages[pageKey] || content.pages.trading;
   const main = document.querySelector("[data-render-page]");
+  const heroMarkup = page.layout === "policy" ? "" : renderSubpageHero(page);
   main.innerHTML = `
-    ${renderSubpageHero(page)}
+    ${heroMarkup}
     ${page.sections.map((section) => sectionRenderers[section.type](section)).join("")}
   `;
 };

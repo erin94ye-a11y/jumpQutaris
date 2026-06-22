@@ -889,6 +889,7 @@ p {
   top: calc(var(--header-h) + 36px);
 }
 
+.policy-summary h1,
 .policy-summary h2 {
   font-size: clamp(30px, 3.8vw, 48px);
   margin-bottom: 22px;
@@ -1236,6 +1237,8 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .policy-summary h1,
+  .policy-summary h2,
   .policy-block h3,
   .policy-block p {
     grid-column: 1;

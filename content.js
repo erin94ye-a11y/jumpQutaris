@@ -339,22 +339,12 @@ window.SITE_CONTENT = {
     privacy: {
       title: "Privacy Policy | Jump Qutaris",
       meta: "Privacy Policy for Jump Qutaris covering website data, cookies, privacy rights, retention, security, and contact information.",
-      hero: {
-        label: "Policies",
-        headline: "Privacy Policy",
-        body: "Jump Qutaris respects personal information and is committed to handling it responsibly, transparently, and in line with applicable privacy and data protection laws.",
-        actions: [
-          { label: "Contact Us", href: "contact.html", style: "primary" },
-          { label: "Back Home", href: "index.html", style: "secondary" }
-        ],
-        image: "heroMarket"
-      },
+      layout: "policy",
       sections: [
         {
           type: "policy",
           label: "Data Protection and Privacy Policy",
           title: "How Jump Qutaris handles personal information",
-          updated: "Last updated: June 23, 2026",
           intro:
             "This Privacy Policy explains how Jump Qutaris, together with its subsidiaries and affiliates where applicable, may collect, use, disclose, protect, and retain personal information when you visit our website, communicate with us, or otherwise interact with our business.",
           groups: [
@@ -463,22 +453,12 @@ window.SITE_CONTENT = {
     terms: {
       title: "Terms of Use | Jump Qutaris",
       meta: "Terms of Use for the Jump Qutaris website, including permitted use, ownership, disclaimers, liability limits, and contact information.",
-      hero: {
-        label: "Policies",
-        headline: "Terms of Use",
-        body: "These terms explain the rules for accessing and using the Jump Qutaris website and the materials made available through it.",
-        actions: [
-          { label: "Privacy Policy", href: "privacy-policy.html", style: "primary" },
-          { label: "Contact Us", href: "contact.html", style: "secondary" }
-        ],
-        image: "heroMarket"
-      },
+      layout: "policy",
       sections: [
         {
           type: "policy",
           label: "Website Terms and Conditions",
           title: "Rules for using the Jump Qutaris website",
-          updated: "Last updated: June 23, 2026",
           intro:
             "By accessing or using this website, you agree to these Terms of Use. If you do not agree, you should not use the website. These terms apply to the website operated by Jump Qutaris and, where applicable, its subsidiaries and affiliates.",
           groups: [
@@ -562,6 +542,79 @@ window.SITE_CONTENT = {
           ]
         }
       ]
+    },
+    cookie: {
+      title: "Cookie Policy | Jump Qutaris",
+      meta: "Cookie Policy for Jump Qutaris covering cookies, analytics, preferences, and browser controls.",
+      layout: "policy",
+      sections: [
+        {
+          type: "policy",
+          label: "Cookie Policy",
+          title: "How Jump Qutaris uses cookies",
+          intro:
+            "This Cookie Policy explains how Jump Qutaris may use cookies and similar technologies on our website to operate the site, understand performance, improve the visitor experience, and protect our systems.",
+          groups: [
+            {
+              title: "What cookies are",
+              body: [
+                "Cookies are small text files that a website stores on your device when you visit a page. Similar technologies may include pixels, tags, local storage, scripts, and analytics identifiers.",
+                "These technologies help a website remember basic information, measure how pages are used, and support security and performance functions."
+              ]
+            },
+            {
+              title: "Types of cookies we may use",
+              body: [
+                "Strictly necessary cookies help the website load, route traffic, maintain security, prevent abuse, and provide core functions that cannot reasonably operate without them.",
+                "Performance and analytics cookies help us understand how visitors use the website, which pages are viewed, and where technical improvements may be needed.",
+                "Preference cookies may remember choices such as language, region, display settings, or similar site preferences where those options are available."
+              ]
+            },
+            {
+              title: "Why we use cookies",
+              body: [
+                "Jump Qutaris may use cookies to operate and secure the website, diagnose technical issues, understand aggregate usage trends, improve content and navigation, and support lawful business communications.",
+                "We do not use cookies on this website to make automated decisions that produce legal or similarly significant effects about visitors."
+              ]
+            },
+            {
+              title: "Third-party technologies",
+              body: [
+                "Some cookies or similar technologies may be provided by service providers that help us host the website, measure usage, detect security issues, or improve reliability.",
+                "Those providers may process limited information such as IP address, browser type, device information, pages viewed, referring pages, and approximate location according to their own terms and privacy notices."
+              ]
+            },
+            {
+              title: "Your choices",
+              body: [
+                "Most browsers allow you to block, delete, or manage cookies through browser settings. Your device or browser may also provide privacy controls for tracking, analytics, and local storage.",
+                "If you disable some cookies, certain parts of the website may not load correctly or may not remember your preferences."
+              ]
+            },
+            {
+              title: "Do Not Track and similar signals",
+              body: [
+                "Some browsers send Do Not Track or similar signals. Because there is no consistent industry standard for responding to these signals, our website may not respond to every such signal in the same way.",
+                "Where legally required, Jump Qutaris will honor applicable opt-out signals or consent choices through the mechanisms provided on the website or through supported browser controls."
+              ]
+            },
+            {
+              title: "Relationship to privacy policy",
+              body: [
+                "Information collected through cookies and similar technologies may be considered personal information under some laws.",
+                "Please review the Jump Qutaris Privacy Policy for more information about how we collect, use, disclose, retain, and protect personal information."
+              ]
+            },
+            {
+              title: "Contact",
+              body: [
+                "Questions about this Cookie Policy may be sent to privacy@jumpqutaris.com.",
+                "Please include enough detail for us to understand your request and respond appropriately."
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   footer: {
@@ -589,7 +642,7 @@ window.SITE_CONTENT = {
         links: [
           { label: "Privacy Policy", href: "privacy-policy.html" },
           { label: "Terms of Use", href: "terms-of-use.html" },
-          { label: "Cookie Policy", href: "#" }
+          { label: "Cookie Policy", href: "cookie-policy.html" }
         ]
       }
     ],

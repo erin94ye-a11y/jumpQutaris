@@ -12,6 +12,7 @@ This is an original multi-page static website for Jump Quantum. It is built with
 - `contact.html`: contact form and email links
 - `privacy-policy.html`: privacy policy
 - `terms-of-use.html`: terms of use
+- `cookie-policy.html`: cookie policy
 
 ## Edit Content
 
@@ -23,7 +24,7 @@ Update these common fields:
 - Header navigation: `nav`
 - Header careers button: `headerCta`
 - Home page sections: `home`
-- Subpage content: `pages.trading`, `pages.technology`, `pages.people`, `pages.careers`, `pages.contact`, `pages.privacy`, `pages.terms`
+- Subpage content: `pages.trading`, `pages.technology`, `pages.people`, `pages.careers`, `pages.contact`, `pages.privacy`, `pages.terms`, `pages.cookie`
 - Footer columns and social links: `footer`
 
 The header wordmark is editable HTML/CSS in `main.js` and `styles.css`. `Jump` is red and `Quantum` is black in the primary header.
