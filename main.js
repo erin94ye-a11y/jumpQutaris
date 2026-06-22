@@ -148,13 +148,6 @@ const renderHome = () => {
       </div>
     </section>
 
-    <section class="section contact-band">
-      <div class="contact-band__icon">${icon("mail")}</div>
-      <div>
-        <p class="section-label">${html(page.contact.label)}</p>
-        <h2>${html(page.contact.title)}</h2>
-      </div>
-    </section>
   `;
 };
 

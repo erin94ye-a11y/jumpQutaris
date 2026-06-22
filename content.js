@@ -100,10 +100,6 @@ window.SITE_CONTENT = {
           text: "A path toward AI-generated signals, risk controls, and autonomous execution logic."
         }
       ]
-    },
-    contact: {
-      label: "Let's Connect",
-      title: "Ready to understand more?"
     }
   },
   pages: {
