@@ -8,7 +8,7 @@ window.SITE_CONTENT = {
   nav: [
     { key: "trading", label: "Company", href: "trading.html" },
     { key: "technology", label: "Technology", href: "technology.html" },
-    { key: "careers", label: "Research", href: "research.html" },
+    { key: "research", label: "Research", href: "research.html" },
     { key: "people", label: "Leadership", href: "people.html" },
     { key: "contact", label: "Contact", href: "contact.html" }
   ],
@@ -297,6 +297,72 @@ window.SITE_CONTENT = {
           label: "Leadership Philosophy",
           title: "Research first. Systems always.",
           body: "We value rigorous thinking, strong infrastructure, intelligent tools, and calm operational judgment."
+        }
+      ]
+    },
+    research: {
+      title: "Research | Jump Qutaris",
+      meta: "Explore Jump Qutaris research in financial AI, market intelligence, AI agents, and risk intelligence.",
+      hero: {
+        label: "Research",
+        headline: "Research That Drives Decisions.",
+        body: "We study financial AI, market signals, agents, and risk systems to make intelligence practical for clients.",
+        actions: [
+          { label: "Research Areas", href: "#research-areas", style: "primary" },
+          { label: "Technology Platform", href: "technology.html", style: "secondary" }
+        ],
+        image: "peopleFloor"
+      },
+      sections: [
+        {
+          type: "role-grid",
+          id: "research-areas",
+          label: "Research Areas",
+          title: "The questions that matter.",
+          body: "Our research focuses on models, agents, market intelligence, and risk systems that help clients read complexity faster.",
+          items: [
+            {
+              id: "financial-llms",
+              icon: "message-square-code",
+              title: "Financial LLMs",
+              text: "Earnings, news, market reasoning, and macro interpretation."
+            },
+            {
+              id: "ai-agents",
+              icon: "bot",
+              title: "AI Agents",
+              text: "Multi-agent systems and automated workflows for financial analysis."
+            },
+            {
+              id: "market-intelligence",
+              icon: "radar",
+              title: "Market Intelligence",
+              text: "Market structure, sector rotation, capital flows, sentiment, and cross-asset links."
+            },
+            {
+              id: "risk-intelligence",
+              icon: "shield-alert",
+              title: "Risk Intelligence",
+              text: "Risk propagation, extreme events, AI controls, and early warning systems."
+            }
+          ]
+        },
+        {
+          type: "feature-grid",
+          label: "Research Philosophy",
+          title: "Research first. Evidence always.",
+          body: "We focus on clear questions, disciplined data, and practical translation into financial workflows.",
+          items: [
+            { icon: "microscope", title: "Research First", text: "Every platform direction starts with clear questions and measurable assumptions." },
+            { icon: "database", title: "Data Driven", text: "Market data, alternative data, macro releases, and structured datasets are analyzed with discipline." },
+            { icon: "check-circle-2", title: "Evidence Based", text: "Models and workflows are tested through validation, feedback, and market behavior." }
+          ]
+        },
+        {
+          type: "callout",
+          label: "Publications",
+          title: "Insights for the market ahead.",
+          body: "The research center will support white papers, AI finance notes, market intelligence reports, and platform updates."
         }
       ]
     },
