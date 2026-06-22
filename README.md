@@ -1,6 +1,15 @@
 # Jump Quantum Website
 
-This is an original static one-page website for Jump Quantum. It is built with plain HTML, CSS, and JavaScript, so it can be hosted directly on GitHub Pages.
+This is an original multi-page static website for Jump Quantum. It is built with plain HTML, CSS, and JavaScript, so it can be hosted directly on GitHub Pages.
+
+## Pages
+
+- `index.html`: home page
+- `trading.html`: trading approach
+- `technology.html`: technology platform
+- `people.html`: people and culture
+- `careers.html`: careers
+- `contact.html`: contact form and email links
 
 ## Edit Content
 
@@ -8,16 +17,14 @@ Most visible content lives in `content.js`.
 
 Update these common fields:
 
-- Company text and tagline: `brand`
-- Navigation: `navigation`
-- Hero title and buttons: `hero`
-- Trading and technology cards: `capabilities`
-- Markets: `markets.items`
-- Recruiting cards: `careers.cards`
-- Email links: `contact.links`
-- Footer links: `footer.links`
+- Brand name and short description: `brand`
+- Header navigation: `nav`
+- Header careers button: `headerCta`
+- Home page sections: `home`
+- Subpage content: `pages.trading`, `pages.technology`, `pages.people`, `pages.careers`, `pages.contact`
+- Footer columns and social links: `footer`
 
-The wordmark is editable HTML/CSS in `index.html` and `styles.css`. `Jump` is red and `Quantum` is black.
+The header wordmark is editable HTML/CSS in `main.js` and `styles.css`. `Jump` is red and `Quantum` is black in the primary header.
 
 ## Preview Locally
 
@@ -44,4 +51,6 @@ http://localhost:4173
 ## Assets
 
 - `assets/jump-quantum-logo-source.png`: original logo image provided by the owner.
-- `assets/jump-quantum-site-concept.png`: generated visual reference for this website direction.
+- `assets/jump-quantum-site-concept.png`: visual reference for the website direction.
+- `assets/hero-market-structure.png`: extracted market visual used in hero sections.
+- `assets/people-trading-floor.png`: extracted office and trading floor visual.
