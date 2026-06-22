@@ -877,6 +877,67 @@ p {
   margin: 0;
 }
 
+.policy-page {
+  align-items: start;
+  display: grid;
+  gap: clamp(36px, 7vw, 92px);
+  grid-template-columns: minmax(280px, 0.42fr) minmax(0, 1fr);
+}
+
+.policy-summary {
+  position: sticky;
+  top: calc(var(--header-h) + 36px);
+}
+
+.policy-summary h2 {
+  font-size: clamp(30px, 3.8vw, 48px);
+  margin-bottom: 22px;
+}
+
+.policy-summary strong {
+  color: var(--red);
+  display: block;
+  font-size: 13px;
+  font-weight: 900;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.policy-summary p {
+  max-width: 420px;
+}
+
+.policy-content {
+  border-top: 1px solid var(--line);
+}
+
+.policy-block {
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 18px 34px;
+  grid-template-columns: 52px minmax(0, 1fr);
+  padding: clamp(32px, 5vw, 54px) 0;
+}
+
+.policy-block span {
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 900;
+  padding-top: 4px;
+}
+
+.policy-block h3 {
+  font-size: clamp(22px, 2vw, 30px);
+  grid-column: 2;
+  margin: 0;
+}
+
+.policy-block p {
+  grid-column: 2;
+  margin: 0;
+  max-width: 860px;
+}
+
 .site-footer {
   background:
     radial-gradient(circle at 70% 100%, rgba(255, 255, 255, 0.18) 1px, transparent 1px),
@@ -1009,7 +1070,8 @@ p {
   .join-section,
   .system-section,
   .photo-split,
-  .contact-page {
+  .contact-page,
+  .policy-page {
     grid-template-columns: 1fr;
   }
 
@@ -1164,6 +1226,19 @@ p {
 
   .contact-card .line-icon {
     grid-row: auto;
+  }
+
+  .policy-summary {
+    position: static;
+  }
+
+  .policy-block {
+    grid-template-columns: 1fr;
+  }
+
+  .policy-block h3,
+  .policy-block p {
+    grid-column: 1;
   }
 }
 

@@ -344,6 +344,30 @@ const renderContactSection = (section) => `
   </section>
 `;
 
+const renderPolicySection = (section) => `
+  <section class="section policy-page">
+    <aside class="policy-summary">
+      <p class="section-label">${html(section.label)}</p>
+      <h2>${html(section.title)}</h2>
+      <strong>${html(section.updated)}</strong>
+      <p>${html(section.intro)}</p>
+    </aside>
+    <div class="policy-content">
+      ${section.groups
+        .map(
+          (group, index) => `
+            <article class="policy-block" id="policy-${index + 1}">
+              <span>${String(index + 1).padStart(2, "0")}</span>
+              <h3>${html(group.title)}</h3>
+              ${group.body.map((paragraph) => `<p>${html(paragraph)}</p>`).join("")}
+            </article>
+          `
+        )
+        .join("")}
+    </div>
+  </section>
+`;
+
 const sectionRenderers = {
   "feature-grid": renderFeatureGrid,
   "market-grid": renderMarketGrid,
@@ -351,7 +375,8 @@ const sectionRenderers = {
   "photo-split": renderPhotoSplit,
   callout: renderCallout,
   "role-grid": renderRoleGrid,
-  contact: renderContactSection
+  contact: renderContactSection,
+  policy: renderPolicySection
 };
 
 const renderSubpage = () => {

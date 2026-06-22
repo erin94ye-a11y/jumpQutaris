@@ -10,6 +10,7 @@ This is an original multi-page static website for Jump Quantum. It is built with
 - `people.html`: people and culture
 - `careers.html`: careers
 - `contact.html`: contact form and email links
+- `privacy-policy.html`: privacy policy
 
 ## Edit Content
 
