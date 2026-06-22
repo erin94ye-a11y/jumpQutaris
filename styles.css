@@ -504,7 +504,7 @@ p {
 .market-card-grid {
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .market-card {
@@ -627,20 +627,77 @@ p {
   border-top: 1px solid var(--line);
 }
 
-.market-list-panel a {
-  align-items: center;
+.market-accordion {
   border-bottom: 1px solid var(--line);
+}
+
+.market-toggle {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: var(--ink);
+  cursor: pointer;
   display: flex;
   font-size: clamp(30px, 4.2vw, 56px);
   font-weight: 900;
   justify-content: space-between;
   min-height: 106px;
+  padding: 0;
+  text-align: left;
+  width: 100%;
 }
 
-.market-list-panel .line-icon {
+.market-toggle strong {
   color: var(--red);
-  height: 28px;
-  width: 28px;
+  display: inline-flex;
+  font-size: clamp(34px, 4vw, 56px);
+  font-weight: 400;
+  justify-content: center;
+  line-height: 1;
+  min-width: 42px;
+}
+
+.market-toggle:hover strong,
+.market-toggle[aria-expanded="true"] strong {
+  color: var(--red-dark);
+}
+
+.market-detail {
+  max-width: 760px;
+  padding: 0 72px 38px 0;
+}
+
+.market-detail p {
+  color: var(--graphite);
+  font-size: clamp(16px, 1.5vw, 19px);
+  margin-bottom: 18px;
+}
+
+.market-detail ul {
+  display: grid;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.market-detail li {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 800;
+  padding-left: 18px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.market-detail li::before {
+  background: var(--red);
+  content: "";
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 0.58em;
+  width: 6px;
 }
 
 .system-section,
@@ -903,7 +960,7 @@ p {
 
 @media (max-width: 1120px) {
   .market-card-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .feature-strip--four {
@@ -987,10 +1044,6 @@ p {
     border-bottom: 1px solid var(--line);
     border-right: 0;
     padding: 0 0 34px;
-  }
-
-  .market-card-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .contact-band {
@@ -1082,9 +1135,13 @@ p {
     min-height: 210px;
   }
 
-  .market-list-panel a {
+  .market-toggle {
     font-size: 32px;
     min-height: 84px;
+  }
+
+  .market-detail {
+    padding: 0 0 30px;
   }
 
   .system-map {

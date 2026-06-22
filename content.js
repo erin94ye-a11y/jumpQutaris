@@ -69,9 +69,7 @@ window.SITE_CONTENT = {
       items: [
         { icon: "bar-chart-3", title: "Equities", text: "Cash equities and derivatives across global venues." },
         { icon: "rotate-cw", title: "Futures", text: "Global index, interest rate, commodity, and crypto futures." },
-        { icon: "share-2", title: "Options", text: "Equity, index, and volatility options strategies." },
         { icon: "globe", title: "FX", text: "Spot and derivatives across major and emerging pairs." },
-        { icon: "percent", title: "Rates", text: "Government bonds, swaps, and money market instruments." },
         { icon: "boxes", title: "Digital Assets", text: "Spot, derivatives, and structured products." }
       ]
     },
@@ -142,14 +140,28 @@ window.SITE_CONTENT = {
           id: "markets",
           label: "Market Coverage",
           title: "Built for multiple asset classes.",
-          body: "The same operating discipline supports equities, futures, options, FX, rates, and digital assets.",
+          body: "The same operating discipline supports equities, futures, FX, and digital assets.",
           items: [
-            "Equities",
-            "Futures",
-            "Options",
-            "FX",
-            "Rates",
-            "Digital Assets"
+            {
+              title: "Equities",
+              detail: "Cash equities and related instruments across global venues, with research focused on liquidity, microstructure, and execution quality.",
+              points: ["Global venue coverage", "Execution-quality analysis", "Short- and medium-horizon signals"]
+            },
+            {
+              title: "Futures",
+              detail: "Strategies across index, commodity, interest-rate, and crypto futures where systematic research and disciplined execution can scale.",
+              points: ["Cross-market signal research", "Robust risk controls", "Venue-aware execution"]
+            },
+            {
+              title: "FX",
+              detail: "Spot and derivatives coverage across major and emerging currency pairs, supported by data pipelines and real-time monitoring.",
+              points: ["Major and emerging pairs", "Macro and microstructure inputs", "Continuous market monitoring"]
+            },
+            {
+              title: "Digital Assets",
+              detail: "Digital asset strategies across spot and derivative markets, with an emphasis on infrastructure resilience and risk-aware deployment.",
+              points: ["Spot and derivative markets", "24/7 monitoring workflows", "Infrastructure-first risk design"]
+            }
           ]
         },
         {

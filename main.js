@@ -221,7 +221,30 @@ const renderMarketGrid = (section) => `
       <p>${html(section.body)}</p>
     </div>
     <div class="market-list-panel">
-      ${section.items.map((item) => `<a href="contact.html">${html(item)}${icon("arrow-right")}</a>`).join("")}
+      ${section.items
+        .map(
+          (item, index) => `
+            <article class="market-accordion">
+              <button
+                class="market-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="market-detail-${index}"
+                data-market-toggle
+              >
+                <span>${html(item.title)}</span>
+                <strong aria-hidden="true">+</strong>
+              </button>
+              <div class="market-detail" id="market-detail-${index}" hidden>
+                <p>${html(item.detail)}</p>
+                <ul>
+                  ${item.points.map((point) => `<li>${html(point)}</li>`).join("")}
+                </ul>
+              </div>
+            </article>
+          `
+        )
+        .join("")}
     </div>
   </section>
 `;
@@ -401,6 +424,16 @@ const wireInteractions = () => {
         "Thanks. Your message is ready for the Jump Quantum team once a form service is connected.";
     });
   }
+
+  document.querySelectorAll("[data-market-toggle]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const detail = document.getElementById(button.getAttribute("aria-controls"));
+      const isOpening = button.getAttribute("aria-expanded") !== "true";
+      button.setAttribute("aria-expanded", String(isOpening));
+      button.querySelector("strong").textContent = isOpening ? "-" : "+";
+      detail.hidden = !isOpening;
+    });
+  });
 };
 
 renderMeta();
