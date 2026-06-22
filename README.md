@@ -69,3 +69,4 @@ The included `server.js` listens on `0.0.0.0:$PORT`, which is the port Railway p
 - `assets/jump-quantum-site-concept.png`: visual reference for the website direction.
 - `assets/hero-market-structure.png`: extracted market visual used in hero sections.
 - `assets/people-trading-floor.png`: extracted office and trading floor visual.
+- `assets/favicon.png`, `assets/favicon-32.png`, `assets/apple-touch-icon.png`: browser tab and touch icons.
