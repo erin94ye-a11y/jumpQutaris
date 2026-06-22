@@ -3,7 +3,7 @@ window.SITE_CONTENT = {
     name: "Jump Qutaris",
     first: "Jump",
     second: "Qutaris",
-    description: "AI financial intelligence for clearer research, stronger risk awareness, and better decisions."
+    description: "Quantis moves market work from manual analysis to AI-assisted intelligence and autonomous trading workflows."
   },
   nav: [
     { key: "trading", label: "Company", href: "trading.html" },
@@ -20,58 +20,58 @@ window.SITE_CONTENT = {
   },
   home: {
     title: "Jump Qutaris | AI Financial Intelligence",
-    meta: "Jump Qutaris builds AI financial intelligence infrastructure for market research, risk intelligence, quantitative analysis, and decision support.",
+    meta: "Jump Qutaris builds Quantis, an AI financial platform moving market work from manual analysis to autonomous trading workflows.",
     hero: {
-      label: "AI financial intelligence.",
-      headline: "Understand Markets. Act with Clarity.",
-      body: "Jump Qutaris builds AI-driven systems for market research, quantitative insight, risk awareness, and disciplined financial decisions.",
+      label: "Quantis AI trading system.",
+      headline: "From Analysis to Autonomous Trading.",
+      body: "Jump Qutaris develops Quantis, an AI financial platform that evolves market work from human-led analysis to AI-assisted research and risk-aware autonomous trading workflows.",
       actions: [
         { label: "Explore Technology", href: "technology.html", style: "primary" },
         { label: "Company Overview", href: "trading.html", style: "secondary" }
       ],
       metrics: [
-        { label: "Founded", value: "2024" },
-        { label: "Focus", value: "Financial AI" },
-        { label: "Systems", value: "Quantis" },
-        { label: "Scope", value: "Global" }
+        { label: "Product", value: "Quantis" },
+        { label: "Path", value: "Human + AI" },
+        { label: "Goal", value: "Autonomous" },
+        { label: "Control", value: "Risk Aware" }
       ]
     },
     approach: {
       label: "Why Jump Qutaris",
-      title: "Turn complexity into clarity.",
-      body: "Markets move through data, news, policy, sentiment, and capital flows. We connect these signals into intelligence clients can use.",
+      title: "The next step after human analysis.",
+      body: "Markets generate more information than people can process manually. Quantis is designed to collect signals, analyze context, and support automated trading workflows.",
       items: [
         {
           icon: "history",
-          title: "Market Evolution",
-          text: "Finance has moved from manual trading to electronic markets, quant systems, and now AI-assisted intelligence."
+          title: "Manual Analysis",
+          text: "Traditional teams spend time finding data, reading markets, and forming views by hand."
         },
         {
           icon: "brain",
-          title: "AI-Native Research",
-          text: "Models, machine learning, and agents help read market information with speed and structure."
+          title: "AI-Assisted Research",
+          text: "AI helps collect information, summarize context, detect patterns, and reduce research friction."
         },
         {
           icon: "network",
-          title: "Connected Signals",
-          text: "Data, news, macro releases, flows, and risk signals become stronger when viewed together."
+          title: "Agentic Workflows",
+          text: "Research agents can monitor signals, update analysis, and connect market events across assets."
         },
         {
           icon: "bar-chart-3",
-          title: "Clearer Decisions",
-          text: "We help teams interpret markets faster and act with more discipline."
+          title: "Autonomous Trading",
+          text: "The long-term direction is AI-supported trading execution with clear risk controls."
         }
       ]
     },
     markets: {
-      label: "What We Do",
-      title: "Research. Intelligence. Risk.",
-      body: "We build financial AI models, market intelligence systems, research workflows, and risk-aware infrastructure.",
+      label: "Product Direction",
+      title: "Collect. Analyze. Execute.",
+      body: "Quantis follows a clear path: AI-assisted data collection, AI market analysis, signal generation, and autonomous trading workflow automation.",
       items: [
-        { icon: "microscope", title: "Research", text: "Financial AI models, market intelligence, and decision frameworks." },
-        { icon: "cpu", title: "Build", text: "AI infrastructure for research, analytics, monitoring, and financial applications." },
-        { icon: "zap", title: "Enable", text: "Faster market understanding and sharper decision quality." },
-        { icon: "shield-alert", title: "Protect", text: "Risk monitoring, early warning, and extreme-event analysis." }
+        { icon: "database", title: "Data Collection", text: "Gather market data, news, filings, macro signals, and cross-asset information." },
+        { icon: "brain", title: "AI Analysis", text: "Use models to interpret data, detect structure, and generate research context." },
+        { icon: "radar", title: "Trading Signals", text: "Transform research outputs into monitored signals and decision frameworks." },
+        { icon: "shield-alert", title: "Risk-Controlled Execution", text: "Move toward autonomous trading workflows with risk checks and monitoring." }
       ]
     },
     people: {
@@ -82,22 +82,22 @@ window.SITE_CONTENT = {
     },
     join: {
       label: "Research Areas",
-      title: "Core directions in financial AI.",
+      title: "The Quantis roadmap.",
       items: [
         {
           icon: "message-square-code",
-          title: "Financial Large Language Models",
-          text: "Models for financial documents, market reasoning, macro research, and event interpretation."
+          title: "Financial LLMs",
+          text: "Models that read financial documents, news, macro events, and market narratives."
         },
         {
           icon: "bot",
-          title: "AI Agents",
-          text: "Autonomous workflows for market analysis, research tasks, and decision support."
+          title: "Research Agents",
+          text: "Agents that collect data, refresh analysis, and support repeatable market workflows."
         },
         {
           icon: "radar",
-          title: "Market and Risk Intelligence",
-          text: "Systems for market structure, flows, sentiment, risk propagation, and early warning."
+          title: "Automated Trading Systems",
+          text: "A path toward AI-generated signals, risk controls, and autonomous execution logic."
         }
       ]
     },
@@ -109,11 +109,11 @@ window.SITE_CONTENT = {
   pages: {
     trading: {
       title: "Company | Jump Qutaris",
-      meta: "Learn the story, mission, vision, and values behind Jump Qutaris as an AI financial intelligence company.",
+      meta: "Learn how Jump Qutaris builds Quantis to evolve market analysis from manual research to AI-assisted intelligence and automated trading workflows.",
       hero: {
         label: "Company",
-        headline: "Markets Need Intelligence.",
-        body: "Jump Qutaris was built for the moment where AI, data, and quantitative finance converge into a new layer of financial intelligence.",
+        headline: "From Human Research to AI Trading.",
+        body: "Jump Qutaris was built to develop Quantis: a financial AI platform that helps markets move from manual analysis to AI-assisted intelligence and autonomous trading workflows.",
         actions: [
           { label: "Why We Exist", href: "#mission", style: "primary" },
           { label: "Technology Platform", href: "technology.html", style: "secondary" }
@@ -125,20 +125,20 @@ window.SITE_CONTENT = {
           type: "feature-grid",
           id: "mission",
           label: "Why We Exist",
-          title: "From data to understanding.",
-          body: "Markets produce more signals than teams can read alone. We help turn that flow into structured insight.",
+          title: "Human analysis is no longer enough.",
+          body: "Market teams face more data, faster events, and more complex risk. Quantis is designed to make AI part of the full trading workflow.",
           items: [
-            { icon: "database", title: "Signal Flow", text: "News, filings, macro data, policy shifts, and sentiment move across markets every day." },
-            { icon: "brain", title: "Meaning Layer", text: "AI helps connect what happened, why it matters, and where risk may move." },
-            { icon: "cpu", title: "Platform Mindset", text: "We connect data, models, research workflows, and financial applications." }
+            { icon: "database", title: "Data Burden", text: "News, filings, prices, macro data, policy, and sentiment now move faster than manual review." },
+            { icon: "brain", title: "AI Assistance", text: "Quantis helps collect data, read context, compare signals, and support human judgment." },
+            { icon: "cpu", title: "Autonomous Direction", text: "The product roadmap moves from assistance to agents, signals, controls, and trading automation." }
           ]
         },
         {
           type: "market-grid",
           id: "timeline",
           label: "Company Timeline",
-          title: "From market technology to AI finance.",
-          body: "Our direction is shaped by electronic markets, quantitative research, and the rise of large-scale AI systems.",
+          title: "From market technology to autonomous AI workflows.",
+          body: "Our direction follows the same larger AI shift: from simple tools, to intelligent assistants, to agents that can complete complex workflows.",
           items: [
             {
               title: "1999 - Market Technology Roots",
@@ -147,36 +147,36 @@ window.SITE_CONTENT = {
             },
             {
               title: "2020 - AI Research Initiative",
-              detail: "Machine learning and large-scale data systems became central to financial research.",
-              points: ["Machine learning research", "Large-scale market data", "AI-assisted analytics"]
+              detail: "AI began moving financial work beyond manual analysis toward machine-assisted research and monitoring.",
+              points: ["Machine learning research", "Large-scale market data", "AI-assisted analysis"]
             },
             {
-              title: "2023 - Financial AI Lab",
-              detail: "Research expanded toward financial language models, AI agents, and autonomous workflows.",
-              points: ["Financial language models", "AI agent systems", "Market reasoning workflows"]
+              title: "2023 - Agentic Finance Research",
+              detail: "Research expanded from model outputs to AI agents that can collect data, update analysis, and coordinate workflows.",
+              points: ["Financial language models", "Research agents", "Market reasoning workflows"]
             },
             {
-              title: "2024 - Jump Qutaris Launch",
-              detail: "Jump Qutaris launched to build AI financial intelligence infrastructure.",
-              points: ["AI finance platform", "Market intelligence systems", "Decision and risk intelligence"]
+              title: "2024 - Quantis Platform Direction",
+              detail: "Jump Qutaris focused Quantis on the path from AI-assisted research to risk-aware autonomous trading workflows.",
+              points: ["AI data collection", "Signal intelligence", "Autonomous trading workflows"]
             }
           ]
         },
         {
           type: "callout",
           label: "Mission and Vision",
-          title: "From automation to intelligence.",
-          body: "Our mission is to bring AI closer to market research, risk understanding, and practical financial decision support."
+          title: "From assistant to agent. From analysis to execution.",
+          body: "Our mission is to make AI useful across the trading lifecycle: collecting data, analyzing markets, generating signals, controlling risk, and supporting automated execution."
         }
       ]
     },
     technology: {
       title: "Technology | Jump Qutaris",
-      meta: "Explore the financial intelligence infrastructure behind Jump Qutaris, including AI research engines, market intelligence, quantitative intelligence, and risk systems.",
+      meta: "Explore Quantis technology for AI data collection, market analysis, agentic workflows, risk controls, and automated trading execution.",
       hero: {
         label: "Technology",
-        headline: "Built for Financial AI.",
-        body: "Our technology connects models, market signals, quantitative analytics, and risk systems into one intelligence foundation.",
+        headline: "Quantis: AI for the Trading Workflow.",
+        body: "Quantis connects data collection, market analysis, research agents, signal intelligence, risk controls, and automated trading logic.",
         actions: [
           { label: "Core Capabilities", href: "#capabilities", style: "primary" },
           { label: "Research Lab", href: "research.html", style: "secondary" }
@@ -188,37 +188,37 @@ window.SITE_CONTENT = {
           type: "feature-grid",
           id: "capabilities",
           label: "AI Research Engine",
-          title: "A stack for financial reasoning.",
-          body: "The engine combines language models, machine learning, and adaptive research systems for market analysis.",
+          title: "From data collection to execution.",
+          body: "The system is designed to support the full evolution from human research to AI-assisted analysis and autonomous trading workflows.",
           items: [
-            { icon: "message-square-code", title: "Financial LLMs", text: "Models for news, filings, macro research, and market reasoning." },
-            { icon: "brain", title: "Machine Learning", text: "Predictive systems that find structure in noisy market information." },
-            { icon: "route", title: "Adaptive Learning", text: "Research frameworks for changing market conditions and decision workflows." }
+            { icon: "database", title: "AI Data Collection", text: "Collect market prices, news, filings, macro data, sentiment, and alternative signals." },
+            { icon: "brain", title: "AI Market Analysis", text: "Interpret information, compare patterns, and organize market context into usable insight." },
+            { icon: "route", title: "Autonomous Workflow Logic", text: "Move from assisted research to agents, signals, controls, and trading execution logic." }
           ]
         },
         {
           type: "system",
-          label: "Financial Intelligence Ecosystem",
-          title: "From signals to applications.",
-          body: "The ecosystem links market data, AI research, decision intelligence, risk intelligence, and financial applications."
+          label: "Quantis Intelligence Loop",
+          title: "Data in. Signals out. Risk monitored.",
+          body: "Quantis links market data, AI research, signal generation, risk intelligence, and trading workflow automation into one operating loop."
         },
         {
           type: "feature-grid",
           label: "Platform Layers",
-          title: "Four layers of intelligence.",
-          body: "Each layer turns raw information into cleaner research, monitoring, and decision support.",
+          title: "Four layers of the product.",
+          body: "Each layer supports a different step in the transition from manual analysis to automated trading.",
           items: [
-            { icon: "newspaper", title: "Market Intelligence", text: "News, earnings, sentiment, sectors, and macro interpretation." },
-            { icon: "line-chart", title: "Quant Intelligence", text: "Factor research, strategy analysis, model training, and dynamic learning." },
-            { icon: "shield-alert", title: "Risk Intelligence", text: "Risk detection, monitoring, early warning, and extreme-event analysis." },
-            { icon: "database", title: "Data Infrastructure", text: "Coverage across equities, ETFs, options, futures, FX, digital assets, and macro data." }
+            { icon: "database", title: "Data Layer", text: "Collect structured and unstructured market information from multiple sources." },
+            { icon: "newspaper", title: "Analysis Layer", text: "Use AI to summarize events, interpret signals, and support research decisions." },
+            { icon: "bot", title: "Agent Layer", text: "Automate repeatable research tasks, monitoring routines, and signal updates." },
+            { icon: "shield-alert", title: "Execution Layer", text: "Connect signals with risk checks and automated trading workflow logic." }
           ]
         },
         {
           type: "callout",
           label: "Future Technologies",
-          title: "Models. Agents. Intelligence.",
-          body: "Our roadmap focuses on financial foundation models, autonomous agents, and AI-assisted market intelligence."
+          title: "The goal is autonomous trading intelligence.",
+          body: "Like AI moving from chat to agents such as Codex, Quantis moves from market answers to financial agents that can run research and trading workflows."
         }
       ]
     },
@@ -302,11 +302,11 @@ window.SITE_CONTENT = {
     },
     research: {
       title: "Research | Jump Qutaris",
-      meta: "Explore Jump Qutaris research in financial AI, market intelligence, AI agents, and risk intelligence.",
+      meta: "Explore Jump Qutaris research on financial AI, AI agents, market signal intelligence, risk controls, and autonomous trading workflows.",
       hero: {
         label: "Research",
-        headline: "Research That Drives Decisions.",
-        body: "We study financial AI, market signals, agents, and risk systems to make intelligence practical for clients.",
+        headline: "Research for AI Trading.",
+        body: "Our research studies how AI can collect data, analyze markets, generate signals, control risk, and support automated trading workflows.",
         actions: [
           { label: "Research Areas", href: "#research-areas", style: "primary" },
           { label: "Technology Platform", href: "technology.html", style: "secondary" }
@@ -318,61 +318,61 @@ window.SITE_CONTENT = {
           type: "role-grid",
           id: "research-areas",
           label: "Research Areas",
-          title: "The questions that matter.",
-          body: "Our research focuses on models, agents, market intelligence, and risk systems that help clients read complexity faster.",
+          title: "From assistant to agent.",
+          body: "Like AI moving from text chat to agents such as Codex, financial AI is moving from answering questions to running research and trading workflows.",
           items: [
             {
               id: "financial-llms",
               icon: "message-square-code",
               title: "Financial LLMs",
-              text: "Earnings, news, market reasoning, and macro interpretation."
+              text: "Models that understand filings, news, earnings, macro data, and market language."
             },
             {
               id: "ai-agents",
               icon: "bot",
               title: "AI Agents",
-              text: "Multi-agent systems and automated workflows for financial analysis."
+              text: "Agents that collect information, refresh analysis, and run repeatable research tasks."
             },
             {
               id: "market-intelligence",
               icon: "radar",
               title: "Market Intelligence",
-              text: "Market structure, sector rotation, capital flows, sentiment, and cross-asset links."
+              text: "Signal systems for market structure, sector rotation, flows, sentiment, and cross-asset links."
             },
             {
               id: "risk-intelligence",
               icon: "shield-alert",
-              title: "Risk Intelligence",
-              text: "Risk propagation, extreme events, AI controls, and early warning systems."
+              title: "Risk and Execution Intelligence",
+              text: "Risk propagation, early warning, execution controls, and automated trading workflow logic."
             }
           ]
         },
         {
           type: "feature-grid",
           label: "Research Philosophy",
-          title: "Research first. Evidence always.",
-          body: "We focus on clear questions, disciplined data, and practical translation into financial workflows.",
+          title: "Research must become workflow.",
+          body: "The goal is not just better analysis. The goal is a product path where AI can observe, reason, act, and monitor risk.",
           items: [
-            { icon: "microscope", title: "Research First", text: "Every platform direction starts with clear questions and measurable assumptions." },
-            { icon: "database", title: "Data Driven", text: "Market data, alternative data, macro releases, and structured datasets are analyzed with discipline." },
-            { icon: "check-circle-2", title: "Evidence Based", text: "Models and workflows are tested through validation, feedback, and market behavior." }
+            { icon: "microscope", title: "Clear Questions", text: "Each capability starts with a specific trading or research workflow problem." },
+            { icon: "database", title: "Disciplined Data", text: "Market data, alternative data, macro releases, and news are structured for model use." },
+            { icon: "check-circle-2", title: "Risk-Aware Validation", text: "Signals and workflows are tested through validation, feedback, and market behavior." }
           ]
         },
         {
           type: "callout",
           label: "Publications",
-          title: "Insights for the market ahead.",
-          body: "The research center will support white papers, AI finance notes, market intelligence reports, and platform updates."
+          title: "The roadmap is automated market intelligence.",
+          body: "Research outputs will support product updates, AI finance notes, signal intelligence reports, and the evolution of Quantis."
         }
       ]
     },
     careers: {
       title: "Research | Jump Qutaris",
-      meta: "Explore Jump Qutaris research in financial AI, market intelligence, AI agents, and risk intelligence.",
+      meta: "Explore Jump Qutaris research on financial AI, AI agents, market signal intelligence, risk controls, and autonomous trading workflows.",
       hero: {
         label: "Research",
-        headline: "Research That Drives Decisions.",
-        body: "We study financial AI, market signals, agents, and risk systems to make intelligence practical for clients.",
+        headline: "Research for AI Trading.",
+        body: "Our research studies how AI can collect data, analyze markets, generate signals, control risk, and support automated trading workflows.",
         actions: [
           { label: "Research Areas", href: "#research-areas", style: "primary" },
           { label: "Technology Platform", href: "technology.html", style: "secondary" }
@@ -428,51 +428,51 @@ window.SITE_CONTENT = {
           type: "role-grid",
           id: "research-areas",
           label: "Research Areas",
-          title: "The questions that matter.",
-          body: "Our research focuses on models, agents, market intelligence, and risk systems that help clients read complexity faster.",
+          title: "From assistant to agent.",
+          body: "Like AI moving from text chat to agents such as Codex, financial AI is moving from answering questions to running research and trading workflows.",
           items: [
             {
               id: "financial-llms",
               icon: "message-square-code",
               title: "Financial LLMs",
-              text: "Earnings, news, market reasoning, and macro interpretation."
+              text: "Models that understand filings, news, earnings, macro data, and market language."
             },
             {
               id: "ai-agents",
               icon: "bot",
               title: "AI Agents",
-              text: "Multi-agent systems and automated workflows for financial analysis."
+              text: "Agents that collect information, refresh analysis, and run repeatable research tasks."
             },
             {
               id: "market-intelligence",
               icon: "radar",
               title: "Market Intelligence",
-              text: "Market structure, sector rotation, capital flows, sentiment, and cross-asset links."
+              text: "Signal systems for market structure, sector rotation, flows, sentiment, and cross-asset links."
             },
             {
               id: "risk-intelligence",
               icon: "shield-alert",
-              title: "Risk Intelligence",
-              text: "Risk propagation, extreme events, AI controls, and early warning systems."
+              title: "Risk and Execution Intelligence",
+              text: "Risk propagation, early warning, execution controls, and automated trading workflow logic."
             }
           ]
         },
         {
           type: "feature-grid",
           label: "Research Philosophy",
-          title: "Research first. Evidence always.",
-          body: "We focus on clear questions, disciplined data, and practical translation into financial workflows.",
+          title: "Research must become workflow.",
+          body: "The goal is not just better analysis. The goal is a product path where AI can observe, reason, act, and monitor risk.",
           items: [
-            { icon: "microscope", title: "Research First", text: "Every platform direction starts with clear questions and measurable assumptions." },
-            { icon: "database", title: "Data Driven", text: "Market data, alternative data, macro releases, and structured datasets are analyzed with discipline." },
-            { icon: "check-circle-2", title: "Evidence Based", text: "Models and workflows are tested through validation, feedback, and market behavior." }
+            { icon: "microscope", title: "Clear Questions", text: "Each capability starts with a specific trading or research workflow problem." },
+            { icon: "database", title: "Disciplined Data", text: "Market data, alternative data, macro releases, and news are structured for model use." },
+            { icon: "check-circle-2", title: "Risk-Aware Validation", text: "Signals and workflows are tested through validation, feedback, and market behavior." }
           ]
         },
         {
           type: "callout",
           label: "Publications",
-          title: "Insights for the market ahead.",
-          body: "The research center will support white papers, AI finance notes, market intelligence reports, and platform updates."
+          title: "The roadmap is automated market intelligence.",
+          body: "Research outputs will support product updates, AI finance notes, signal intelligence reports, and the evolution of Quantis."
         }
       ]
     },
