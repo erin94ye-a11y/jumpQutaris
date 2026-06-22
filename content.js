@@ -246,30 +246,40 @@ window.SITE_CONTENT = {
             {
               id: "robert-sterling",
               icon: "landmark",
+              image: "assets/leadership/robert-sterling.jpg",
+              imageAlt: "Robert Bob Sterling portrait",
               title: "Robert \"Bob\" Sterling - Chief Executive Officer",
               text: "Bob leads global strategy, brand direction, and long-term vision. He brings more than three decades of experience across derivatives, equities, market structure, and liquidity strategy."
             },
             {
               id: "albert-saplitski",
               icon: "server-cog",
+              image: "assets/leadership/albert-saplitski.jpg",
+              imageAlt: "Albert Saplitski portrait",
               title: "Albert Saplitski - Chief Information Officer",
               text: "Albert is a senior technology leader with deep experience in ultra-low-latency systems, global trading infrastructure, high-performance computing, and resilient financial networks."
             },
             {
               id: "marcus-thorne",
               icon: "bar-chart-3",
+              image: "assets/leadership/marcus-thorne.jpg",
+              imageAlt: "Marcus Thorne portrait",
               title: "Dr. Marcus Thorne - Chief Analyst",
               text: "Marcus leads quantitative research and data science. His work connects statistical machine learning, nonlinear prediction, alternative data, and multi-asset market analysis."
             },
             {
               id: "ethan-brooks",
               icon: "network",
+              image: "assets/leadership/ethan-brooks.jpg",
+              imageAlt: "Ethan Brooks portrait",
               title: "Ethan Brooks - Chief Architect",
               text: "Ethan oversees platform architecture, execution-system design, market data infrastructure, and high-concurrency systems built for speed, stability, and rigorous controls."
             },
             {
               id: "elena-vega",
               icon: "globe-2",
+              image: "assets/leadership/elena-vega.jpg",
+              imageAlt: "Elena Vega portrait",
               title: "Elena Vega - Global Operations Manager",
               text: "Elena coordinates global operations, post-trade workflows, clearing, reconciliation, liquidity coordination, and cross-team execution across complex market environments."
             }
@@ -304,6 +314,50 @@ window.SITE_CONTENT = {
         image: "peopleFloor"
       },
       sections: [
+        {
+          type: "role-grid",
+          id: "leadership",
+          label: "Leadership",
+          title: "Meet the leadership behind Jump Qutaris.",
+          body: "Clients can see the people guiding the company's strategy, technology platform, quantitative research, core architecture, and global operations.",
+          items: [
+            {
+              id: "robert-sterling-profile",
+              image: "assets/leadership/robert-sterling.jpg",
+              imageAlt: "Robert Bob Sterling portrait",
+              title: "Robert \"Bob\" Sterling - Chief Executive Officer",
+              text: "Responsible for global strategy, long-term vision, and the evolution of Jump Qutaris as an AI financial intelligence company."
+            },
+            {
+              id: "albert-saplitski-profile",
+              image: "assets/leadership/albert-saplitski.jpg",
+              imageAlt: "Albert Saplitski portrait",
+              title: "Albert Saplitski - Chief Information Officer",
+              text: "Oversees technology leadership across high-performance infrastructure, resilient financial systems, and market-scale computing platforms."
+            },
+            {
+              id: "marcus-thorne-profile",
+              image: "assets/leadership/marcus-thorne.jpg",
+              imageAlt: "Marcus Thorne portrait",
+              title: "Dr. Marcus Thorne - Chief Analyst",
+              text: "Leads quantitative research, data science, and AI-assisted market analysis across multi-asset financial environments."
+            },
+            {
+              id: "ethan-brooks-profile",
+              image: "assets/leadership/ethan-brooks.jpg",
+              imageAlt: "Ethan Brooks portrait",
+              title: "Ethan Brooks - Chief Architect",
+              text: "Guides platform architecture, execution-system design, market data infrastructure, and high-concurrency financial technology systems."
+            },
+            {
+              id: "elena-vega-profile",
+              image: "assets/leadership/elena-vega.jpg",
+              imageAlt: "Elena Vega portrait",
+              title: "Elena Vega - Global Operations Manager",
+              text: "Coordinates global operations, post-trade workflows, clearing, reconciliation, and cross-functional execution across market environments."
+            }
+          ]
+        },
         {
           type: "role-grid",
           id: "research-areas",

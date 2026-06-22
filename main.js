@@ -175,8 +175,12 @@ const renderMarketCard = (item) => `
 `;
 
 const renderRoleCard = (item) => `
-  <article class="role-card" id="${item.id ? html(item.id) : ""}">
-    ${icon(item.icon)}
+  <article class="role-card${item.image ? " role-card--with-photo" : ""}" id="${item.id ? html(item.id) : ""}">
+    ${
+      item.image
+        ? `<img class="role-card__photo" src="${html(item.image)}" alt="${html(item.imageAlt || item.title)}" />`
+        : icon(item.icon)
+    }
     <h3>${html(item.title)}</h3>
     <p>${html(item.text)}</p>
     ${item.action ? `<a class="text-link" href="${html(item.action.href)}"><span>${html(item.action.label)}</span>${icon("arrow-right")}</a>` : ""}
@@ -280,7 +284,7 @@ const renderCallout = (section) => `
 const renderRoleGrid = (section) => `
   <section class="section" id="${html(section.id || "roles")}">
     <div class="two-col-heading">
-      ${sectionIntro(section)}
+      ${sectionIntro(section, "", false)}
       <p>${html(section.body)}</p>
     </div>
     <div class="role-grid">
@@ -452,6 +456,31 @@ const wireInteractions = () => {
   });
 };
 
+const scrollToInitialHash = () => {
+  const hash = window.location.hash.slice(1);
+  if (!hash) return;
+
+  const scrollToTarget = () => {
+    const target = document.getElementById(decodeURIComponent(hash));
+    if (!target) return;
+
+    const headerHeight = document.querySelector("[data-header]")?.offsetHeight || 0;
+    const top = target.getBoundingClientRect().top + window.scrollY - headerHeight - 24;
+    const offsetTop = Math.max(top, 0);
+
+    window.scrollTo({ top: offsetTop, behavior: "auto" });
+    document.documentElement.scrollTop = offsetTop;
+    document.body.scrollTop = offsetTop;
+  };
+
+  window.requestAnimationFrame(scrollToTarget);
+  window.setTimeout(scrollToTarget, 100);
+  window.setTimeout(scrollToTarget, 500);
+  window.addEventListener("load", () => window.setTimeout(scrollToTarget, 100), { once: true });
+};
+
+window.addEventListener("hashchange", scrollToInitialHash);
+
 renderMeta();
 renderWordmark();
 renderHeader();
@@ -462,6 +491,7 @@ if (pageKey === "home") {
 }
 renderFooter();
 wireInteractions();
+scrollToInitialHash();
 
 if (window.lucide) {
   window.lucide.createIcons({ attrs: { "stroke-width": 1.8 } });

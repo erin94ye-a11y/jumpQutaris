@@ -278,6 +278,10 @@ article[id] {
   scroll-margin-top: calc(var(--header-h) + 24px);
 }
 
+.section[id] {
+  scroll-margin-top: calc(var(--header-h) + 24px);
+}
+
 .section-label {
   color: var(--red);
   font-size: 11px;
@@ -569,6 +573,29 @@ p {
   flex-direction: column;
   min-height: 300px;
   padding: 42px 34px 34px;
+}
+
+.role-card--with-photo {
+  overflow: hidden;
+  padding: 0 0 34px;
+}
+
+.role-card__photo {
+  aspect-ratio: 4 / 5;
+  background: #f1f1f1;
+  border-bottom: 1px solid var(--line);
+  display: block;
+  margin-bottom: 28px;
+  object-fit: cover;
+  object-position: center top;
+  width: 100%;
+}
+
+.role-card--with-photo h3,
+.role-card--with-photo p,
+.role-card--with-photo .text-link {
+  margin-left: 34px;
+  margin-right: 34px;
 }
 
 .role-card .line-icon {
