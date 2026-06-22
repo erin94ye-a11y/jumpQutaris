@@ -459,6 +459,109 @@ window.SITE_CONTENT = {
           ]
         }
       ]
+    },
+    terms: {
+      title: "Terms of Use | Jump Qutaris",
+      meta: "Terms of Use for the Jump Qutaris website, including permitted use, ownership, disclaimers, liability limits, and contact information.",
+      hero: {
+        label: "Policies",
+        headline: "Terms of Use",
+        body: "These terms explain the rules for accessing and using the Jump Qutaris website and the materials made available through it.",
+        actions: [
+          { label: "Privacy Policy", href: "privacy-policy.html", style: "primary" },
+          { label: "Contact Us", href: "contact.html", style: "secondary" }
+        ],
+        image: "heroMarket"
+      },
+      sections: [
+        {
+          type: "policy",
+          label: "Website Terms and Conditions",
+          title: "Rules for using the Jump Qutaris website",
+          updated: "Last updated: June 23, 2026",
+          intro:
+            "By accessing or using this website, you agree to these Terms of Use. If you do not agree, you should not use the website. These terms apply to the website operated by Jump Qutaris and, where applicable, its subsidiaries and affiliates.",
+          groups: [
+            {
+              title: "Acceptance and updates",
+              body: [
+                "Each time you use this website, you agree to the version of these Terms of Use then posted on the site.",
+                "Jump Qutaris may update, suspend, replace, or remove any part of the website or these terms at any time without prior notice. Continued use of the website after changes are posted means you accept the updated terms."
+              ]
+            },
+            {
+              title: "Privacy policy",
+              body: [
+                "The Jump Qutaris Privacy Policy is incorporated into these Terms of Use by reference.",
+                "Please review the Privacy Policy to understand how we may collect, use, retain, and disclose personal information connected with website use and communications with us."
+              ]
+            },
+            {
+              title: "Limited website license",
+              body: [
+                "Jump Qutaris grants you a limited, revocable, nonexclusive, nontransferable license to access and use this website for personal, informational, and non-commercial purposes.",
+                "You may not copy, modify, distribute, perform, publish, sell, license, create derivative works from, or exploit website content except as expressly allowed by these terms or by written permission from Jump Qutaris."
+              ]
+            },
+            {
+              title: "Ownership and intellectual property",
+              body: [
+                "The website, including its text, graphics, interfaces, code, logos, names, designs, icons, images, data presentations, and other materials, is owned by Jump Qutaris or its licensors and is protected by applicable intellectual property laws.",
+                "Nothing on the website transfers any ownership interest or grants a license to use any Jump Qutaris name, logo, trademark, service mark, trade dress, or other source-identifying material."
+              ]
+            },
+            {
+              title: "No investment, trading, or professional advice",
+              body: [
+                "Website materials are provided for general informational purposes only and do not constitute investment advice, trading advice, legal advice, tax advice, an offer to buy or sell securities or digital assets, or a recommendation regarding any strategy, product, or transaction.",
+                "You should not rely on website content as the basis for financial, investment, trading, or other professional decisions."
+              ]
+            },
+            {
+              title: "No warranty",
+              body: [
+                "The website and its materials are provided on an as-is and as-available basis. Jump Qutaris does not warrant that the website will be accurate, complete, current, secure, uninterrupted, error-free, or free from harmful components.",
+                "To the fullest extent permitted by law, Jump Qutaris disclaims all express, implied, and statutory warranties, including warranties of merchantability, fitness for a particular purpose, title, non-infringement, availability, and reliability."
+              ]
+            },
+            {
+              title: "Limitation of liability",
+              body: [
+                "To the fullest extent permitted by law, Jump Qutaris and its affiliates, directors, officers, employees, contractors, agents, service providers, and representatives will not be liable for any indirect, incidental, special, consequential, exemplary, punitive, or similar damages arising from or connected with your use of, or inability to use, the website.",
+                "This limitation applies whether the claim is based in contract, tort, negligence, strict liability, statute, or any other legal theory, even if Jump Qutaris has been advised of the possibility of such damages."
+              ]
+            },
+            {
+              title: "Third-party links",
+              body: [
+                "The website may contain links to third-party websites, platforms, services, or resources that are not owned or controlled by Jump Qutaris.",
+                "Jump Qutaris is not responsible for third-party content, policies, security, availability, or practices. Accessing third-party resources is at your own discretion and risk."
+              ]
+            },
+            {
+              title: "User conduct and security",
+              body: [
+                "You may not use the website in a way that is unlawful, harmful, deceptive, abusive, infringing, disruptive, or inconsistent with these terms.",
+                "You may not attempt to interfere with website operation, bypass security controls, introduce malicious code, scrape content in an unauthorized manner, or access systems or data without permission."
+              ]
+            },
+            {
+              title: "General provisions",
+              body: [
+                "If any provision of these Terms of Use is found invalid or unenforceable, the remaining provisions will remain in effect, and the affected provision will be interpreted to best accomplish its intended purpose to the extent permitted by law.",
+                "Failure by Jump Qutaris to enforce any provision does not waive our right to enforce that provision or any other provision later."
+              ]
+            },
+            {
+              title: "Contact",
+              body: [
+                "Questions about these Terms of Use may be sent to legal@jumpqutaris.com.",
+                "For privacy-related requests, please use the contact information provided in the Jump Qutaris Privacy Policy."
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   footer: {
@@ -485,7 +588,7 @@ window.SITE_CONTENT = {
         title: "Legal",
         links: [
           { label: "Privacy Policy", href: "privacy-policy.html" },
-          { label: "Terms of Use", href: "#" },
+          { label: "Terms of Use", href: "terms-of-use.html" },
           { label: "Cookie Policy", href: "#" }
         ]
       }
