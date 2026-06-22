@@ -31,7 +31,7 @@ The header wordmark is editable HTML/CSS in `main.js` and `styles.css`. `Jump` i
 From this folder, run:
 
 ```bash
-python -m http.server 4173
+npm start
 ```
 
 Then open:
@@ -39,6 +39,18 @@ Then open:
 ```text
 http://localhost:4173
 ```
+
+You can still use `python -m http.server 4173` for a quick static preview, but Railway uses the Node start command above.
+
+## Deploy On Railway
+
+Railway will detect `package.json` and run:
+
+```bash
+npm start
+```
+
+The included `server.js` listens on `0.0.0.0:$PORT`, which is the port Railway provides for public networking.
 
 ## Publish On GitHub Pages
 
