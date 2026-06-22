@@ -587,7 +587,7 @@ p {
   border-left: 4px solid var(--red);
   display: grid;
   gap: 28px;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   margin-bottom: clamp(72px, 9vw, 112px);
   margin-top: 0;
   padding-bottom: 40px;

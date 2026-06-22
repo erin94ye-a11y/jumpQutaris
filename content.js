@@ -12,7 +12,6 @@ window.SITE_CONTENT = {
     { key: "careers", label: "Careers", href: "careers.html" },
     { key: "contact", label: "Contact", href: "contact.html" }
   ],
-  headerCta: { label: "Explore Careers", href: "careers.html" },
   assets: {
     logo: "assets/jump-qutaris-logo.png",
     footerLogo: "assets/jump-qutaris-logo-footer.png",
@@ -40,7 +39,7 @@ window.SITE_CONTENT = {
     approach: {
       label: "Our Approach",
       title: "Research-driven. Technology-powered. Risk-aware.",
-      body: "We invest in people and technology to solve hard problems in markets. Our edge comes from speed, scale, and a relentless focus on continuous improvement.
+      body: "We invest in people and technology to solve hard problems in markets. Our edge comes from speed, scale, and a relentless focus on continuous improvement.",
       items: [
         {
           icon: "crosshair",
@@ -107,8 +106,7 @@ window.SITE_CONTENT = {
     },
     contact: {
       label: "Let's Connect",
-      title: "Have a question? We'd love to hear from you.",
-      action: { label: "Contact Us", href: "contact.html" }
+      title: "Have a question? We'd love to hear from you."
     }
   },
   pages: {
@@ -647,12 +645,6 @@ window.SITE_CONTENT = {
           { label: "Cookie Policy", href: "cookie-policy.html" }
         ]
       }
-    ],
-    social: [
-      { label: "LinkedIn", href: "https://www.linkedin.com/", icon: "linkedin" },
-      { label: "X", href: "https://x.com/", icon: "twitter" },
-      { label: "GitHub", href: "https://github.com/", icon: "github" },
-      { label: "Email", href: "mailto:info@jumpqutaris.com", icon: "mail" }
     ]
   }
 };

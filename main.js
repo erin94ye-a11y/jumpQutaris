@@ -54,7 +54,6 @@ const renderWordmark = () => {
 const renderHeader = () => {
   const desktopNav = document.querySelector("[data-nav]");
   const mobileNav = document.querySelector("[data-mobile-nav]");
-  const headerCta = document.querySelector("[data-header-cta]");
   const navHtml = content.nav
     .map((item) => {
       const active = item.key === pageKey ? ' aria-current="page"' : "";
@@ -63,9 +62,7 @@ const renderHeader = () => {
     .join("");
 
   desktopNav.innerHTML = navHtml;
-  mobileNav.innerHTML = `${navHtml}${actionLink(content.headerCta, "primary")}`;
-  headerCta.href = content.headerCta.href;
-  headerCta.innerHTML = `<span>${html(content.headerCta.label)}</span>${icon("arrow-right")}`;
+  mobileNav.innerHTML = navHtml;
 };
 
 const renderMeta = () => {
@@ -157,7 +154,6 @@ const renderHome = () => {
         <p class="section-label">${html(page.contact.label)}</p>
         <h2>${html(page.contact.title)}</h2>
       </div>
-      ${actionLink(page.contact.action, "primary")}
     </section>
   `;
 };
@@ -396,9 +392,6 @@ const renderFooter = () => {
           <img src="${html(asset("footerLogo"))}" alt="${html(content.brand.name)}" />
         </a>
         <p>${html(content.brand.description)}</p>
-        <div class="social-row">
-          ${content.footer.social.map((item) => `<a href="${html(item.href)}" aria-label="${html(item.label)}">${icon(item.icon)}</a>`).join("")}
-        </div>
       </div>
       <div class="footer-links">
         ${content.footer.columns
