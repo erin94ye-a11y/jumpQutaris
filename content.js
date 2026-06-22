@@ -39,8 +39,8 @@ window.SITE_CONTENT = {
     },
     approach: {
       label: "Our Approach",
-      title: "AI-driven research, quantitative tools powering decision-making, and risk management woven throughout the entire process.",
-      body: "We deeply integrate advanced quantitative models with autonomous AI agents to build an intelligent investment framework that spans market research, signal discovery, strategy generation, risk control, and execution optimization.
+      title: "Research-driven. Technology-powered. Risk-aware.",
+      body: "We invest in people and technology to solve hard problems in markets. Our edge comes from speed, scale, and a relentless focus on continuous improvement.
       items: [
         {
           icon: "crosshair",
