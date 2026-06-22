@@ -3,7 +3,7 @@ window.SITE_CONTENT = {
     name: "Jump Qutaris",
     first: "Jump",
     second: "Qutaris",
-    description: "Quantis moves market work from manual analysis to AI-assisted intelligence and autonomous trading workflows."
+    description: "Qutara moves market work from manual analysis to AI-assisted intelligence and autonomous trading workflows."
   },
   nav: [
     { key: "trading", label: "Company", href: "trading.html" },
@@ -20,17 +20,17 @@ window.SITE_CONTENT = {
   },
   home: {
     title: "Jump Qutaris | AI Financial Intelligence",
-    meta: "Jump Qutaris builds Quantis, an AI financial platform moving market work from manual analysis to autonomous trading workflows.",
+    meta: "Jump Qutaris builds Qutara, an AI financial platform moving market work from manual analysis to autonomous trading workflows.",
     hero: {
-      label: "Quantis AI trading system.",
+      label: "Qutara AI trading system.",
       headline: "From Analysis to Autonomous Trading.",
-      body: "Jump Qutaris develops Quantis, an AI financial platform that evolves market work from human-led analysis to AI-assisted research and risk-aware autonomous trading workflows.",
+      body: "Jump Qutaris develops Qutara, an AI financial platform that evolves market work from human-led analysis to AI-assisted research and risk-aware autonomous trading workflows.",
       actions: [
         { label: "Explore Technology", href: "technology.html", style: "primary" },
         { label: "Company Overview", href: "trading.html", style: "secondary" }
       ],
       metrics: [
-        { label: "Product", value: "Quantis" },
+        { label: "Product", value: "Qutara" },
         { label: "Path", value: "Human + AI" },
         { label: "Goal", value: "Autonomous" },
         { label: "Control", value: "Risk Aware" }
@@ -39,7 +39,7 @@ window.SITE_CONTENT = {
     approach: {
       label: "Why Jump Qutaris",
       title: "The next step after human analysis.",
-      body: "Markets generate more information than people can process manually. Quantis is designed to collect signals, analyze context, and support automated trading workflows.",
+      body: "Markets generate more information than people can process manually. Qutara is designed to collect signals, analyze context, and support automated trading workflows.",
       items: [
         {
           icon: "history",
@@ -66,7 +66,7 @@ window.SITE_CONTENT = {
     markets: {
       label: "Product Direction",
       title: "Collect. Analyze. Execute.",
-      body: "Quantis follows a clear path: AI-assisted data collection, AI market analysis, signal generation, and autonomous trading workflow automation.",
+      body: "Qutara follows a clear path: AI-assisted data collection, AI market analysis, signal generation, and autonomous trading workflow automation.",
       items: [
         { icon: "database", title: "Data Collection", text: "Gather market data, news, filings, macro signals, and cross-asset information." },
         { icon: "brain", title: "AI Analysis", text: "Use models to interpret data, detect structure, and generate research context." },
@@ -82,7 +82,7 @@ window.SITE_CONTENT = {
     },
     join: {
       label: "Research Areas",
-      title: "The Quantis roadmap.",
+      title: "The Qutara roadmap.",
       items: [
         {
           icon: "message-square-code",
@@ -105,11 +105,11 @@ window.SITE_CONTENT = {
   pages: {
     trading: {
       title: "Company | Jump Qutaris",
-      meta: "Learn how Jump Qutaris builds Quantis to evolve market analysis from manual research to AI-assisted intelligence and automated trading workflows.",
+      meta: "Learn how Jump Qutaris builds Qutara to evolve market analysis from manual research to AI-assisted intelligence and automated trading workflows.",
       hero: {
         label: "Company",
         headline: "From Human Research to AI Trading.",
-        body: "Jump Qutaris was built to develop Quantis: a financial AI platform that helps markets move from manual analysis to AI-assisted intelligence and autonomous trading workflows.",
+        body: "Jump Qutaris was founded to develop Qutara — an AI-powered intelligent financial platform designed to transform the financial industry from traditional human-driven analysis to a new era of efficient, precise, and autonomous AI-powered quantitative trading.",
         actions: [
           { label: "Why We Exist", href: "#mission", style: "primary" },
           { label: "Technology Platform", href: "technology.html", style: "secondary" }
@@ -122,10 +122,10 @@ window.SITE_CONTENT = {
           id: "mission",
           label: "Why We Exist",
           title: "Human analysis is no longer enough.",
-          body: "Market teams face more data, faster events, and more complex risk. Quantis is designed to make AI part of the full trading workflow.",
+          body: "Market teams face more data, faster events, and more complex risk. Qutara is designed to make AI part of the full trading workflow.",
           items: [
             { icon: "database", title: "Data Burden", text: "News, filings, prices, macro data, policy, and sentiment now move faster than manual review." },
-            { icon: "brain", title: "AI Assistance", text: "Quantis helps collect data, read context, compare signals, and support human judgment." },
+            { icon: "brain", title: "AI Assistance", text: "Qutara helps collect data, read context, compare signals, and support human judgment." },
             { icon: "cpu", title: "Autonomous Direction", text: "The product roadmap moves from assistance to agents, signals, controls, and trading automation." }
           ]
         },
@@ -152,8 +152,8 @@ window.SITE_CONTENT = {
               points: ["Financial language models", "Research agents", "Market reasoning workflows"]
             },
             {
-              title: "2024 - Quantis Platform Direction",
-              detail: "Jump Qutaris focused Quantis on the path from AI-assisted research to risk-aware autonomous trading workflows.",
+              title: "2024 - Qutara Platform Direction",
+              detail: "Jump Qutaris focused Qutara on the path from AI-assisted research to risk-aware autonomous trading workflows.",
               points: ["AI data collection", "Signal intelligence", "Autonomous trading workflows"]
             }
           ]
@@ -168,11 +168,11 @@ window.SITE_CONTENT = {
     },
     technology: {
       title: "Technology | Jump Qutaris",
-      meta: "Explore Quantis technology for AI data collection, market analysis, agentic workflows, risk controls, and automated trading execution.",
+      meta: "Explore Qutara technology for AI data collection, market analysis, agentic workflows, risk controls, and automated trading execution.",
       hero: {
         label: "Technology",
-        headline: "Quantis: AI for the Trading Workflow.",
-        body: "Quantis connects data collection, market analysis, research agents, signal intelligence, risk controls, and automated trading logic.",
+        headline: "Qutara: AI for the Trading Workflow.",
+        body: "Qutara connects data collection, market analysis, research agents, signal intelligence, risk controls, and automated trading logic.",
         actions: [
           { label: "Core Capabilities", href: "#capabilities", style: "primary" },
           { label: "Research Lab", href: "research.html", style: "secondary" }
@@ -194,9 +194,9 @@ window.SITE_CONTENT = {
         },
         {
           type: "system",
-          label: "Quantis Intelligence Loop",
+          label: "Qutara Intelligence Loop",
           title: "Data in. Signals out. Risk monitored.",
-          body: "Quantis links market data, AI research, signal generation, risk intelligence, and trading workflow automation into one operating loop."
+          body: "Qutara links market data, AI research, signal generation, risk intelligence, and trading workflow automation into one operating loop."
         },
         {
           type: "feature-grid",
@@ -214,7 +214,7 @@ window.SITE_CONTENT = {
           type: "callout",
           label: "Future Technologies",
           title: "The goal is autonomous trading intelligence.",
-          body: "Like AI moving from chat to agents such as Codex, Quantis moves from market answers to financial agents that can run research and trading workflows."
+          body: "Like AI moving from chat to agents such as Codex, Qutara moves from market answers to financial agents that can run research and trading workflows."
         }
       ]
     },
@@ -358,7 +358,7 @@ window.SITE_CONTENT = {
           type: "callout",
           label: "Publications",
           title: "The roadmap is automated market intelligence.",
-          body: "Research outputs will support product updates, AI finance notes, signal intelligence reports, and the evolution of Quantis."
+          body: "Research outputs will support product updates, AI finance notes, signal intelligence reports, and the evolution of Qutara."
         }
       ]
     },
@@ -468,7 +468,7 @@ window.SITE_CONTENT = {
           type: "callout",
           label: "Publications",
           title: "The roadmap is automated market intelligence.",
-          body: "Research outputs will support product updates, AI finance notes, signal intelligence reports, and the evolution of Quantis."
+          body: "Research outputs will support product updates, AI finance notes, signal intelligence reports, and the evolution of Qutara."
         }
       ]
     },
