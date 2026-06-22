@@ -32,15 +32,15 @@ window.SITE_CONTENT = {
       ],
       metrics: [
         { label: "Markets", value: "Global" },
-        { label: "Experience", value: "4+ Years" },
+        { label: "Experience", value: "20+ Years" },
         { label: "Technologists", value: "50%+" },
         { label: "Decisions / Day", value: "Billions" }
       ]
     },
     approach: {
       label: "Our Approach",
-      title: "Research-driven. Technology-powered. Risk-aware.",
-      body: "We invest in people and technology to solve hard problems in markets. Our edge comes from speed, scale, and a relentless focus on continuous improvement.",
+      title: "AI-driven research, quantitative tools powering decision-making, and risk management woven throughout the entire process.",
+      body: "We deeply integrate advanced quantitative models with autonomous AI agents to build an intelligent investment framework that spans market research, signal discovery, strategy generation, risk control, and execution optimization.
       items: [
         {
           icon: "crosshair",
