@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jump Quantum is an original quantitative trading and financial technology website."
+    />
+    <title>Jump Quantum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#top" aria-label="Jump Quantum home">
+        <span class="wordmark__jump">Jump</span>
+        <span class="wordmark__quantum">Quantum</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation" data-nav></nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-panel" data-mobile-panel>
+      <nav aria-label="Mobile navigation" data-mobile-nav></nav>
+    </div>
+
+    <main id="top">
+      <section class="hero section-snap" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <p class="brand-line" data-brand-tagline></p>
+          <h1 id="hero-title" data-hero-headline></h1>
+          <p class="hero__body" data-hero-body></p>
+          <div class="hero__actions" data-hero-actions></div>
+          <div class="hero__metrics" data-hero-metrics></div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="market-card market-card--primary">
+            <img class="brand-proof" src="assets/jump-quantum-wordmark.svg" alt="" />
+            <div class="chart-lines">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="pulse-grid">
+              <i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+          <div class="latency-panel">
+            <span>Execution</span>
+            <strong>microstructure aware</strong>
+          </div>
+          <div class="signal-panel">
+            <span>Signals</span>
+            <strong>research validated</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section capability-band" id="trading" aria-labelledby="capabilities-title">
+        <div class="section-heading">
+          <h2 id="capabilities-title" data-capabilities-title></h2>
+          <p data-capabilities-body></p>
+        </div>
+        <div class="capability-grid" data-capabilities></div>
+      </section>
+
+      <section class="section split-section" id="technology" aria-labelledby="technology-title">
+        <div class="split-section__copy">
+          <h2 id="technology-title">Technology with trading consequences.</h2>
+          <p>
+            Markets reward clarity, timing, and resilience. The platform is designed around measured feedback:
+            observe, test, deploy, monitor, and improve.
+          </p>
+        </div>
+        <div class="system-map" aria-hidden="true">
+          <div class="node node--research">Research</div>
+          <div class="node node--data">Data</div>
+          <div class="node node--risk">Risk</div>
+          <div class="node node--execution">Execution</div>
+          <div class="system-map__line system-map__line--one"></div>
+          <div class="system-map__line system-map__line--two"></div>
+          <div class="system-map__line system-map__line--three"></div>
+        </div>
+      </section>
+
+      <section class="section markets-section" id="markets" aria-labelledby="markets-title">
+        <div class="section-heading section-heading--wide">
+          <h2 id="markets-title" data-markets-title></h2>
+          <p data-markets-body></p>
+        </div>
+        <div class="market-list" data-markets></div>
+      </section>
+
+      <section class="section culture-section" aria-labelledby="culture-title">
+        <div class="culture-section__main">
+          <h2 id="culture-title" data-culture-title></h2>
+          <p data-culture-body></p>
+        </div>
+        <ul class="culture-list" data-culture-points></ul>
+      </section>
+
+      <section class="section careers-section" id="careers" aria-labelledby="careers-title">
+        <div class="section-heading">
+          <h2 id="careers-title" data-careers-title></h2>
+        </div>
+        <div class="career-grid" data-careers></div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <h2 id="contact-title" data-contact-title></h2>
+          <p data-contact-body></p>
+        </div>
+        <div class="contact-links" data-contact-links></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark wordmark--footer" href="#top" aria-label="Jump Quantum home">
+        <span class="wordmark__jump">Jump</span>
+        <span class="wordmark__quantum">Quantum</span>
+      </a>
+      <nav aria-label="Footer navigation" data-footer-links></nav>
+      <p>© <span data-year></span> Jump Quantum. All rights reserved.</p>
+    </footer>
+
+    <script src="content.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
