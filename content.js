@@ -1,8 +1,8 @@
 window.SITE_CONTENT = {
   brand: {
-    name: "Jump Quantum",
+    name: "Jump Qutaris",
     first: "Jump",
-    second: "Quantum",
+    second: "Qutaris",
     description: "A global quantitative trading firm powered by technology, research, and exceptional people."
   },
   nav: [
@@ -14,12 +14,13 @@ window.SITE_CONTENT = {
   ],
   headerCta: { label: "Explore Careers", href: "careers.html" },
   assets: {
+    logo: "assets/jump-qutaris-logo.png",
     heroMarket: "assets/hero-market-structure.png",
     peopleFloor: "assets/people-trading-floor.png"
   },
   home: {
-    title: "Jump Quantum | Quantitative Trading",
-    meta: "Jump Quantum is an original multi-page quantitative trading and technology website.",
+    title: "Jump Qutaris | Quantitative Trading",
+    meta: "Jump Qutaris is an original multi-page quantitative trading and technology website.",
     hero: {
       label: "Quantitative trading. Technology at speed.",
       headline: "Build models. Engineer systems. Trade the future.",
@@ -77,7 +78,7 @@ window.SITE_CONTENT = {
       label: "Our People",
       title: "Curious minds. Built to solve.",
       body: "We hire exceptional people who thrive in a fast-paced, collaborative environment. You'll work on meaningful problems with the latest technology and the brightest minds in the industry.",
-      action: { label: "Life at Jump Quantum", href: "people.html" }
+      action: { label: "Life at Jump Qutaris", href: "people.html" }
     },
     join: {
       label: "Join Us",
@@ -111,8 +112,8 @@ window.SITE_CONTENT = {
   },
   pages: {
     trading: {
-      title: "Trading | Jump Quantum",
-      meta: "Learn how Jump Quantum combines research, execution, and risk management across global markets.",
+      title: "Trading | Jump Qutaris",
+      meta: "Learn how Jump Qutaris combines research, execution, and risk management across global markets.",
       hero: {
         label: "Trading",
         headline: "Liquidity, models, and execution working as one.",
@@ -173,8 +174,8 @@ window.SITE_CONTENT = {
       ]
     },
     technology: {
-      title: "Technology | Jump Quantum",
-      meta: "Explore the technology systems behind Jump Quantum research, data, execution, and risk.",
+      title: "Technology | Jump Qutaris",
+      meta: "Explore the technology systems behind Jump Qutaris research, data, execution, and risk.",
       hero: {
         label: "Technology",
         headline: "Infrastructure built for market speed.",
@@ -212,8 +213,8 @@ window.SITE_CONTENT = {
       ]
     },
     people: {
-      title: "People | Jump Quantum",
-      meta: "Meet the culture behind Jump Quantum: curious teams, shared accountability, and hard problems.",
+      title: "People | Jump Qutaris",
+      meta: "Meet the culture behind Jump Qutaris: curious teams, shared accountability, and hard problems.",
       hero: {
         label: "People",
         headline: "Curious minds. Clear feedback. Real ownership.",
@@ -245,22 +246,22 @@ window.SITE_CONTENT = {
         },
         {
           type: "callout",
-          label: "Life at Jump Quantum",
+          label: "Life at Jump Qutaris",
           title: "Fast-paced does not mean careless.",
           body: "We care about precision, honest communication, and the long-term resilience of both people and platforms."
         }
       ]
     },
     careers: {
-      title: "Careers | Jump Quantum",
-      meta: "Explore career paths at Jump Quantum across quantitative research, software engineering, and business operations.",
+      title: "Careers | Jump Qutaris",
+      meta: "Explore career paths at Jump Qutaris across quantitative research, software engineering, and business operations.",
       hero: {
         label: "Careers",
         headline: "Choose your path. Make an impact.",
         body: "Work with teams that combine research, engineering, and market intuition to solve complex problems.",
         actions: [
           { label: "View Paths", href: "#roles", style: "primary" },
-          { label: "Email Recruiting", href: "mailto:careers@jumpquantum.com", style: "secondary" }
+          { label: "Email Recruiting", href: "mailto:careers@jumpqutaris.com", style: "secondary" }
         ],
         image: "peopleFloor"
       },
@@ -277,21 +278,21 @@ window.SITE_CONTENT = {
               icon: "code",
               title: "Quantitative Research",
               text: "Apply mathematics, statistics, and machine learning to discover edge in the markets.",
-              action: { label: "Apply", href: "mailto:careers@jumpquantum.com?subject=Quantitative%20Research" }
+              action: { label: "Apply", href: "mailto:careers@jumpqutaris.com?subject=Quantitative%20Research" }
             },
             {
               id: "software-engineering",
               icon: "terminal",
               title: "Software Engineering",
               text: "Build high-performance systems that power our trading and research infrastructure.",
-              action: { label: "Apply", href: "mailto:careers@jumpquantum.com?subject=Software%20Engineering" }
+              action: { label: "Apply", href: "mailto:careers@jumpqutaris.com?subject=Software%20Engineering" }
             },
             {
               id: "business-operations",
               icon: "layers",
               title: "Business & Operations",
               text: "Drive the business through strategy, analytics, legal, finance, and operational excellence.",
-              action: { label: "Apply", href: "mailto:careers@jumpquantum.com?subject=Business%20and%20Operations" }
+              action: { label: "Apply", href: "mailto:careers@jumpqutaris.com?subject=Business%20and%20Operations" }
             }
           ]
         },
@@ -309,8 +310,8 @@ window.SITE_CONTENT = {
       ]
     },
     contact: {
-      title: "Contact | Jump Quantum",
-      meta: "Contact Jump Quantum for recruiting, partnerships, media, and general inquiries.",
+      title: "Contact | Jump Qutaris",
+      meta: "Contact Jump Qutaris for recruiting, partnerships, media, and general inquiries.",
       hero: {
         label: "Contact",
         headline: "Have a question? We'd love to hear from you.",
@@ -329,9 +330,9 @@ window.SITE_CONTENT = {
           title: "Tell us where to route your note.",
           body: "This demo form validates locally and opens a success state. Replace the destination later with your preferred form service.",
           contacts: [
-            { icon: "mail", title: "General", text: "info@jumpquantum.com", href: "mailto:info@jumpquantum.com" },
-            { icon: "briefcase", title: "Careers", text: "careers@jumpquantum.com", href: "mailto:careers@jumpquantum.com" },
-            { icon: "newspaper", title: "Media", text: "media@jumpquantum.com", href: "mailto:media@jumpquantum.com" }
+            { icon: "mail", title: "General", text: "info@jumpqutaris.com", href: "mailto:info@jumpqutaris.com" },
+            { icon: "briefcase", title: "Careers", text: "careers@jumpqutaris.com", href: "mailto:careers@jumpqutaris.com" },
+            { icon: "newspaper", title: "Media", text: "media@jumpqutaris.com", href: "mailto:media@jumpqutaris.com" }
           ]
         }
       ]
@@ -650,7 +651,7 @@ window.SITE_CONTENT = {
       { label: "LinkedIn", href: "https://www.linkedin.com/", icon: "linkedin" },
       { label: "X", href: "https://x.com/", icon: "twitter" },
       { label: "GitHub", href: "https://github.com/", icon: "github" },
-      { label: "Email", href: "mailto:info@jumpquantum.com", icon: "mail" }
+      { label: "Email", href: "mailto:info@jumpqutaris.com", icon: "mail" }
     ]
   }
 };

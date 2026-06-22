@@ -57,5 +57,5 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(port, host, () => {
-  console.log(`Jump Quantum website running on http://${host}:${port}`);
+  console.log(`Jump Qutaris website running on http://${host}:${port}`);
 });

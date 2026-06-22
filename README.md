@@ -1,6 +1,6 @@
-# Jump Quantum Website
+# Jump Qutaris Website
 
-This is an original multi-page static website for Jump Quantum. It is built with plain HTML, CSS, and JavaScript, so it can be hosted directly on GitHub Pages.
+This is an original multi-page static website for Jump Qutaris. It is built with plain HTML, CSS, and JavaScript, so it can be hosted directly on GitHub Pages.
 
 ## Pages
 
@@ -27,7 +27,7 @@ Update these common fields:
 - Subpage content: `pages.trading`, `pages.technology`, `pages.people`, `pages.careers`, `pages.contact`, `pages.privacy`, `pages.terms`, `pages.cookie`
 - Footer columns and social links: `footer`
 
-The header wordmark is editable HTML/CSS in `main.js` and `styles.css`. `Jump` is red and `Quantum` is black in the primary header.
+The header and footer logo use `assets/jump-qutaris-logo.png`. Logo sizing is controlled in `styles.css`.
 
 ## Preview Locally
 
@@ -65,8 +65,7 @@ The included `server.js` listens on `0.0.0.0:$PORT`, which is the port Railway p
 
 ## Assets
 
-- `assets/jump-quantum-logo-source.png`: original logo image provided by the owner.
-- `assets/jump-quantum-site-concept.png`: visual reference for the website direction.
+- `assets/jump-qutaris-logo.png`: current company logo used in the header and footer.
 - `assets/hero-market-structure.png`: extracted market visual used in hero sections.
 - `assets/people-trading-floor.png`: extracted office and trading floor visual.
-- `assets/favicon.png`, `assets/favicon-32.png`, `assets/apple-touch-icon.png`: browser tab and touch icons.
+- `assets/favicon.png`, `assets/favicon-32.png`, `assets/apple-touch-icon.png`: browser tab and touch icons generated from the current logo.

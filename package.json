@@ -1,8 +1,8 @@
 {
-  "name": "jump-quantum-website",
+  "name": "jump-qutaris-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Static multi-page website for Jump Quantum.",
+  "description": "Static multi-page website for Jump Qutaris.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

@@ -43,8 +43,7 @@ const sectionIntro = ({ label, title, body }, modifier = "", showBody = true) =>
 
 const renderWordmark = () => {
   const mark = `
-    <span class="wordmark__jump">${html(content.brand.first)}</span>
-    <span class="wordmark__quantum">${html(content.brand.second)}</span>
+    <img src="${html(asset("logo"))}" alt="${html(content.brand.name)}" />
   `;
 
   document.querySelectorAll("[data-wordmark]").forEach((element) => {
@@ -393,9 +392,8 @@ const renderFooter = () => {
   footer.innerHTML = `
     <div class="footer-inner">
       <div class="footer-brand">
-        <a class="wordmark wordmark--footer" href="index.html" aria-label="Jump Quantum home" data-wordmark-footer>
-          <span class="wordmark__jump">${html(content.brand.first)}</span>
-          <span class="wordmark__quantum">${html(content.brand.second)}</span>
+        <a class="wordmark wordmark--footer" href="index.html" aria-label="${html(content.brand.name)} home" data-wordmark-footer>
+          <img src="${html(asset("logo"))}" alt="${html(content.brand.name)}" />
         </a>
         <p>${html(content.brand.description)}</p>
         <div class="social-row">
@@ -446,7 +444,7 @@ const wireInteractions = () => {
       event.preventDefault();
       form.reset();
       form.querySelector("[data-form-status]").textContent =
-        "Thanks. Your message is ready for the Jump Quantum team once a form service is connected.";
+        "Thanks. Your message is ready for the Jump Qutaris team once a form service is connected.";
     });
   }
 
