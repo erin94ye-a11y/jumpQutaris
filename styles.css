@@ -407,7 +407,9 @@ p {
 }
 
 .hero-asset--photo {
+  align-items: stretch;
   border: 1px solid var(--line);
+  padding-top: 0;
 }
 
 .hero-asset--photo img {
