@@ -1,6 +1,13 @@
 const content = window.SITE_CONTENT;
 const pageKey = document.body.dataset.page || "home";
 const asset = (key) => content.assets[key] || key;
+const siteUrl = (content.site?.url || "https://jumpqutaris.com").replace(/\/$/, "");
+const routeForPage = (key = pageKey) => content.routes?.[key] || (key === "home" ? "/" : `/${key}`);
+const absoluteUrl = (value = "/") => {
+  if (/^https?:\/\//.test(value)) return value;
+  return `${siteUrl}${value.startsWith("/") ? value : `/${value}`}`;
+};
+const assetUrl = (key) => absoluteUrl(asset(key).replace(/^\/+/, ""));
 
 const html = (value = "") =>
   String(value)
@@ -47,6 +54,7 @@ const renderWordmark = () => {
   `;
 
   document.querySelectorAll("[data-wordmark]").forEach((element) => {
+    element.setAttribute("href", "/");
     element.innerHTML = mark;
   });
 };
@@ -69,10 +77,55 @@ const renderMeta = () => {
   const page = pageKey === "home" ? content.home : content.pages[pageKey];
   const title = page?.title || content.brand.name;
   const meta = page?.meta || content.brand.description;
+  const canonical = absoluteUrl(routeForPage());
+  const previewImage = assetUrl(page?.seoImage || page?.hero?.image || content.home.hero.image);
+  const setMeta = (selector, attr, value) => {
+    const element = document.querySelector(selector);
+    if (element) element.setAttribute(attr, value);
+  };
 
   document.title = title;
   document.querySelector("[data-page-title]").textContent = title;
   document.querySelector("[data-meta-description]").setAttribute("content", meta);
+  setMeta("[data-canonical]", "href", canonical);
+  setMeta("[data-og-title]", "content", title);
+  setMeta("[data-og-description]", "content", meta);
+  setMeta("[data-og-url]", "content", canonical);
+  setMeta("[data-og-image]", "content", previewImage);
+  setMeta("[data-twitter-title]", "content", title);
+  setMeta("[data-twitter-description]", "content", meta);
+  setMeta("[data-twitter-image]", "content", previewImage);
+
+  const structuredData = document.querySelector("[data-structured-data]");
+  if (structuredData) {
+    structuredData.textContent = JSON.stringify([
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        name: content.brand.name,
+        url: siteUrl,
+        logo: assetUrl("logo"),
+        description: content.brand.description,
+        contactPoint: {
+          "@type": "ContactPoint",
+          contactType: "Customer Support",
+          email: "Qutara@jumpqutaris.com"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: title,
+        description: meta,
+        url: canonical,
+        isPartOf: {
+          "@type": "WebSite",
+          name: content.brand.name,
+          url: siteUrl
+        }
+      }
+    ]);
+  }
 };
 
 const renderHome = () => {
@@ -386,7 +439,7 @@ const renderFooter = () => {
   footer.innerHTML = `
     <div class="footer-inner">
       <div class="footer-brand">
-        <a class="wordmark wordmark--footer" href="index.html" aria-label="${html(content.brand.name)} home" data-wordmark-footer>
+        <a class="wordmark wordmark--footer" href="/" aria-label="${html(content.brand.name)} home" data-wordmark-footer>
           <img src="${html(asset("footerLogo"))}" alt="${html(content.brand.name)}" />
         </a>
         <p>${html(content.brand.description)}</p>

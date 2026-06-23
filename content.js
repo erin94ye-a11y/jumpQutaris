@@ -5,12 +5,28 @@ window.SITE_CONTENT = {
     second: "Qutaris",
     description: "Qutara moves market work from manual analysis to AI-assisted intelligence and autonomous trading workflows."
   },
+  site: {
+    url: "https://jumpqutaris.com",
+    locale: "en_US"
+  },
+  routes: {
+    home: "/",
+    trading: "/company",
+    technology: "/technology",
+    research: "/research",
+    people: "/leadership",
+    careers: "/leadership",
+    contact: "/contact",
+    privacy: "/privacy-policy",
+    terms: "/terms-of-use",
+    cookie: "/cookie-policy"
+  },
   nav: [
-    { key: "trading", label: "Company", href: "trading.html" },
-    { key: "technology", label: "Technology", href: "technology.html" },
-    { key: "research", label: "Research", href: "research.html" },
-    { key: "people", label: "Leadership", href: "people.html" },
-    { key: "contact", label: "Contact", href: "contact.html" }
+    { key: "trading", label: "Company", href: "/company" },
+    { key: "technology", label: "Technology", href: "/technology" },
+    { key: "research", label: "Research", href: "/research" },
+    { key: "people", label: "Leadership", href: "/leadership" },
+    { key: "contact", label: "Contact", href: "/contact" }
   ],
   assets: {
     logo: "assets/jump-qutaris-logo.png",
@@ -26,7 +42,7 @@ window.SITE_CONTENT = {
   },
   home: {
     title: "Jump Qutaris | AI Financial Intelligence",
-    meta: "Jump Qutaris builds Qutara, an AI financial platform moving market work from manual analysis to autonomous trading workflows.",
+    meta: "Jump Qutaris develops Qutara, an AI-powered financial platform for market research, risk intelligence, quantitative analysis, and autonomous trading workflows.",
     hero: {
       label: "Qutara AI trading system.",
       headline: "From Analysis to Autonomous Trading.",
@@ -35,8 +51,8 @@ window.SITE_CONTENT = {
       imageStyle: "illustration",
       imageAlt: "Qutara AI financial intelligence core with signal and risk-control modules",
       actions: [
-        { label: "Explore Technology", href: "technology.html", style: "primary" },
-        { label: "Company Overview", href: "trading.html", style: "secondary" }
+        { label: "Explore Technology", href: "/technology", style: "primary" },
+        { label: "Company Overview", href: "/company", style: "secondary" }
       ],
       metrics: [
         { label: "Product", value: "Qutara" },
@@ -89,7 +105,7 @@ window.SITE_CONTENT = {
       body: "Our team brings together market structure, AI engineering, quantitative research, and global operations experience.",
       image: "teamWorkspace",
       imageAlt: "Bright AI finance operations workspace with market intelligence displays",
-      action: { label: "Meet Leadership", href: "people.html" }
+      action: { label: "Meet Leadership", href: "/leadership" }
     },
     join: {
       label: "Research Areas",
@@ -116,14 +132,14 @@ window.SITE_CONTENT = {
   pages: {
     trading: {
       title: "Company | Jump Qutaris",
-      meta: "Learn how Jump Qutaris builds Qutara to evolve market analysis from manual research to AI-assisted intelligence and automated trading workflows.",
+      meta: "Learn how Jump Qutaris builds Qutara to move financial analysis from human-led research to AI-assisted intelligence and autonomous quantitative trading.",
       hero: {
         label: "Company",
         headline: "From Human Research to AI Trading.",
         body: "Jump Qutaris was founded to develop Qutara — an AI-powered intelligent financial platform designed to transform the financial industry from traditional human-driven analysis to a new era of efficient, precise, and autonomous AI-powered quantitative trading.",
         actions: [
           { label: "Why We Exist", href: "#mission", style: "primary" },
-          { label: "Technology Platform", href: "technology.html", style: "secondary" }
+          { label: "Technology Platform", href: "/technology", style: "secondary" }
         ],
         image: "companyEvolution",
         imageStyle: "illustration",
@@ -181,14 +197,14 @@ window.SITE_CONTENT = {
     },
     technology: {
       title: "Technology | Jump Qutaris",
-      meta: "Explore Qutara technology for AI data collection, market analysis, agentic workflows, risk controls, and automated trading execution.",
+      meta: "Explore Qutara technology for AI data collection, market analysis, research agents, risk controls, and automated trading workflow logic.",
       hero: {
         label: "Technology",
         headline: "Qutara: AI for the Trading Workflow.",
         body: "Qutara connects data collection, market analysis, research agents, signal intelligence, risk controls, and automated trading logic.",
         actions: [
           { label: "Core Capabilities", href: "#capabilities", style: "primary" },
-          { label: "Research Lab", href: "research.html", style: "secondary" }
+          { label: "Research Lab", href: "/research", style: "secondary" }
         ],
         image: "technologyPlatform",
         imageStyle: "illustration",
@@ -237,14 +253,14 @@ window.SITE_CONTENT = {
     },
     people: {
       title: "Leadership | Jump Qutaris",
-      meta: "Meet the leadership team behind Jump Qutaris, including executive, technology, research, architecture, and global operations leaders.",
+      meta: "Meet the Jump Qutaris leadership team guiding financial AI strategy, technology, quantitative research, architecture, and global operations.",
       hero: {
         label: "Leadership",
         headline: "Led by Market Builders.",
         body: "Our leadership combines market structure, high-performance systems, quantitative research, AI engineering, and global operations.",
         actions: [
           { label: "Leadership Team", href: "#leadership", style: "primary" },
-          { label: "Research Center", href: "research.html", style: "secondary" }
+          { label: "Research Center", href: "/research", style: "secondary" }
         ],
         image: "leadershipStrategy",
         imageStyle: "photo",
@@ -318,14 +334,14 @@ window.SITE_CONTENT = {
     },
     research: {
       title: "Research | Jump Qutaris",
-      meta: "Explore Jump Qutaris research on financial AI, AI agents, market signal intelligence, risk controls, and autonomous trading workflows.",
+      meta: "Explore Jump Qutaris research in financial AI, AI agents, market signal intelligence, risk controls, and autonomous trading workflows.",
       hero: {
         label: "Research",
         headline: "Research for AI Trading.",
         body: "Our research studies how AI can collect data, analyze markets, generate signals, control risk, and support automated trading workflows.",
         actions: [
           { label: "Research Areas", href: "#research-areas", style: "primary" },
-          { label: "Technology Platform", href: "technology.html", style: "secondary" }
+          { label: "Technology Platform", href: "/technology", style: "secondary" }
         ],
         image: "researchLab",
         imageStyle: "illustration",
@@ -386,14 +402,14 @@ window.SITE_CONTENT = {
     },
     careers: {
       title: "Research | Jump Qutaris",
-      meta: "Explore Jump Qutaris research on financial AI, AI agents, market signal intelligence, risk controls, and autonomous trading workflows.",
+      meta: "Meet the Jump Qutaris leadership team and learn how the company builds Qutara for financial AI and autonomous trading workflows.",
       hero: {
         label: "Research",
         headline: "Research for AI Trading.",
         body: "Our research studies how AI can collect data, analyze markets, generate signals, control risk, and support automated trading workflows.",
         actions: [
           { label: "Research Areas", href: "#research-areas", style: "primary" },
-          { label: "Technology Platform", href: "technology.html", style: "secondary" }
+          { label: "Technology Platform", href: "/technology", style: "secondary" }
         ],
         image: "researchLab",
         imageStyle: "illustration",
@@ -498,14 +514,14 @@ window.SITE_CONTENT = {
     },
     contact: {
       title: "Contact | Jump Qutaris",
-      meta: "Contact Jump Qutaris for product inquiries, partnerships, media, and general business questions.",
+      meta: "Contact Jump Qutaris for Qutara product questions, partnership inquiries, media requests, and general business communication.",
       hero: {
         label: "Contact",
         headline: "Let's Talk Financial AI.",
         body: "Reach out for product questions, partnerships, media, or general business inquiries.",
         actions: [
           { label: "Send Message", href: "#contact-form", style: "primary" },
-          { label: "Technology Platform", href: "technology.html", style: "secondary" }
+          { label: "Technology Platform", href: "/technology", style: "secondary" }
         ],
         image: "contactNetwork",
         imageStyle: "illustration",
@@ -529,7 +545,7 @@ window.SITE_CONTENT = {
     },
     privacy: {
       title: "Privacy Policy | Jump Qutaris",
-      meta: "Privacy Policy for Jump Qutaris covering website data, cookies, privacy rights, retention, security, and contact information.",
+      meta: "Read the Jump Qutaris Privacy Policy for information about personal information, cookies, analytics, data retention, and privacy rights.",
       layout: "policy",
       sections: [
         {
@@ -643,7 +659,7 @@ window.SITE_CONTENT = {
     },
     terms: {
       title: "Terms of Use | Jump Qutaris",
-      meta: "Terms of Use for the Jump Qutaris website, including permitted use, ownership, disclaimers, liability limits, and contact information.",
+      meta: "Read the Jump Qutaris Terms of Use covering website access, intellectual property, disclaimers, limitations, and acceptable use.",
       layout: "policy",
       sections: [
         {
@@ -736,7 +752,7 @@ window.SITE_CONTENT = {
     },
     cookie: {
       title: "Cookie Policy | Jump Qutaris",
-      meta: "Cookie Policy for Jump Qutaris covering cookies, analytics, preferences, and browser controls.",
+      meta: "Read the Jump Qutaris Cookie Policy covering cookies, analytics, preference controls, browser choices, and related privacy information.",
       layout: "policy",
       sections: [
         {
@@ -813,28 +829,28 @@ window.SITE_CONTENT = {
       {
         title: "Company",
         links: [
-          { label: "Company", href: "trading.html" },
-          { label: "Technology", href: "technology.html" },
-          { label: "Research", href: "research.html" },
-          { label: "Leadership", href: "people.html" },
-          { label: "Contact", href: "contact.html" }
+          { label: "Company", href: "/company" },
+          { label: "Technology", href: "/technology" },
+          { label: "Research", href: "/research" },
+          { label: "Leadership", href: "/leadership" },
+          { label: "Contact", href: "/contact" }
         ]
       },
       {
         title: "Intelligence",
         links: [
-          { label: "AI Research Engine", href: "technology.html#capabilities" },
-          { label: "Financial LLMs", href: "research.html#financial-llms" },
-          { label: "AI Agents", href: "research.html#ai-agents" },
-          { label: "Risk Intelligence", href: "research.html#risk-intelligence" }
+          { label: "AI Research Engine", href: "/technology#capabilities" },
+          { label: "Financial LLMs", href: "/research#financial-llms" },
+          { label: "AI Agents", href: "/research#ai-agents" },
+          { label: "Risk Intelligence", href: "/research#risk-intelligence" }
         ]
       },
       {
         title: "Legal",
         links: [
-          { label: "Privacy Policy", href: "privacy-policy.html" },
-          { label: "Terms of Use", href: "terms-of-use.html" },
-          { label: "Cookie Policy", href: "cookie-policy.html" }
+          { label: "Privacy Policy", href: "/privacy-policy" },
+          { label: "Terms of Use", href: "/terms-of-use" },
+          { label: "Cookie Policy", href: "/cookie-policy" }
         ]
       }
     ]

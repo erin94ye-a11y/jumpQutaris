@@ -4,15 +4,17 @@ This is an original multi-page static website for Jump Qutaris. It is built with
 
 ## Pages
 
-- `index.html`: home page
-- `trading.html`: trading approach
-- `technology.html`: technology platform
-- `people.html`: people and culture
-- `careers.html`: careers
-- `contact.html`: contact form and email links
-- `privacy-policy.html`: privacy policy
-- `terms-of-use.html`: terms of use
-- `cookie-policy.html`: cookie policy
+- `/`: home page
+- `/company`: company overview
+- `/technology`: Qutara technology platform
+- `/research`: financial AI research
+- `/leadership`: leadership team
+- `/contact`: contact form and email links
+- `/privacy-policy`: privacy policy
+- `/terms-of-use`: terms of use
+- `/cookie-policy`: cookie policy
+
+The underlying `.html` files remain in the repository for static hosting compatibility. On Railway, `server.js` redirects public `.html` URLs to the clean URLs above.
 
 ## Edit Content
 
@@ -44,6 +46,13 @@ http://localhost:4173
 ```
 
 You can still use `python -m http.server 4173` for a quick static preview, but Railway uses the Node start command above.
+
+## SEO
+
+- `sitemap.xml` lists the clean public URLs for Google Search Console.
+- `robots.txt` allows crawlers and points them to the sitemap.
+- Each page includes a unique title, meta description, canonical URL, Open Graph tags, Twitter tags, and basic structured data.
+- After deployment, submit `https://jumpqutaris.com/sitemap.xml` in Google Search Console.
 
 ## Deploy On Railway
 

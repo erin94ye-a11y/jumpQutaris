@@ -11,7 +11,9 @@ const mimeTypes = {
   ".css": "text/css; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
+  ".xml": "application/xml; charset=utf-8",
   ".png": "image/png",
+  ".webp": "image/webp",
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
   ".svg": "image/svg+xml",
@@ -19,12 +21,55 @@ const mimeTypes = {
   ".txt": "text/plain; charset=utf-8"
 };
 
-const resolveFile = (urlPath) => {
-  const decodedPath = decodeURIComponent(urlPath.split("?")[0]);
-  const cleanPath = decodedPath === "/" ? "/index.html" : decodedPath;
-  const resolved = path.normalize(path.join(root, cleanPath));
+const publicRoutes = {
+  "/": "/index.html",
+  "/company": "/trading.html",
+  "/technology": "/technology.html",
+  "/research": "/research.html",
+  "/leadership": "/people.html",
+  "/contact": "/contact.html",
+  "/privacy-policy": "/privacy-policy.html",
+  "/terms-of-use": "/terms-of-use.html",
+  "/cookie-policy": "/cookie-policy.html"
+};
 
-  if (!resolved.startsWith(root)) {
+const htmlRedirects = {
+  "/index.html": "/",
+  "/trading": "/company",
+  "/trading.html": "/company",
+  "/technology.html": "/technology",
+  "/research.html": "/research",
+  "/people": "/leadership",
+  "/people.html": "/leadership",
+  "/careers": "/leadership",
+  "/careers.html": "/leadership",
+  "/contact.html": "/contact",
+  "/privacy-policy.html": "/privacy-policy",
+  "/terms-of-use.html": "/terms-of-use",
+  "/cookie-policy.html": "/cookie-policy"
+};
+
+const redirect = (response, location) => {
+  response.writeHead(301, {
+    Location: location,
+    "Cache-Control": "no-cache, max-age=0"
+  });
+  response.end();
+};
+
+const parseRequestPath = (urlPath) => {
+  const parsed = new URL(urlPath || "/", "http://localhost");
+  return {
+    pathname: decodeURIComponent(parsed.pathname),
+    search: parsed.search
+  };
+};
+
+const resolveFile = (pathname) => {
+  const routeFile = publicRoutes[pathname] || pathname;
+  const resolved = path.normalize(path.join(root, routeFile));
+
+  if (resolved !== root && !resolved.startsWith(root + path.sep)) {
     return null;
   }
 
@@ -32,7 +77,19 @@ const resolveFile = (urlPath) => {
 };
 
 const server = http.createServer((request, response) => {
-  const requestedFile = resolveFile(request.url || "/");
+  const { pathname, search } = parseRequestPath(request.url || "/");
+
+  if (pathname.length > 1 && pathname.endsWith("/")) {
+    redirect(response, `${pathname.slice(0, -1)}${search}`);
+    return;
+  }
+
+  if (htmlRedirects[pathname]) {
+    redirect(response, `${htmlRedirects[pathname]}${search}`);
+    return;
+  }
+
+  const requestedFile = resolveFile(pathname);
 
   if (!requestedFile) {
     response.writeHead(403, { "Content-Type": "text/plain; charset=utf-8" });
