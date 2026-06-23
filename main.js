@@ -78,6 +78,7 @@ const renderMeta = () => {
 const renderHome = () => {
   const page = content.home;
   const main = document.querySelector("[data-render-page]");
+  const heroImageStyle = page.hero.imageStyle || "illustration";
 
   main.innerHTML = `
     <section class="hero-layout home-hero" aria-labelledby="home-title">
@@ -99,8 +100,8 @@ const renderHome = () => {
             .join("")}
         </div>
       </div>
-      <div class="hero-asset hero-asset--market">
-        <img src="${html(asset("heroMarket"))}" alt="Abstract market data and candlestick structure" />
+      <div class="hero-asset hero-asset--${html(heroImageStyle)}">
+        <img src="${html(asset(page.hero.image || "homeHero"))}" alt="${html(page.hero.imageAlt || "Abstract market intelligence visual")}" />
       </div>
       <div class="scroll-cue" aria-hidden="true"><span>Scroll to discover</span><i></i></div>
     </section>
@@ -135,7 +136,7 @@ const renderHome = () => {
           ${icon("arrow-right")}
         </a>
       </div>
-      <img class="wide-photo" src="${html(asset("peopleFloor"))}" alt="Modern trading floor with market displays" />
+      <img class="wide-photo" src="${html(asset(page.people.image || "teamWorkspace"))}" alt="${html(page.people.imageAlt || "Modern trading floor with market displays")}" />
     </section>
 
     <section class="section join-section">
@@ -180,19 +181,22 @@ const renderRoleCard = (item) => `
   </article>
 `;
 
-const renderSubpageHero = (page) => `
-  <section class="hero-layout subpage-hero" aria-labelledby="${html(pageKey)}-title">
-    <div class="hero-copy">
-      <p class="section-label">${html(page.hero.label)}</p>
-      <h1 id="${html(pageKey)}-title">${headline(page.hero.headline)}</h1>
-      <p class="hero-body">${html(page.hero.body)}</p>
-      <div class="action-row">${page.hero.actions.map((action) => actionLink(action)).join("")}</div>
-    </div>
-    <div class="hero-asset ${page.hero.image === "peopleFloor" ? "hero-asset--photo" : "hero-asset--market"}">
-      <img src="${html(asset(page.hero.image))}" alt="" />
-    </div>
-  </section>
-`;
+const renderSubpageHero = (page) => {
+  const imageStyle = page.hero.imageStyle || "illustration";
+  return `
+    <section class="hero-layout subpage-hero" aria-labelledby="${html(pageKey)}-title">
+      <div class="hero-copy">
+        <p class="section-label">${html(page.hero.label)}</p>
+        <h1 id="${html(pageKey)}-title">${headline(page.hero.headline)}</h1>
+        <p class="hero-body">${html(page.hero.body)}</p>
+        <div class="action-row">${page.hero.actions.map((action) => actionLink(action)).join("")}</div>
+      </div>
+      <div class="hero-asset hero-asset--${html(imageStyle)}">
+        <img src="${html(asset(page.hero.image))}" alt="${html(page.hero.imageAlt || "")}" />
+      </div>
+    </section>
+  `;
+};
 
 const renderFeatureGrid = (section) => `
   <section class="section" ${section.id ? `id="${html(section.id)}"` : ""}>
@@ -248,6 +252,7 @@ const renderSystemSection = (section) => `
       <p>${html(section.body)}</p>
     </div>
     <div class="system-map" aria-hidden="true">
+      <span class="system-core">Qutara</span>
       <span class="system-node system-node--research">News</span>
       <span class="system-node system-node--data">Data</span>
       <span class="system-node system-node--risk">Risk</span>
@@ -262,7 +267,7 @@ const renderPhotoSplit = (section) => `
       ${sectionIntro(section, "", false)}
       <p>${html(section.body)}</p>
     </div>
-    <img class="wide-photo" src="${html(asset(section.image))}" alt="Modern trading workspace" />
+    <img class="wide-photo" src="${html(asset(section.image))}" alt="${html(section.imageAlt || "Modern trading workspace")}" />
   </section>
 `;
 

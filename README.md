@@ -67,6 +67,11 @@ The included `server.js` listens on `0.0.0.0:$PORT`, which is the port Railway p
 
 - `assets/jump-qutaris-logo.png`: transparent company logo used in the header.
 - `assets/jump-qutaris-logo-footer.png`: transparent footer logo with light Qutaris text for the black footer.
-- `assets/hero-market-structure.png`: extracted market visual used in hero sections.
-- `assets/people-trading-floor.png`: extracted office and trading floor visual.
+- `assets/qutara-home-hero.webp`: homepage Qutara AI intelligence core visual.
+- `assets/qutara-company-evolution.webp`: company page visual for the shift from human research to AI trading.
+- `assets/qutara-technology-platform.webp`: technology page Qutara platform architecture visual.
+- `assets/qutara-leadership-strategy.webp`: leadership page strategy room visual.
+- `assets/qutara-research-lab.webp`: research page AI financial research visual.
+- `assets/qutara-team-workspace.webp`: team and operations workspace visual.
+- `assets/qutara-contact-network.webp`: contact page client connection network visual.
 - `assets/favicon.png`, `assets/favicon-32.png`, `assets/apple-touch-icon.png`: browser tab and touch icons generated from the current logo.

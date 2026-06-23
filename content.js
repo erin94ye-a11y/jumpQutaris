@@ -15,8 +15,13 @@ window.SITE_CONTENT = {
   assets: {
     logo: "assets/jump-qutaris-logo.png",
     footerLogo: "assets/jump-qutaris-logo-footer.png",
-    heroMarket: "assets/hero-market-structure.png",
-    peopleFloor: "assets/people-trading-floor.png"
+    homeHero: "assets/qutara-home-hero.webp",
+    companyEvolution: "assets/qutara-company-evolution.webp",
+    technologyPlatform: "assets/qutara-technology-platform.webp",
+    leadershipStrategy: "assets/qutara-leadership-strategy.webp",
+    researchLab: "assets/qutara-research-lab.webp",
+    teamWorkspace: "assets/qutara-team-workspace.webp",
+    contactNetwork: "assets/qutara-contact-network.webp"
   },
   home: {
     title: "Jump Qutaris | AI Financial Intelligence",
@@ -25,6 +30,9 @@ window.SITE_CONTENT = {
       label: "Qutara AI trading system.",
       headline: "From Analysis to Autonomous Trading.",
       body: "Jump Qutaris develops Qutara, an AI financial platform that evolves market work from human-led analysis to AI-assisted research and risk-aware autonomous trading workflows.",
+      image: "homeHero",
+      imageStyle: "illustration",
+      imageAlt: "Qutara AI financial intelligence core with signal and risk-control modules",
       actions: [
         { label: "Explore Technology", href: "technology.html", style: "primary" },
         { label: "Company Overview", href: "trading.html", style: "secondary" }
@@ -78,6 +86,8 @@ window.SITE_CONTENT = {
       label: "Leadership",
       title: "Leadership built for AI finance.",
       body: "Our team brings together market structure, AI engineering, quantitative research, and global operations experience.",
+      image: "teamWorkspace",
+      imageAlt: "Bright AI finance operations workspace with market intelligence displays",
       action: { label: "Meet Leadership", href: "people.html" }
     },
     join: {
@@ -114,7 +124,9 @@ window.SITE_CONTENT = {
           { label: "Why We Exist", href: "#mission", style: "primary" },
           { label: "Technology Platform", href: "technology.html", style: "secondary" }
         ],
-        image: "heroMarket"
+        image: "companyEvolution",
+        imageStyle: "illustration",
+        imageAlt: "Human market research transforming into AI-powered trading signals"
       },
       sections: [
         {
@@ -177,7 +189,9 @@ window.SITE_CONTENT = {
           { label: "Core Capabilities", href: "#capabilities", style: "primary" },
           { label: "Research Lab", href: "research.html", style: "secondary" }
         ],
-        image: "heroMarket"
+        image: "technologyPlatform",
+        imageStyle: "illustration",
+        imageAlt: "Qutara platform architecture with data, AI analysis, signal, risk, and execution modules"
       },
       sections: [
         {
@@ -229,7 +243,9 @@ window.SITE_CONTENT = {
           { label: "Leadership Team", href: "#leadership", style: "primary" },
           { label: "Research Center", href: "research.html", style: "secondary" }
         ],
-        image: "peopleFloor"
+        image: "leadershipStrategy",
+        imageStyle: "photo",
+        imageAlt: "Executive strategy room with market intelligence displays"
       },
       sections: [
         {
@@ -286,7 +302,8 @@ window.SITE_CONTENT = {
           label: "Our Team",
           title: "Built by researchers, engineers, and operators.",
           body: "The broader team works across AI, data science, quantitative research, software engineering, and fintech systems.",
-          image: "peopleFloor"
+          image: "teamWorkspace",
+          imageAlt: "Collaborative AI finance operations workspace"
         },
         {
           type: "callout",
@@ -307,7 +324,9 @@ window.SITE_CONTENT = {
           { label: "Research Areas", href: "#research-areas", style: "primary" },
           { label: "Technology Platform", href: "technology.html", style: "secondary" }
         ],
-        image: "peopleFloor"
+        image: "researchLab",
+        imageStyle: "illustration",
+        imageAlt: "AI financial research workspace with model diagrams and market data"
       },
       sections: [
         {
@@ -373,7 +392,9 @@ window.SITE_CONTENT = {
           { label: "Research Areas", href: "#research-areas", style: "primary" },
           { label: "Technology Platform", href: "technology.html", style: "secondary" }
         ],
-        image: "peopleFloor"
+        image: "researchLab",
+        imageStyle: "illustration",
+        imageAlt: "AI financial research workspace with model diagrams and market data"
       },
       sections: [
         {
@@ -483,7 +504,9 @@ window.SITE_CONTENT = {
           { label: "Send Message", href: "#contact-form", style: "primary" },
           { label: "Technology Platform", href: "technology.html", style: "secondary" }
         ],
-        image: "heroMarket"
+        image: "contactNetwork",
+        imageStyle: "illustration",
+        imageAlt: "Global financial AI communication network with secure routing nodes"
       },
       sections: [
         {
