@@ -251,12 +251,8 @@ const renderSystemSection = (section) => `
       ${sectionIntro(section, "", false)}
       <p>${html(section.body)}</p>
     </div>
-    <div class="system-map" aria-hidden="true">
-      <span class="system-core">Qutara</span>
-      <span class="system-node system-node--research">News</span>
-      <span class="system-node system-node--data">Data</span>
-      <span class="system-node system-node--risk">Risk</span>
-      <span class="system-node system-node--execution">Insight</span>
+    <div class="system-map system-map--image">
+      <img src="${html(asset(section.image || "technologyLoop"))}" alt="${html(section.imageAlt || "Qutara AI intelligence loop")}" />
     </div>
   </section>
 `;

@@ -750,6 +750,26 @@ p {
   position: relative;
 }
 
+.system-map--image {
+  align-items: center;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.system-map--image::before,
+.system-map--image::after {
+  content: none;
+}
+
+.system-map--image img {
+  aspect-ratio: 2 / 1;
+  display: block;
+  object-fit: contain;
+  width: 100%;
+}
+
 .system-map::before,
 .system-map::after {
   background: var(--red);
@@ -769,6 +789,11 @@ p {
   top: 60%;
   transform: rotate(18deg);
   width: 46%;
+}
+
+.system-map.system-map--image::before,
+.system-map.system-map--image::after {
+  content: none;
 }
 
 .system-node {

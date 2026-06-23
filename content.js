@@ -18,6 +18,7 @@ window.SITE_CONTENT = {
     homeHero: "assets/qutara-home-hero.webp",
     companyEvolution: "assets/qutara-company-evolution.webp",
     technologyPlatform: "assets/qutara-technology-platform.webp",
+    technologyLoop: "assets/qutara-technology-loop-v2.png",
     leadershipStrategy: "assets/qutara-leadership-strategy.webp",
     researchLab: "assets/qutara-research-lab.webp",
     teamWorkspace: "assets/qutara-team-workspace.webp",
@@ -210,7 +211,9 @@ window.SITE_CONTENT = {
           type: "system",
           label: "Qutara Intelligence Loop",
           title: "Data in. Signals out. Risk monitored.",
-          body: "Qutara links market data, AI research, signal generation, risk intelligence, and trading workflow automation into one operating loop."
+          body: "Qutara links market data, AI research, signal generation, risk intelligence, and trading workflow automation into one operating loop.",
+          image: "technologyLoop",
+          imageAlt: "Qutara AI intelligence loop connecting data, risk, signal, and market modules"
         },
         {
           type: "feature-grid",
