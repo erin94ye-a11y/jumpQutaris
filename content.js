@@ -515,8 +515,9 @@ window.SITE_CONTENT = {
           label: "Let's Connect",
           title: "Send the right question to the right team.",
           body: "Share a brief note and we will route it to the right contact.",
+          recipient: "Qutara@jumpqutaris.com",
           contacts: [
-            { icon: "mail", title: "General", text: "info@jumpqutaris.com", href: "mailto:info@jumpqutaris.com" },
+            { icon: "mail", title: "General", text: "Qutara@jumpqutaris.com", href: "mailto:Qutara@jumpqutaris.com" },
             { icon: "boxes", title: "Product", text: "product@jumpqutaris.com", href: "mailto:product@jumpqutaris.com" },
             { icon: "handshake", title: "Partnerships", text: "partners@jumpqutaris.com", href: "mailto:partners@jumpqutaris.com" }
           ]

@@ -309,7 +309,7 @@ const renderContactSection = (section) => `
           .join("")}
       </div>
     </div>
-    <form class="contact-form" data-contact-form>
+    <form class="contact-form" data-contact-form data-contact-recipient="${html(section.recipient || section.contacts[0]?.text || "")}">
       <label for="contact-name">
         <span>Name</span>
         <input id="contact-name" name="name" type="text" autocomplete="name" required />
@@ -417,6 +417,27 @@ const wireInteractions = () => {
   const toggle = document.querySelector("[data-menu-toggle]");
   const panel = document.querySelector("[data-mobile-panel]");
   const form = document.querySelector("[data-contact-form]");
+  const buildContactMailto = () => {
+    const fieldValue = (name) => form.querySelector(`[name="${name}"]`)?.value.trim() || "";
+    const recipient = form.dataset.contactRecipient || "Qutara@jumpqutaris.com";
+    const name = fieldValue("name");
+    const email = fieldValue("email");
+    const topic = fieldValue("topic");
+    const message = fieldValue("message");
+    const subject = `Jump Qutaris Contact - ${topic || "General Inquiry"}`;
+    const body = [
+      "Hello Jump Qutaris team,",
+      "",
+      message,
+      "",
+      "---",
+      `Name: ${name}`,
+      `Email: ${email}`,
+      `Topic: ${topic || "General Inquiry"}`
+    ].join("\n");
+
+    return `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  };
 
   const closeMenu = () => {
     toggle.setAttribute("aria-expanded", "false");
@@ -437,9 +458,9 @@ const wireInteractions = () => {
   if (form) {
     form.addEventListener("submit", (event) => {
       event.preventDefault();
-      form.reset();
       form.querySelector("[data-form-status]").textContent =
-        "Thanks. Your message is ready for the Jump Qutaris team once a form service is connected.";
+        "Opening your email app with a prepared message to Qutara@jumpqutaris.com. Please click send to deliver it.";
+      window.location.href = buildContactMailto();
     });
   }
 

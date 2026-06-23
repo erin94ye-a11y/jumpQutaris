@@ -25,6 +25,6 @@
 
 **Follow-up Polish**
 - P3: replace placeholder legal links with real policy pages when those documents exist.
-- P3: connect the contact form to a live form service when the preferred backend is chosen.
+- P3: contact form now opens the visitor's default email client through `mailto:`; replace with a live backend service only if automatic server-side sending is needed later.
 
 final result: passed
