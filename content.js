@@ -18,7 +18,7 @@ window.SITE_CONTENT = {
     homeHero: "assets/qutara-home-hero.webp",
     companyEvolution: "assets/qutara-company-evolution.webp",
     technologyPlatform: "assets/qutara-technology-platform.webp",
-    technologyLoop: "assets/qutara-technology-loop-v2.png",
+    technologyLoop: "assets/qutara-technology-loop-v3.png",
     leadershipStrategy: "assets/qutara-leadership-strategy.webp",
     researchLab: "assets/qutara-research-lab.webp",
     teamWorkspace: "assets/qutara-team-workspace.webp",

@@ -752,10 +752,16 @@ p {
 
 .system-map--image {
   align-items: center;
+  aspect-ratio: 1672 / 941;
   background: #ffffff;
   display: flex;
   justify-content: center;
+  min-height: 0;
   overflow: hidden;
+}
+
+.system-map.system-map--image {
+  min-height: 0;
 }
 
 .system-map--image::before,
@@ -764,8 +770,8 @@ p {
 }
 
 .system-map--image img {
-  aspect-ratio: 2 / 1;
   display: block;
+  height: 100%;
   object-fit: contain;
   width: 100%;
 }
