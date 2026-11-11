@@ -865,10 +865,11 @@ window.SITE_CONTENT = {
               ]
             },
             {
-              title: "No government endorsement",
+              title: "Regulatory Filings and Registration",
               body: [
-                "A corporate filing, certificate of good standing, SEC filing, or FinCEN MSB registration does not by itself mean that a government agency recommends, approves, guarantees, or endorses Jump Qutaris Ltd, Qutara, or any financial result.",
-                "Users should verify the legal entity, scope of service, and applicable regulatory requirements independently before relying on any financial technology product."
+                "Jump Qutaris Ltd and Qutara operate with reference to applicable international financial regulatory standards. The relevant entity has completed applicable filings with the U.S. Securities and Exchange Commission (SEC) and is registered as a Money Services Business (MSB) with the Financial Crimes Enforcement Network (FinCEN).",
+                "These filings and registrations are intended to support lawful and compliant operations. They do not constitute government approval, endorsement, or a guarantee of any specific investment product, service, or financial return.",
+                "Before using any financial technology service, please consider the laws and regulations applicable in your jurisdiction and make an independent decision based on your own circumstances and risk tolerance."
               ]
             },
             {
