@@ -1,8 +1,15 @@
 .superpowers/
 .worktrees/
+.tmp_qutara/
 .DS_Store
 Thumbs.db
 node_modules/
 dist/
 coverage/
 *.log
+visitor-check/data/
+visitor-check/.env
+visitor-check/.qa/
+visitor-check/releases/
+qutara/data/
+.env

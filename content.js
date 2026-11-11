@@ -3,7 +3,7 @@ window.SITE_CONTENT = {
     name: "Jump Qutaris",
     first: "Jump",
     second: "Qutaris",
-    description: "Qutara moves market work from manual analysis to AI-assisted intelligence and autonomous trading workflows."
+    description: "Jump Qutaris develops Qutara, software for market analysis, signals, and entertainment-only virtual trading. Funds, orders, positions, and returns in the platform are simulated."
   },
   site: {
     url: "https://jumpqutaris.com",
@@ -19,14 +19,17 @@ window.SITE_CONTENT = {
     contact: "/contact",
     privacy: "/privacy-policy",
     terms: "/terms-of-use",
-    cookie: "/cookie-policy"
+    cookie: "/cookie-policy",
+    fraud: "/fraud-alert",
+    compliance: "/legal-compliance"
   },
   nav: [
-    { key: "trading", label: "Company", href: "/company" },
-    { key: "technology", label: "Technology", href: "/technology" },
-    { key: "research", label: "Research", href: "/research" },
-    { key: "people", label: "Leadership", href: "/leadership" },
-    { key: "contact", label: "Contact", href: "/contact" }
+    { key: "dashboard", label: "Dashboard", href: "/dashboard" },
+    { key: "qutara", label: "Qutara", href: "/qutara" },
+    { key: "virtual-trading", label: "Virtual Trading", href: "/virtual-trading" },
+    { key: "market-data", label: "Market Data", href: "/market-data" },
+    { key: "leaderboard", label: "Leaderboard", href: "/leaderboard" },
+    { key: "reports", label: "Reports", href: "/reports" }
   ],
   assets: {
     logo: "assets/jump-qutaris-logo.png",
@@ -41,62 +44,62 @@ window.SITE_CONTENT = {
     contactNetwork: "assets/qutara-contact-network.webp"
   },
   home: {
-    title: "Jump Qutaris | AI Financial Intelligence",
-    meta: "Jump Qutaris develops Qutara, an AI-powered financial platform for market research, risk intelligence, quantitative analysis, and autonomous trading workflows.",
+    title: "Jump Qutaris | Qutara Virtual Trading",
+    meta: "Explore Qutara, Jump Qutaris software for stock and crypto analysis, signals, and entertainment-only virtual trading with simulated funds.",
     hero: {
-      label: "Qutara AI trading system.",
-      headline: "From Analysis to Autonomous Trading.",
-      body: "Jump Qutaris develops Qutara, an AI financial platform that evolves market work from human-led analysis to AI-assisted research and risk-aware autonomous trading workflows.",
+      label: "Qutara AI. Virtual trading.",
+      headline: "One Qutara. From Analysis to Virtual Trading.",
+      body: "Qutara is software for stock and crypto analysis, signals, and virtual trades. Explore markets for entertainment with simulated funds, orders, positions, and returns.",
       image: "homeHero",
       imageStyle: "illustration",
       imageAlt: "Qutara AI financial intelligence core with signal and risk-control modules",
       actions: [
-        { label: "Explore Technology", href: "/technology", style: "primary" },
-        { label: "Company Overview", href: "/company", style: "secondary" }
+        { label: "Start Qutara", href: "/qutara", style: "primary" },
+        { label: "View Dashboard", href: "/dashboard", style: "secondary" }
       ],
       metrics: [
         { label: "Product", value: "Qutara" },
-        { label: "Path", value: "Human + AI" },
-        { label: "Goal", value: "Autonomous" },
-        { label: "Control", value: "Risk Aware" }
+        { label: "Markets", value: "Stocks + Crypto" },
+        { label: "Mode", value: "Virtual" },
+        { label: "Funds", value: "Simulated" }
       ]
     },
     approach: {
       label: "Why Jump Qutaris",
-      title: "The next step after human analysis.",
-      body: "Markets generate more information than people can process manually. Qutara is designed to collect signals, analyze context, and support automated trading workflows.",
+      title: "One engine for your market workflow.",
+      body: "Choose a stock or crypto market, ask Qutara for analysis, and explore its signals in a virtual portfolio. Qutara connects each step in the same workspace.",
       items: [
         {
           icon: "history",
-          title: "Manual Analysis",
-          text: "Traditional teams spend time finding data, reading markets, and forming views by hand."
+          title: "Choose a Market",
+          text: "Browse stocks and cryptocurrencies as market instruments for analysis and virtual trading."
         },
         {
           icon: "brain",
-          title: "AI-Assisted Research",
-          text: "AI helps collect information, summarize context, detect patterns, and reduce research friction."
+          title: "Qutara Analysis",
+          text: "Qutara reviews market context, explains patterns, and brings the reasoning into one conversation."
         },
         {
           icon: "network",
-          title: "Agentic Workflows",
-          text: "Research agents can monitor signals, update analysis, and connect market events across assets."
+          title: "Signal Monitoring",
+          text: "Qutara connects analysis to buy, sell, or hold signals with visible reasoning and risk settings."
         },
         {
           icon: "bar-chart-3",
-          title: "Autonomous Trading",
-          text: "The long-term direction is AI-supported trading execution with clear risk controls."
+          title: "Virtual Trading",
+          text: "Qutara can automate simulated trades within your chosen risk parameters. All execution is virtual."
         }
       ]
     },
     markets: {
-      label: "Product Direction",
-      title: "Collect. Analyze. Execute.",
-      body: "Qutara follows a clear path: AI-assisted data collection, AI market analysis, signal generation, and autonomous trading workflow automation.",
+      label: "The Qutara Workflow",
+      title: "Analyze. Simulate. Review.",
+      body: "Qutara brings market data, AI analysis, signals, and virtual execution into one loop. Review simulated outcomes in your portfolio and reports.",
       items: [
-        { icon: "database", title: "Data Collection", text: "Gather market data, news, filings, macro signals, and cross-asset information." },
-        { icon: "brain", title: "AI Analysis", text: "Use models to interpret data, detect structure, and generate research context." },
-        { icon: "radar", title: "Trading Signals", text: "Transform research outputs into monitored signals and decision frameworks." },
-        { icon: "shield-alert", title: "Risk-Controlled Execution", text: "Move toward autonomous trading workflows with risk checks and monitoring." }
+        { icon: "database", title: "Data Collection", text: "Explore stock and crypto prices with the source and update status visible in Market Data." },
+        { icon: "brain", title: "AI Analysis", text: "Ask Qutara to interpret market context and explain the factors behind its analysis." },
+        { icon: "radar", title: "Trading Signals", text: "Review the direction, reasoning, and risk context of signals generated by Qutara." },
+        { icon: "shield-alert", title: "Virtual Execution", text: "Apply risk parameters to simulated orders and inspect virtual positions and returns." }
       ]
     },
     people: {
@@ -109,22 +112,22 @@ window.SITE_CONTENT = {
     },
     join: {
       label: "Research Areas",
-      title: "The Qutara roadmap.",
+      title: "Built around one Qutara.",
       items: [
         {
           icon: "message-square-code",
           title: "Financial LLMs",
-          text: "Models that read financial documents, news, macro events, and market narratives."
+          text: "Research into how Qutara interprets financial documents, news, and market language."
         },
         {
-          icon: "bot",
-          title: "Research Agents",
-          text: "Agents that collect data, refresh analysis, and support repeatable market workflows."
+          icon: "brain",
+          title: "Qutara Analysis",
+          text: "One Qutara engine connects market analysis, signal generation, and virtual trading."
         },
         {
           icon: "radar",
-          title: "Automated Trading Systems",
-          text: "A path toward AI-generated signals, risk controls, and autonomous execution logic."
+          title: "Virtual Trading Automation",
+          text: "Explore how risk settings shape simulated orders, positions, and portfolio outcomes."
         }
       ]
     }
@@ -132,11 +135,11 @@ window.SITE_CONTENT = {
   pages: {
     trading: {
       title: "Company | Jump Qutaris",
-      meta: "Learn how Jump Qutaris builds Qutara to move financial analysis from human-led research to AI-assisted intelligence and autonomous quantitative trading.",
+      meta: "Learn how Jump Qutaris builds Qutara software for stock and crypto analysis, signals, and entertainment-only virtual trading.",
       hero: {
         label: "Company",
-        headline: "From Human Research to AI Trading.",
-        body: "Jump Qutaris was founded to develop Qutara — an AI-powered intelligent financial platform designed to transform the financial industry from traditional human-driven analysis to a new era of efficient, precise, and autonomous AI-powered quantitative trading.",
+        headline: "One Engine. A Complete Virtual Workflow.",
+        body: "Jump Qutaris develops Qutara software for stock and crypto analysis, signals, and virtual trades. The platform is an entertainment-only simulation: all funds, orders, positions, and returns are virtual.",
         actions: [
           { label: "Why We Exist", href: "#mission", style: "primary" },
           { label: "Technology Platform", href: "/technology", style: "secondary" }
@@ -150,84 +153,84 @@ window.SITE_CONTENT = {
           type: "feature-grid",
           id: "mission",
           label: "Why We Exist",
-          title: "Human analysis is no longer enough.",
-          body: "Market teams face more data, faster events, and more complex risk. Qutara is designed to make AI part of the full trading workflow.",
+          title: "Make market exploration easier to follow.",
+          body: "Qutara brings stock and crypto exploration into one workflow for analysis, signals, simulated execution, and review.",
           items: [
             { icon: "database", title: "Data Burden", text: "News, filings, prices, macro data, policy, and sentiment now move faster than manual review." },
             { icon: "brain", title: "AI Assistance", text: "Qutara helps collect data, read context, compare signals, and support human judgment." },
-            { icon: "cpu", title: "Autonomous Direction", text: "The product roadmap moves from assistance to agents, signals, controls, and trading automation." }
+            { icon: "cpu", title: "Virtual Trading", text: "Qutara carries analysis into simulated trades with configurable risk parameters and a visible activity record." }
           ]
         },
         {
           type: "market-grid",
           id: "timeline",
-          label: "Company Timeline",
-          title: "From market technology to autonomous AI workflows.",
-          body: "Our direction follows the same larger AI shift: from simple tools, to intelligent assistants, to agents that can complete complex workflows.",
+          label: "Product Workflow",
+          title: "From market data to virtual outcomes.",
+          body: "One Qutara engine connects four stages, from choosing a market to reviewing a virtual portfolio.",
           items: [
             {
-              title: "1999 - Market Technology Roots",
-              detail: "The modern market era began with electronic execution, global venue connectivity, and automated systems.",
-              points: ["Electronic market infrastructure", "Global venue connectivity", "Technology-led market competition"]
+              title: "01 - Market Data",
+              detail: "Start with a stock or cryptocurrency and inspect the available market data.",
+              points: ["Stock markets", "Crypto markets", "Visible data status"]
             },
             {
-              title: "2020 - AI Research Initiative",
-              detail: "AI began moving financial work beyond manual analysis toward machine-assisted research and monitoring.",
-              points: ["Machine learning research", "Large-scale market data", "AI-assisted analysis"]
+              title: "02 - Qutara Analysis",
+              detail: "Ask Qutara to explain market context and the factors behind a signal.",
+              points: ["One Qutara engine", "Market context", "Signal reasoning"]
             },
             {
-              title: "2023 - Agentic Finance Research",
-              detail: "Research expanded from model outputs to AI agents that can collect data, update analysis, and coordinate workflows.",
-              points: ["Financial language models", "Research agents", "Market reasoning workflows"]
+              title: "03 - Virtual Trading",
+              detail: "Use Qutara signals in a simulated portfolio with your selected risk parameters.",
+              points: ["Simulated funds", "Virtual orders", "Configurable risk parameters"]
             },
             {
-              title: "2024 - Qutara Platform Direction",
-              detail: "Jump Qutaris focused Qutara on the path from AI-assisted research to risk-aware autonomous trading workflows.",
-              points: ["AI data collection", "Signal intelligence", "Autonomous trading workflows"]
+              title: "04 - Portfolio Review",
+              detail: "Review virtual positions, simulated returns, and the decisions recorded by Qutara.",
+              points: ["Virtual positions", "Simulated returns", "Activity and reports"]
             }
           ]
         },
         {
           type: "callout",
           label: "Mission and Vision",
-          title: "From assistant to agent. From analysis to execution.",
-          body: "Our mission is to make AI useful across the trading lifecycle: collecting data, analyzing markets, generating signals, controlling risk, and supporting automated execution."
+          title: "One Qutara, from analysis to simulation.",
+          body: "Our mission is to make market exploration understandable through one Qutara engine. All funds, orders, positions, and returns are simulated for entertainment only."
         }
       ]
     },
     technology: {
       title: "Technology | Jump Qutaris",
-      meta: "Explore Qutara technology for AI data collection, market analysis, research agents, risk controls, and automated trading workflow logic.",
+      meta: "Explore how Qutara software connects stock and crypto analysis, signals, risk parameters, and automated virtual trading.",
       hero: {
         label: "Technology",
-        headline: "Qutara: AI for the Trading Workflow.",
-        body: "Qutara connects data collection, market analysis, research agents, signal intelligence, risk controls, and automated trading logic.",
+        headline: "Qutara: One AI Engine for Virtual Trading.",
+        body: "Qutara handles market analysis, signal generation, and virtual trades through one engine. Stocks and cryptocurrencies are the markets it explores.",
         actions: [
           { label: "Core Capabilities", href: "#capabilities", style: "primary" },
           { label: "Research Lab", href: "/research", style: "secondary" }
         ],
         image: "technologyPlatform",
         imageStyle: "illustration",
-        imageAlt: "Qutara platform architecture with data, AI analysis, signal, risk, and execution modules"
+        imageAlt: "Qutara engine architecture connecting data, analysis, signals, risk parameters, and virtual execution"
       },
       sections: [
         {
           type: "feature-grid",
           id: "capabilities",
-          label: "AI Research Engine",
-          title: "From data collection to execution.",
-          body: "The system is designed to support the full evolution from human research to AI-assisted analysis and autonomous trading workflows.",
+          label: "Qutara Engine",
+          title: "From market context to virtual execution.",
+          body: "One Qutara engine analyzes the selected market, generates signals, and applies risk settings to virtual orders.",
           items: [
             { icon: "database", title: "AI Data Collection", text: "Collect market prices, news, filings, macro data, sentiment, and alternative signals." },
             { icon: "brain", title: "AI Market Analysis", text: "Interpret information, compare patterns, and organize market context into usable insight." },
-            { icon: "route", title: "Autonomous Workflow Logic", text: "Move from assisted research to agents, signals, controls, and trading execution logic." }
+            { icon: "route", title: "Virtual Trading Logic", text: "Apply Qutara signals to simulated trades with limits based on the selected risk parameters." }
           ]
         },
         {
           type: "system",
           label: "Qutara Intelligence Loop",
           title: "Data in. Signals out. Risk monitored.",
-          body: "Qutara links market data, AI research, signal generation, risk intelligence, and trading workflow automation into one operating loop.",
+          body: "Qutara links market data, analysis, signals, risk parameters, and virtual execution into one loop. All funds, orders, positions, and returns are simulated.",
           image: "technologyLoop",
           imageAlt: "Qutara AI intelligence loop connecting data, risk, signal, and market modules"
         },
@@ -235,25 +238,25 @@ window.SITE_CONTENT = {
           type: "feature-grid",
           label: "Platform Layers",
           title: "Four layers of the product.",
-          body: "Each layer supports a different step in the transition from manual analysis to automated trading.",
+          body: "These are capabilities of the same Qutara engine, connecting market context to automated virtual trading.",
           items: [
             { icon: "database", title: "Data Layer", text: "Collect structured and unstructured market information from multiple sources." },
             { icon: "newspaper", title: "Analysis Layer", text: "Use AI to summarize events, interpret signals, and support research decisions." },
-            { icon: "bot", title: "Agent Layer", text: "Automate repeatable research tasks, monitoring routines, and signal updates." },
-            { icon: "shield-alert", title: "Execution Layer", text: "Connect signals with risk checks and automated trading workflow logic." }
+            { icon: "brain", title: "Signal Layer", text: "Qutara turns its analysis into signals and records the reasoning behind each update." },
+            { icon: "shield-alert", title: "Virtual Execution Layer", text: "Connect Qutara signals with risk checks, simulated orders, and virtual portfolio updates." }
           ]
         },
         {
           type: "callout",
-          label: "Future Technologies",
-          title: "The goal is autonomous trading intelligence.",
-          body: "Like AI moving from chat to agents such as Codex, Qutara moves from market answers to financial agents that can run research and trading workflows."
+          label: "Risk Parameters",
+          title: "Conservative. Balanced. Active.",
+          body: "Conservative, Balanced, and Active are risk parameter presets for the same Qutara engine. They adjust virtual trading behavior; every trade uses simulated funds for entertainment only."
         }
       ]
     },
     people: {
       title: "Leadership | Jump Qutaris",
-      meta: "Meet the Jump Qutaris leadership team guiding financial AI strategy, technology, quantitative research, architecture, and global operations.",
+      meta: "Meet the Jump Qutaris leadership team guiding Qutara strategy, technology, market research, and operations for the virtual trading platform.",
       hero: {
         label: "Leadership",
         headline: "Led by Market Builders.",
@@ -334,11 +337,11 @@ window.SITE_CONTENT = {
     },
     research: {
       title: "Research | Jump Qutaris",
-      meta: "Explore Jump Qutaris research in financial AI, AI agents, market signal intelligence, risk controls, and autonomous trading workflows.",
+      meta: "Explore Jump Qutaris research for Qutara software: market analysis, stock and crypto signals, risk parameters, and entertainment-only virtual trading.",
       hero: {
         label: "Research",
-        headline: "Research for AI Trading.",
-        body: "Our research studies how AI can collect data, analyze markets, generate signals, control risk, and support automated trading workflows.",
+        headline: "Research for the Qutara Engine.",
+        body: "Our research studies how Qutara can explain markets, generate signals, and apply risk parameters in entertainment-only virtual trading.",
         actions: [
           { label: "Research Areas", href: "#research-areas", style: "primary" },
           { label: "Technology Platform", href: "/technology", style: "secondary" }
@@ -352,8 +355,8 @@ window.SITE_CONTENT = {
           type: "role-grid",
           id: "research-areas",
           label: "Research Areas",
-          title: "From assistant to agent.",
-          body: "Like AI moving from text chat to agents such as Codex, financial AI is moving from answering questions to running research and trading workflows.",
+          title: "One engine, connected capabilities.",
+          body: "Qutara combines market understanding, analysis, signals, and virtual execution. Each research area improves a capability of the same engine.",
           items: [
             {
               id: "financial-llms",
@@ -362,10 +365,10 @@ window.SITE_CONTENT = {
               text: "Models that understand filings, news, earnings, macro data, and market language."
             },
             {
-              id: "ai-agents",
-              icon: "bot",
-              title: "AI Agents",
-              text: "Agents that collect information, refresh analysis, and run repeatable research tasks."
+              id: "qutara-analysis",
+              icon: "brain",
+              title: "Qutara Analysis",
+              text: "How Qutara connects market context to clear analysis and the reasoning behind its signals."
             },
             {
               id: "market-intelligence",
@@ -376,8 +379,8 @@ window.SITE_CONTENT = {
             {
               id: "risk-intelligence",
               icon: "shield-alert",
-              title: "Risk and Execution Intelligence",
-              text: "Risk propagation, early warning, execution controls, and automated trading workflow logic."
+              title: "Risk and Virtual Execution",
+              text: "Risk parameters, simulated execution controls, and the effect of settings on virtual portfolio outcomes."
             }
           ]
         },
@@ -385,11 +388,11 @@ window.SITE_CONTENT = {
           type: "feature-grid",
           label: "Research Philosophy",
           title: "Research must become workflow.",
-          body: "The goal is not just better analysis. The goal is a product path where AI can observe, reason, act, and monitor risk.",
+          body: "Research connects Qutara analysis to signals and virtual outcomes so the reasoning and effect of risk settings can be reviewed.",
           items: [
-            { icon: "microscope", title: "Clear Questions", text: "Each capability starts with a specific trading or research workflow problem." },
+            { icon: "microscope", title: "Clear Questions", text: "Each capability starts with a specific market analysis or virtual trading question." },
             { icon: "database", title: "Disciplined Data", text: "Market data, alternative data, macro releases, and news are structured for model use." },
-            { icon: "check-circle-2", title: "Risk-Aware Validation", text: "Signals and workflows are tested through validation, feedback, and market behavior." }
+            { icon: "check-circle-2", title: "Risk-Aware Validation", text: "Signals and workflows are evaluated through simulated outcomes, feedback, and market behavior." }
           ]
         },
         {
@@ -401,12 +404,12 @@ window.SITE_CONTENT = {
       ]
     },
     careers: {
-      title: "Research | Jump Qutaris",
-      meta: "Meet the Jump Qutaris leadership team and learn how the company builds Qutara for financial AI and autonomous trading workflows.",
+      title: "Leadership | Jump Qutaris",
+      meta: "Meet the Jump Qutaris leadership team behind Qutara, the single AI engine for stock and crypto analysis and entertainment-only virtual trading.",
       hero: {
         label: "Research",
-        headline: "Research for AI Trading.",
-        body: "Our research studies how AI can collect data, analyze markets, generate signals, control risk, and support automated trading workflows.",
+        headline: "Research for the Qutara Engine.",
+        body: "Our research studies how Qutara can explain markets, generate signals, and apply risk parameters in entertainment-only virtual trading.",
         actions: [
           { label: "Research Areas", href: "#research-areas", style: "primary" },
           { label: "Technology Platform", href: "/technology", style: "secondary" }
@@ -464,8 +467,8 @@ window.SITE_CONTENT = {
           type: "role-grid",
           id: "research-areas",
           label: "Research Areas",
-          title: "From assistant to agent.",
-          body: "Like AI moving from text chat to agents such as Codex, financial AI is moving from answering questions to running research and trading workflows.",
+          title: "One engine, connected capabilities.",
+          body: "Qutara combines market understanding, analysis, signals, and virtual execution. Each research area improves a capability of the same engine.",
           items: [
             {
               id: "financial-llms",
@@ -474,10 +477,10 @@ window.SITE_CONTENT = {
               text: "Models that understand filings, news, earnings, macro data, and market language."
             },
             {
-              id: "ai-agents",
-              icon: "bot",
-              title: "AI Agents",
-              text: "Agents that collect information, refresh analysis, and run repeatable research tasks."
+              id: "qutara-analysis",
+              icon: "brain",
+              title: "Qutara Analysis",
+              text: "How Qutara connects market context to clear analysis and the reasoning behind its signals."
             },
             {
               id: "market-intelligence",
@@ -488,8 +491,8 @@ window.SITE_CONTENT = {
             {
               id: "risk-intelligence",
               icon: "shield-alert",
-              title: "Risk and Execution Intelligence",
-              text: "Risk propagation, early warning, execution controls, and automated trading workflow logic."
+              title: "Risk and Virtual Execution",
+              text: "Risk parameters, simulated execution controls, and the effect of settings on virtual portfolio outcomes."
             }
           ]
         },
@@ -497,11 +500,11 @@ window.SITE_CONTENT = {
           type: "feature-grid",
           label: "Research Philosophy",
           title: "Research must become workflow.",
-          body: "The goal is not just better analysis. The goal is a product path where AI can observe, reason, act, and monitor risk.",
+          body: "Research connects Qutara analysis to signals and virtual outcomes so the reasoning and effect of risk settings can be reviewed.",
           items: [
-            { icon: "microscope", title: "Clear Questions", text: "Each capability starts with a specific trading or research workflow problem." },
+            { icon: "microscope", title: "Clear Questions", text: "Each capability starts with a specific market analysis or virtual trading question." },
             { icon: "database", title: "Disciplined Data", text: "Market data, alternative data, macro releases, and news are structured for model use." },
-            { icon: "check-circle-2", title: "Risk-Aware Validation", text: "Signals and workflows are tested through validation, feedback, and market behavior." }
+            { icon: "check-circle-2", title: "Risk-Aware Validation", text: "Signals and workflows are evaluated through simulated outcomes, feedback, and market behavior." }
           ]
         },
         {
@@ -514,7 +517,7 @@ window.SITE_CONTENT = {
     },
     contact: {
       title: "Contact | Jump Qutaris",
-      meta: "Contact Jump Qutaris for Qutara product questions, partnership inquiries, media requests, and general business communication.",
+      meta: "Contact Jump Qutaris about Qutara, the AI analysis and virtual trading platform, or send partnership, media, and business inquiries.",
       hero: {
         label: "Contact",
         headline: "Let's Talk Financial AI.",
@@ -539,6 +542,107 @@ window.SITE_CONTENT = {
             { icon: "mail", title: "General", text: "Qutara@jumpqutaris.com", href: "mailto:Qutara@jumpqutaris.com" },
             { icon: "boxes", title: "Product", text: "product@jumpqutaris.com", href: "mailto:product@jumpqutaris.com" },
             { icon: "handshake", title: "Partnerships", text: "partners@jumpqutaris.com", href: "mailto:partners@jumpqutaris.com" }
+          ]
+        }
+      ]
+    },
+    fraud: {
+      title: "Fraud Alert | Jump Qutaris",
+      meta: "Official Jump Qutaris notice about unauthorized websites, investment offers, cryptocurrency requests, and brand impersonation.",
+      layout: "policy",
+      sections: [
+        {
+          type: "policy",
+          label: "Official Brand Notice",
+          title: "Protecting the Jump Qutaris name",
+          intro:
+            "This page lists the official Jump Qutaris channels and explains how to identify unauthorized websites or messages that use our name without permission.",
+          groups: [
+            {
+              title: "Unauthorized domain notice",
+              body: [
+                "Jump Qutaris does not own, operate, authorize, or endorse jump-luck.com. Any rewards, investment offers, cryptocurrency requests, account instructions, or messages made through that domain are not affiliated with Jump Qutaris.",
+                "Do not send money, cryptocurrency, passwords, identity documents, or payment details in response to an unsolicited message claiming to represent Jump Qutaris."
+              ]
+            },
+            {
+              title: "What Qutara is",
+              body: [
+                "Qutara is Jump Qutaris software for market analysis, signals, and entertainment-only virtual trading. Funds, orders, positions, profits, losses, and returns shown in the platform are simulated and have no cash value.",
+                "Qutara does not create an investment account or place real trades through the website. Website information is not investment, trading, legal, or tax advice."
+              ]
+            },
+            {
+              title: "Official contact",
+              body: [
+                "For product, business, or brand-protection questions, contact Qutara@jumpqutaris.com or use the contact page on jumpqutaris.com.",
+                "When reporting an impersonation, include the exact URL, screenshots, message headers, wallet addresses, and the date and time of contact. Do not click further links or reply to the sender."
+              ]
+            },
+            {
+              title: "Official website",
+              body: [
+                "The official company website is https://jumpqutaris.com. We will publish updates to this page when we identify unauthorized domains or communications using the Jump Qutaris name."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    compliance: {
+      title: "Legal & Compliance | Jump Qutaris",
+      meta: "Official company identity, product scope, verification links, and compliance disclosures for Jump Qutaris Ltd.",
+      layout: "policy",
+      sections: [
+        {
+          type: "policy",
+          label: "Company Verification",
+          title: "A software company with a clear public record",
+          intro:
+            "This page provides factual company and product information for customers, partners, researchers, and verification services. It is not a government endorsement or a substitute for independent legal or financial advice.",
+          groups: [
+            {
+              title: "Legal entity",
+              body: [
+                "Legal name: Jump Qutaris Ltd.",
+                "Jurisdiction: Colorado, United States. Entity form: Corporation. Colorado entity ID: 20201660973.",
+                "The company maintains its corporate records through the Colorado Secretary of State. Use the official state search to verify the current entity record and standing."
+              ],
+              links: [
+                { label: "Colorado Secretary of State business search", href: "https://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do" }
+              ]
+            },
+            {
+              title: "Business scope",
+              body: [
+                "Jump Qutaris Ltd develops and promotes Qutara, quantitative software for market data research, analysis, signal workflows, and related financial technology research.",
+                "The public website does not accept public funds or custody customer assets. Product descriptions should be read together with the Terms of Use."
+              ]
+            },
+            {
+              title: "Government databases and terminology",
+              body: [
+                "SEC EDGAR is an official database for filings made by entities and individuals. A company should not be described as SEC-registered, SEC-approved, certified, or endorsed without a specific filing and legal basis that supports that exact statement.",
+                "FinCEN's MSB Registrant Search is the official place to check MSB registration information. Jump Qutaris Ltd's supplied MSB Registration Status Information lists MSB registration number 31000341772180. FinCEN states that registration is not a recommendation, certification of legitimacy, or endorsement."
+              ],
+              links: [
+                { label: "SEC EDGAR search", href: "https://www.sec.gov/search-filings" },
+                { label: "FinCEN MSB Registrant Search", href: "https://www.fincen.gov/resources/msb-state-selector?secure_link=yes" }
+              ]
+            },
+            {
+              title: "No government endorsement",
+              body: [
+                "A corporate filing, certificate of good standing, SEC filing, or FinCEN MSB registration does not by itself mean that a government agency recommends, approves, guarantees, or endorses Jump Qutaris Ltd, Qutara, or any financial result.",
+                "Users should verify the legal entity, scope of service, and applicable regulatory requirements independently before relying on any financial technology product."
+              ]
+            },
+            {
+              title: "Verification contact",
+              body: [
+                "For company verification, brand-protection, or compliance questions, contact Qutara@jumpqutaris.com. Please reference the exact page, document, or communication that you would like us to verify."
+              ]
+            }
           ]
         }
       ]
@@ -698,6 +802,13 @@ window.SITE_CONTENT = {
               ]
             },
             {
+              title: "Entertainment-only virtual trading",
+              body: [
+                "Qutara provides a virtual trading simulation for entertainment only. All funds, orders, positions, profits, losses, and returns shown in the simulation are virtual and have no cash value.",
+                "Qutara analysis and signals may be used for simulated execution within the platform. They do not place real trades, transfer real assets, or create an investment account. Simulated performance does not represent actual investment results."
+              ]
+            },
+            {
               title: "No investment, trading, or professional advice",
               body: [
                 "Website materials are provided for general informational purposes only and do not constitute investment advice, trading advice, legal advice, tax advice, an offer to buy or sell securities or digital assets, or a recommendation regarding any strategy, product, or transaction.",
@@ -839,15 +950,17 @@ window.SITE_CONTENT = {
       {
         title: "Intelligence",
         links: [
-          { label: "AI Research Engine", href: "/technology#capabilities" },
+          { label: "Qutara Engine", href: "/technology#capabilities" },
           { label: "Financial LLMs", href: "/research#financial-llms" },
-          { label: "AI Agents", href: "/research#ai-agents" },
+          { label: "Qutara Analysis", href: "/research#qutara-analysis" },
           { label: "Risk Intelligence", href: "/research#risk-intelligence" }
         ]
       },
       {
         title: "Legal",
         links: [
+          { label: "Fraud Alert", href: "/fraud-alert" },
+          { label: "Legal & Compliance", href: "/legal-compliance" },
           { label: "Privacy Policy", href: "/privacy-policy" },
           { label: "Terms of Use", href: "/terms-of-use" },
           { label: "Cookie Policy", href: "/cookie-policy" }

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Qutara virtual quantitative trading console. Explore real market data with virtual funds and transparent AI decisions.">
+  <title>Qutara | Quantitative Trading Console</title>
+  <link rel="icon" type="image/png" href="/assets/favicon-32.png">
+  <link rel="stylesheet" href="/platform.css">
+  <script defer src="/platform.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="app-header">
+    <a class="brand" href="/dashboard" data-route aria-label="Qutaris dashboard"><img src="/assets/jump-qutaris-logo.png" alt="Qutaris"></a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="/dashboard" data-route>Dashboard</a>
+      <a href="/qutara" data-route>Qutara</a>
+      <a href="/virtual-trading" data-route>Virtual Trading</a>
+      <a href="/market-data" data-route>Market Data</a>
+      <a href="/leaderboard" data-route>Leaderboard</a>
+      <a href="/reports" data-route>Reports</a>
+    </nav>
+    <div class="environment-label"><span class="small-square"></span>VIRTUAL ENVIRONMENT</div>
+  </header>
+
+  <main id="main" class="app-main">
+    <div class="page-heading">
+      <div><h1 id="page-title">Qutara</h1><p id="page-description">One AI quantitative engine. Your markets. Your risk parameters.</p></div>
+      <div class="session-label"><span class="status-dot" id="header-status-dot"></span><span id="header-status">Connecting</span><span class="session-id" id="session-id">SESSION —</span></div>
+    </div>
+    <div class="virtual-notice"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 10.5v6M12 7.3v.3"></path></svg><p>All orders, funds, positions, and returns are <strong>virtual entertainment values only.</strong> No real money is traded.</p></div>
+    <div id="app-message" class="app-message" role="status" aria-live="polite" hidden></div>
+
+    <section class="view" data-view="qutara" aria-label="Qutara console">
+      <div class="console-grid">
+        <aside class="panel parameter-panel">
+          <div class="panel-heading"><h2>Engine parameters</h2><span class="mini-label">QUTARA</span></div>
+          <form id="config-form">
+            <fieldset id="config-fields">
+              <legend class="sr-only">Qutara configuration</legend>
+              <div class="form-section">
+                <h3>Market selection</h3>
+                <label for="market">Market</label>
+                <select id="market" name="market"><option value="Cryptocurrency">Cryptocurrency</option><option value="U.S. Stocks">U.S. Stocks</option><option value="Stocks + Crypto">Stocks + Crypto</option></select>
+                <label id="assets-label">Assets</label>
+                <div id="asset-options" class="asset-options" role="group" aria-labelledby="assets-label"></div>
+                <label for="timeframe">Analysis timeframe</label>
+                <select id="timeframe" name="timeframe"><option value="1m">1 minute</option><option value="5m" selected>5 minutes</option><option value="15m">15 minutes</option><option value="1h">1 hour</option><option value="1d">1 day</option></select>
+              </div>
+              <div class="form-section">
+                <h3>Virtual capital</h3>
+                <label for="initialBalance">Initial virtual balance <span>USD</span></label>
+                <input id="initialBalance" name="initialBalance" type="number" min="1" max="1000000000" step="0.01" value="100000" required>
+                <div class="field-pair"><div><label for="positionSize">Position size <span>%</span></label><input id="positionSize" name="positionSize" type="number" min="0.01" max="100" step="0.01" value="5" required></div><div><label for="maxExposure">Max. exposure <span>%</span></label><input id="maxExposure" name="maxExposure" type="number" min="0.01" max="100" step="0.01" value="30" required></div></div>
+              </div>
+              <div class="form-section">
+                <h3>Risk controls</h3>
+                <label for="riskLevel">Risk level</label>
+                <select id="riskLevel" name="riskLevel"><option>Conservative</option><option selected>Balanced</option><option>Active</option></select>
+                <label for="minConfidence">Minimum AI confidence <span>%</span></label>
+                <input id="minConfidence" name="minConfidence" type="number" min="0" max="100" value="70" required>
+                <div class="field-pair"><div><label for="stopLoss">Stop loss <span>%</span></label><input id="stopLoss" name="stopLoss" type="number" min="0.01" max="100" step="0.01" value="2" required></div><div><label for="takeProfit">Take profit <span>%</span></label><input id="takeProfit" name="takeProfit" type="number" min="0.01" max="1000" step="0.01" value="5" required></div></div>
+                <div class="field-pair"><div><label for="trailingStop">Trailing stop <span>%</span></label><input id="trailingStop" name="trailingStop" type="number" min="0" max="100" step="0.01" value="1" required></div><div><label for="maxHoldingHours">Max. holding <span>hrs</span></label><input id="maxHoldingHours" name="maxHoldingHours" type="number" min="0.01" max="8760" step="0.01" value="24" required></div></div>
+                <p class="field-note">Set trailing stop to 0 to disable it.</p>
+                <label class="switch-row" for="allowShort"><span>Allow virtual short positions</span><input id="allowShort" name="allowShort" type="checkbox"><span class="switch" aria-hidden="true"></span></label>
+                <label class="switch-row" for="autoTrade"><span>Auto-execute virtual orders</span><input id="autoTrade" name="autoTrade" type="checkbox" checked><span class="switch" aria-hidden="true"></span></label>
+              </div>
+              <button class="button button-secondary save-config" id="save-config" type="submit">Save parameters</button>
+            </fieldset>
+          </form>
+          <div class="engine-controls"><button class="button button-primary" id="start-engine" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m5 3 8 5-8 5Z" fill="currentColor"></path></svg>Start Qutara</button><div class="control-pair"><button class="button button-secondary" id="pause-engine" type="button" disabled>Pause Qutara</button><button class="button button-secondary" id="stop-engine" type="button" disabled>Stop Qutara</button></div><p id="control-note" class="field-note">Parameters are locked while Qutara is running or paused.</p></div>
+        </aside>
+
+        <div class="workspace-column">
+          <section class="panel chart-panel" aria-labelledby="chart-title">
+            <div class="chart-heading"><div class="chart-symbol"><label for="chart-asset" class="sr-only">Chart asset</label><select id="chart-asset"><option value="BTC-USD">BTC-USD</option><option value="ETH-USD">ETH-USD</option><option value="SOL-USD">SOL-USD</option><option value="AAPL">AAPL</option><option value="MSFT">MSFT</option><option value="NVDA">NVDA</option><option value="TSLA">TSLA</option><option value="SPY">SPY</option><option value="QQQ">QQQ</option></select><h2 id="chart-title">Market overview</h2></div><div class="chart-quote"><strong id="chart-price">—</strong><span id="chart-change">Awaiting market data</span></div></div>
+            <div class="chart-toolbar"><div class="timeframe-tabs" role="group" aria-label="Chart timeframe"><button type="button" data-timeframe="1m">1m</button><button type="button" class="active" data-timeframe="5m" aria-pressed="true">5m</button><button type="button" data-timeframe="15m">15m</button><button type="button" data-timeframe="1h">1h</button><button type="button" data-timeframe="1d">1d</button></div><div class="chart-legend"><span><i class="legend-line ma20"></i>SMA 20</span><span><i class="legend-line ma50"></i>SMA 50</span><span><i class="legend-volume"></i>Volume</span></div></div>
+            <div class="chart-canvas" id="chart-container"><svg id="market-chart" viewBox="0 0 1000 420" role="img" aria-label="Market chart awaiting a data connection"></svg><div class="chart-empty" id="chart-empty"><span class="empty-chart-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 8v32h32M15 30V20m8 13V12m8 17V18m8 7V9M12 23h6m2-6h6m2 5h6m2-8h6"></path></svg></span><h3>Waiting for market data</h3><p id="chart-empty-message">Connecting to the selected market. Verified price candles will appear here when available.</p><button id="retry-market" type="button" class="text-button">Refresh connection <span aria-hidden="true">↗</span></button></div></div>
+            <div class="chart-footer"><span id="chart-source"><span class="status-dot"></span>Connecting to market feed</span><span id="chart-updated">No market timestamp</span></div>
+          </section>
+
+          <section class="panel judgment-panel"><div class="panel-heading"><h2>Latest Qutara judgment</h2><span id="judgment-time" class="time-label">No decision yet</span></div><div id="latest-judgment" class="judgment-content"><div class="judgment-idle" aria-hidden="true">Q</div><div><h3>Ready when you are</h3><p>Choose your markets and risk parameters, then start Qutara. Every decision will include its reasoning.</p></div></div></section>
+          <section class="panel positions-panel"><div class="panel-heading"><h2>Current virtual positions</h2><span id="position-count" class="count-label">0 open</span></div><div id="console-positions"></div></section>
+        </div>
+
+        <aside class="panel metrics-panel" aria-labelledby="metrics-heading"><div class="panel-heading"><h2 id="metrics-heading">Session metrics</h2><span class="live-label"><span class="status-dot" id="metrics-dot"></span>SESSION</span></div><dl id="session-metrics" class="metric-list"></dl><div class="metrics-footnote"><span class="small-square"></span><p>Measured from this session only. Accuracy appears after a virtual trade closes.</p></div><div class="connection-summary" id="connection-summary"></div></aside>
+      </div>
+      <section class="panel ledger-panel" aria-label="Qutara activity"><div class="ledger-tabs" role="tablist" aria-label="Activity type"><button role="tab" id="tab-signals" aria-controls="activity-panel" aria-selected="true" data-ledger="signals">Qutara Signals <span data-count="signals">0</span></button><button role="tab" id="tab-orders" aria-controls="activity-panel" aria-selected="false" tabindex="-1" data-ledger="orders">Virtual Orders <span data-count="orders">0</span></button><button role="tab" id="tab-fills" aria-controls="activity-panel" aria-selected="false" tabindex="-1" data-ledger="fills">Virtual Fills <span data-count="fills">0</span></button><button role="tab" id="tab-decisions" aria-controls="activity-panel" aria-selected="false" tabindex="-1" data-ledger="decisions">AI Decision Reasons <span data-count="decisions">0</span></button><button role="tab" id="tab-rejections" aria-controls="activity-panel" aria-selected="false" tabindex="-1" data-ledger="rejections">Risk Rejections <span data-count="rejections">0</span></button></div><div id="activity-panel" role="tabpanel" aria-labelledby="tab-signals" tabindex="0"></div></section>
+    </section>
+
+    <section class="view" data-view="dashboard" hidden><div class="dashboard-intro panel"><div><h2>A clear view of your Qutara session.</h2><p>Follow one AI quantitative engine across real market data, virtual positions, and transparent decisions.</p><a class="button button-primary" href="/qutara" data-route>Open Qutara <span aria-hidden="true">↗</span></a></div><div class="session-overview"><span>QUTARA STATUS</span><strong id="dashboard-status">Connecting</strong><p id="dashboard-session-note">Loading your virtual trading session.</p></div></div><div class="summary-strip" id="dashboard-metrics"></div><div class="dashboard-columns"><section class="panel"><div class="panel-heading"><h2>Connections</h2><span class="mini-label">DATA & INTELLIGENCE</span></div><div id="dashboard-connections"></div></section><section class="panel"><div class="panel-heading"><h2>Latest activity</h2><a class="text-button" href="/qutara" data-route>View console ↗</a></div><div id="dashboard-activity"></div></section></div></section>
+
+    <section class="view" data-view="virtual-trading" hidden><div id="trading-metrics" class="summary-strip"></div><section class="panel"><div class="panel-heading"><h2>Open virtual positions</h2><span class="mini-label">THIS SESSION</span></div><div id="trading-positions"></div></section><section class="panel spaced-panel"><div class="panel-heading"><h2>Completed virtual trades</h2><span id="completed-count" class="count-label">0 completed</span></div><div id="completed-trades"></div></section></section>
+
+    <section class="view" data-view="market-data" hidden><section class="panel"><div class="panel-heading"><h2>Market connections</h2><span class="mini-label">PROVIDER STATUS</span></div><div id="market-connections" class="market-connections"></div></section><section class="panel spaced-panel"><div class="panel-heading"><h2>Available assets</h2><span class="subtle">Only received market prices are displayed</span></div><div id="market-table"></div></section></section>
+
+    <section class="view" data-view="leaderboard" hidden><section class="panel leaderboard-intro"><div class="outline-icon" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M9 34V23h7v11m8 0V17h7v17M16 34V7h8v27M5 34h30"></path></svg></div><h2>Your session, measured honestly.</h2><p>A public leaderboard is not connected. No other participants, rankings, or performance records are being simulated.</p><label class="check-row"><input type="checkbox" id="leaderboard-opt-in"> Show my session in a private local comparison</label><p class="field-note">This preference stays in this browser. It does not publish or share your data.</p></section><section id="local-leaderboard" class="panel spaced-panel" hidden><div class="panel-heading"><h2>Local session comparison</h2><span class="mini-label">PRIVATE · THIS BROWSER</span></div><div id="leaderboard-table"></div></section></section>
+
+    <section class="view" data-view="reports" hidden><div class="report-heading panel"><div><h2>Qutara session report</h2><p>Actual session metrics, virtual trades, and decision records.</p></div><button id="download-report" type="button" class="button button-primary">Download CSV <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v10m-4-4 4 4 4-4M4 14v3h12v-3"></path></svg></button></div><div class="summary-strip" id="report-metrics"></div><div class="dashboard-columns"><section class="panel"><div class="panel-heading"><h2>Session details</h2></div><dl id="report-details" class="detail-list"></dl></section><section class="panel"><div class="panel-heading"><h2>How metrics are measured</h2></div><div class="definitions"><h3>Virtual return</h3><p>The percentage change in virtual equity from the initial virtual balance, including open positions.</p><h3>Measured accuracy</h3><p>Profitable completed virtual trades divided by all completed virtual trades. This measures the session's winning trade share, not AI predictive accuracy. It is unavailable until a trade closes.</p><h3>Maximum virtual drawdown</h3><p>The largest observed decline in virtual equity from its session peak.</p><h3>AI confidence</h3><p>A decision-level estimate from Qutara. It is separate from measured trading accuracy.</p></div></section></div><section class="panel spaced-panel"><div class="panel-heading"><h2>Completed virtual trades</h2></div><div id="report-trades"></div></section></section>
+
+    <footer class="app-footer"><span>QUTARIS <span class="footer-divider">/</span> QUTARA</span><p>Virtual trading for entertainment. Performance is session-specific and does not predict future results.</p><span id="last-synced">Connecting to session</span></footer>
+  </main>
+</body>
+</html>

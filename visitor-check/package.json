@@ -1,0 +1,8 @@
+{
+  "name": "visitor-check",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automatic visitor records and IP network intelligence with a private dashboard",
+  "engines": { "node": ">=24" },
+  "scripts": { "start": "node --env-file-if-exists=.env server.js", "test": "node --test test/*.test.js" }
+}

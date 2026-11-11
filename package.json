@@ -2,12 +2,13 @@
   "name": "jump-qutaris-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Static multi-page website for Jump Qutaris.",
+  "description": "Jump Qutaris website and Qutara virtual trading platform.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test test/*.test.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=24"
   }
 }
