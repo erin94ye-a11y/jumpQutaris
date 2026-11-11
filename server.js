@@ -30,7 +30,8 @@ const publicRoutes = {
   "/contact": "/contact.html",
   "/privacy-policy": "/privacy-policy.html",
   "/terms-of-use": "/terms-of-use.html",
-  "/cookie-policy": "/cookie-policy.html"
+  "/cookie-policy": "/cookie-policy.html",
+  "/legal-compliance": "/legal-compliance.html"
 };
 
 const htmlRedirects = {
@@ -46,7 +47,8 @@ const htmlRedirects = {
   "/contact.html": "/contact",
   "/privacy-policy.html": "/privacy-policy",
   "/terms-of-use.html": "/terms-of-use",
-  "/cookie-policy.html": "/cookie-policy"
+  "/cookie-policy.html": "/cookie-policy",
+  "/legal-compliance.html": "/legal-compliance"
 };
 
 const redirect = (response, location) => {
@@ -77,6 +79,10 @@ const resolveFile = (pathname) => {
 };
 
 const server = http.createServer((request, response) => {
+  response.setHeader("X-Content-Type-Options", "nosniff");
+  response.setHeader("X-Frame-Options", "DENY");
+  response.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
+  response.setHeader("Permissions-Policy", "camera=(), microphone=(), geolocation=(), payment=()");
   const { pathname, search } = parseRequestPath(request.url || "/");
 
   if (pathname.length > 1 && pathname.endsWith("/")) {

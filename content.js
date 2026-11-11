@@ -19,7 +19,8 @@ window.SITE_CONTENT = {
     contact: "/contact",
     privacy: "/privacy-policy",
     terms: "/terms-of-use",
-    cookie: "/cookie-policy"
+    cookie: "/cookie-policy",
+    compliance: "/legal-compliance"
   },
   nav: [
     { key: "trading", label: "Company", href: "/company" },
@@ -823,6 +824,63 @@ window.SITE_CONTENT = {
         }
       ]
     }
+    ,compliance: {
+      title: "Legal & Compliance | Jump Qutaris",
+      meta: "Official company identity, product scope, verification links, and compliance disclosures for Jump Qutaris Ltd.",
+      layout: "policy",
+      sections: [
+        {
+          type: "policy",
+          label: "Company Verification",
+          title: "A software company with a clear public record",
+          intro: "This page provides factual company and product information for customers, partners, researchers, and verification services. It is not a government endorsement or a substitute for independent legal or financial advice.",
+          groups: [
+            {
+              title: "Legal entity",
+              body: [
+                "Legal name: Jump Qutaris Ltd.",
+                "Jurisdiction: Colorado, United States. Entity form: Corporation. Colorado entity ID: 20201660973.",
+                "The company maintains its corporate records through the Colorado Secretary of State. Use the official state search to verify the current entity record and standing."
+              ],
+              links: [
+                { label: "Colorado Secretary of State business search", href: "https://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do" }
+              ]
+            },
+            {
+              title: "Business scope",
+              body: [
+                "Jump Qutaris Ltd develops and promotes Qutara, quantitative software for market data research, analysis, signal workflows, and related financial technology research.",
+                "The public website does not accept public funds or custody customer assets. Product descriptions should be read together with the Terms of Use."
+              ]
+            },
+            {
+              title: "Government databases and terminology",
+              body: [
+                "SEC EDGAR is an official database for filings made by entities and individuals. A company should not be described as SEC-registered, SEC-approved, certified, or endorsed without a specific filing and legal basis that supports that exact statement.",
+                "FinCEN's MSB Registrant Search is the official place to check MSB registration information. Jump Qutaris Ltd's supplied MSB Registration Status Information lists MSB registration number 31000341772180. FinCEN states that registration is not a recommendation, certification of legitimacy, or endorsement."
+              ],
+              links: [
+                { label: "SEC EDGAR search", href: "https://www.sec.gov/search-filings" },
+                { label: "FinCEN MSB Registrant Search", href: "https://www.fincen.gov/resources/msb-state-selector?secure_link=yes" }
+              ]
+            },
+            {
+              title: "No government endorsement",
+              body: [
+                "A corporate filing, certificate of good standing, SEC filing, or FinCEN MSB registration does not by itself mean that a government agency recommends, approves, guarantees, or endorses Jump Qutaris Ltd, Qutara, or any financial result.",
+                "Users should verify the legal entity, scope of service, and applicable regulatory requirements independently before relying on any financial technology product."
+              ]
+            },
+            {
+              title: "Verification contact",
+              body: [
+                "For company verification, brand-protection, or compliance questions, contact Qutara@jumpqutaris.com. Please reference the exact page, document, or communication that you would like us to verify."
+              ]
+            }
+          ]
+        }
+      ]
+    }
   },
   footer: {
     columns: [
@@ -848,6 +906,7 @@ window.SITE_CONTENT = {
       {
         title: "Legal",
         links: [
+          { label: "Legal & Compliance", href: "/legal-compliance" },
           { label: "Privacy Policy", href: "/privacy-policy" },
           { label: "Terms of Use", href: "/terms-of-use" },
           { label: "Cookie Policy", href: "/cookie-policy" }
